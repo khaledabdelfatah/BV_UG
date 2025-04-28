@@ -1,0 +1,119 @@
+site_name: Business Vision User Guide
+site_description: Business Vision User Guide
+theme:
+  # Language of the documentation (en: English)
+  language: en
+  # Name of the theme that we are using (material: https://github.com/squidfunk/mkdocs-material)
+  name: material
+  custom_dir: overrides
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  # Name of the font that we use (Roboto: https://fonts.google.com/specimen/Roboto)   
+  font:
+    text: Poppins
+    # Name of the font for Code Blocks (Roboto Mono: https://fonts.google.com/specimen/Roboto+Mono)
+    code: Roboto Mono
+  palette:
+    - scheme: default
+      # Palette toggle for light mode
+      primary: 'white' # A hue similar to the background pink/magenta of the website
+      accent: 'pink' # 255, 224, 130 - A light, warm yellow for highlights
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    - scheme: slate
+      primary: 'blue-grey' # 190, 30, 45 - Matches the deep red accents on the site
+      accent: 'pink' # 244, 168, 49 - Harmonizes with the playful, energetic vibe
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  features:
+  # [navigation.tabs ]When tabs are enabled, top-level sections are rendered in a menu layer below 
+  # the header for viewports above 1220px, but remain as-is on mobile devices.
+  - navigation.tabs
+  - content.tooltips
+  # ------------------Navigation------------------ #
+  - navigation.tabs.sticky
+  #[navigation.tabs.sticky] navigation tabs will lock below the header and always remain visible when scrolling down 
+  #- navigation.sections
+  # When [navigation.sections] are enabled, top-level sections are rendered as groups in the sidebar for viewports above 1220px
+  # so the user doesn't have to open subsections manually 
+  - navigation.expand
+  # When expansion is enabled, the left sidebar will expand all collapsible subsections by default, 
+  # which might make orientation easier for users visiting your documentation on devices with smaller screen
+  - navigation.path
+  # When navigation paths are activated, a breadcrumb navigation is rendered above the title of each page,
+  #reducing the size of the built site by 33% or more
+  - navigation.prune
+  #When pruning is enabled, only the visible navigation items are included in the rendered HTML,
+  # which is particularly useful for providing overview pages
+  - navigation.indexes
+  # When section index pages are enabled, documents can be directly attached to sections,
+  # so that the active anchor is always visible
+  - toc.follow
+  # When anchor following for the table of contents is enabled, the sidebar is automatically scrolled 
+  #It's rendered centered and just below the header
+  - navigation.top
+  # A back-to-top button can be shown when the user, after scrolling down, starts to scroll up again.
+  - search.suggest
+  - search.highlight
+  - search.share
+
+  - navigation.tracking
+
+  # ------------------Footer------------------ #
+  - navigation.footer
+  - content.action.edit
+
+  # ------------------Code Copying------------------ #
+  - content.code.copy
+  - content.code.annotation
+  # ------------------Code Annotating------------------ #
+  - announce.dismiss
+  - header.autohide
+
+#------------------Markdown Extensions------------------ #
+markdown_extensions:
+  # Admonitions, also known as call-outs, are an excellent choice for including side content without 
+  # significantly interrupting the document flow. 
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  #Annotation Related Extensions
+  - md_in_html
+
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+    # Code Highliting
+  - pymdownx.inlinehilite
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+  - abbr
+  # Tooltips
+
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - tables
+  # Add tables support
+
+
+
+# ------------------Search------------------ #
+# When search is enabled, a search box is rendered in the header, which allows users to search the documentation
+plugins:
+
+- search
+
+extra:
+  generator: false
+
+copyright: Copyright &copy; 2025 - Business Vision
