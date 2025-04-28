@@ -1,5 +1,17 @@
 site_name: Business Vision User Guide
 site_description: Business Vision User Guide
+nav:
+  - Home:
+    - Home: index.md
+    - Getting Started: ./getting_started.md
+    - Navigating the Dashboard: ./navigating_dashboard.md
+  - Dashboard:
+    - JE Anomalies: 
+      - JE Anomalies: usecases/je_anomalies/index.md
+      - Available Filters: usecases/je_anomalies/je_filters.md
+
+
+
 theme:
   # Language of the documentation (en: English)
   language: en
