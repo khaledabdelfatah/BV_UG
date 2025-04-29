@@ -9,6 +9,7 @@ nav:
     - JE Anomalies: 
       - JE Anomalies: usecases/je_anomalies/index.md
       - Available Filters: usecases/je_anomalies/je_filters.md
+      - Dashboard Elements: usecases/je_anomalies/je_visualization.md
 
 
 
