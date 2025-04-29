@@ -17,7 +17,6 @@ theme:
   language: en
   # Name of the theme that we are using (material: https://github.com/squidfunk/mkdocs-material)
   name: material
-  custom_dir: overrides
   logo: assets/logo.png
   favicon: assets/logo.png
   # Name of the font that we use (Roboto: https://fonts.google.com/specimen/Roboto)   
