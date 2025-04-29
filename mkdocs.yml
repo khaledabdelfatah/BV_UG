@@ -126,8 +126,7 @@ plugins:
 
 - search
 - print-site:
-   add_to_navigation: true
-   print_page_title: 'Explore full documentation'
+   print_page_title: 'Business Vision User Guide'
 
 
 
