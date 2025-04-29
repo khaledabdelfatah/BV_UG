@@ -46,3 +46,13 @@ When you open the JE Anomalies Dashboard, you will see the following sections:
     - **Risk Rank**: Categorizes anomalies by risk level (High, Medium, Low) with corresponding color indicators.
     - **Date Fields**: Includes key dates like "Entity Date" and "Posting Date."
     - **Batch Name**: Groups related journal entries under a batch for easier tracking.
+
+## Refreshing the Dashboard
+
+To ensure the dashboard displays the latest data, click the **Refresh** button (play icon) at the top left corner. This updates the dashboard with the most recent information.
+
+!!! note "Refresh Duration"
+    The refresh process may take a few minutes. During this time, the status will show "Currently Refreshing." Once complete, it will update to "Refreshed," and the refreshed date will reflect the current date and time.
+
+!!! Example "Refresh Button"
+    <iframe src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide.drawio&page-id=0pQoxITIbYeexZbCkdSw&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1LP6U6tDhud-D4lCmfg9O36HgN874N636%26export%3Ddownload" width="100%" height="400" style="border: none;"></iframe>
