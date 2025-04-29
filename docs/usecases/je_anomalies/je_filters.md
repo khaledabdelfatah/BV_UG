@@ -7,7 +7,7 @@ title: Available Filters
 The following filters are available in the dashboards. You can use them to customize your view and focus on specific data points that matter most to you.
 
 - **Year**: Filter the data by year. This allows you to analyze trends and changes over time.
-- **Month**: Narrow down the data to a specific month. This is useful for monthly reports or comparisons.
+- **Month**: Narrow down the data to a specific month or quarter. This is useful for monthly reports or comparisons.
 - **JE Source**: Filter by the source of the journal entry. This helps in identifying the origin of the data, You can select multiple sources to include in your analysis.
 - **JE Category**: This filter allows you to categorize the journal entries based on their type. You can select multiple categories to include in your analysis.
 - **Account**: Filter the data by specific accounts. This is useful for focusing on particular financial metrics or areas of interest.
