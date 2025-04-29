@@ -116,6 +116,8 @@ You can change the type of graph used to display data in the dashboard. This all
 
 The graph will update automatically to reflect your selection.
 
+???+ example "Change Graph Type"
+    <iframe src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%203.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D13IU-knkelmwS_gEgqEZrB1ZTDQIpfnwl%26export%3Ddownload" width="100%" height="400" style="border: none;"></iframe>
 
 **Available Chart Types**
 
@@ -158,6 +160,15 @@ You can choose from a variety of chart types to best visualize your data. Below 
 ---
 
 ## **Available Dashboard Components**
+
+### **Top 10 Categories by Number of Anomalies**
+
+This chart displays the top 10 categories with the highest number of anomalies. It helps identify which categories are most affected by anomalies, allowing for targeted analysis and corrective actions.
+
+
+### **Top 10 Sources by Number of Anomalies**
+
+This chart shows the top 10 sources of anomalies, helping to identify which systems or modules are most prone to errors. This information can guide further investigation and improvements in those areas.
 
 ### **Anomalies Table**
 
