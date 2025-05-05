@@ -66,6 +66,19 @@ There are two main ways to access reports and analysis:
 
     <iframe src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide.drawio&page-id=-i-z2KAly-NTNCs_Dxm5&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1LP6U6tDhud-D4lCmfg9O36HgN874N636%26export%3Ddownload" width="100%" height="400" style="border: none;"></iframe>
 
+## Accessing Recently Viewed Reports
+
+You can quickly access recently viewed reports from the top navigation bar. In the navigation bar, a tab will display the name of the report you are currently viewing. Click on this tab to reveal a dropdown list of recently viewed reports. 
+
+- **To open a report:** Click on the desired report from the list, and it will open in a new tab.
+- **To remove a report:** Click the "x" icon next to the report name to remove it from the list.
+
+!!! example "Accessing Recently Viewed Reports"
+    <iframe src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%204.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1_OfaDPzOM6kqujgmEcdTFvcsNgRN2-HO%26export%3Ddownload" width="100%" height="246px" style="border: none;"></iframe>
+
+This feature helps streamline navigation and improves productivity by providing quick access to frequently used reports. 
+
+
 ## **Conclusion**
 
 Navigating the IBM Planning Analytics dashboards is straightforward once you understand the layout and key sections. Use the Quick Launch area for easy access to essential features, and explore the Reports and Analysis section for detailed insights. If you have any questions or need assistance, don't hesitate to reach out to your administrator or IT department.

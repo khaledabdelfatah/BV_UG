@@ -10,7 +10,10 @@ nav:
       - JE Anomalies: usecases/je_anomalies/index.md
       - Available Filters: usecases/je_anomalies/je_filters.md
       - Dashboard Elements: usecases/je_anomalies/je_visualization.md
-
+    - Correlation Analysis:
+      - Correlation Analysis: usecases/correlation_analysis/index.md
+      - Creating Correlation Group: usecases/correlation_analysis/create_correlation_group.md
+      - Creating Correlation Chart: usecases/correlation_analysis/create_correlation_chart.md
 
 
 theme:
