@@ -14,8 +14,8 @@ nav:
       - Correlation Analysis: usecases/correlation_analysis/index.md
       - Creating Correlation Group: usecases/correlation_analysis/create_correlation_group.md
       - Creating Correlation Chart: usecases/correlation_analysis/create_correlation_chart.md
-
-
+      - Viewing Correlation Analysis: usecases/correlation_analysis/view_correlation_analysis.md
+      - Shared Correlation Analysis: usecases/correlation_analysis/view_shared_correlation_analysis.md
 theme:
   # Language of the documentation (en: English)
   language: en
