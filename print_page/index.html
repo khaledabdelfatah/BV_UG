@@ -570,6 +570,24 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#usecases-correlation_analysis-view_correlation_analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2.4 Viewing Correlation Analysis
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usecases-correlation_analysis-view_shared_correlation_analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2.5 Shared Correlation Analysis
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1503,7 +1521,134 @@
 <div class="admonition example">
 <p class="admonition-title">Publishing Correlation Chart Button</p>
 <p><iframe src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%205.drawio&page-id=umuloliwBJ3-UckuWK2A&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1XU8TC-9GYGWZ_bXdaGy928SGd0uK35UO%26export%3Ddownload" width="100%" height="400px"></iframe></p>
-</div></section></section></section></div><style>.print-site-enumerate-headings #section-1 > h1:before { content: '1 ' }
+</div></section><section class="print-page" id="usecases-correlation_analysis-view_correlation_analysis" heading-number="2.2.4"><h1 id="usecases-correlation_analysis-view_correlation_analysis-viewing-correlation-analysis">Viewing Correlation Analysis</h1>
+<h2 id="usecases-correlation_analysis-view_correlation_analysis-overview"><strong>Overview</strong></h2>
+<p>The <strong>Correlation Analysis</strong> tab provides an interactive visualization of the correlation chart defined in the <strong>Create Correlation Chart</strong> tab. It offers dynamic insights through three synchronized views: <strong>Balance</strong>, <strong>Variance</strong>, <strong>% of Change</strong>, and a detailed data table. These tools help users analyze trends, detect anomalies, and assess the behavior of correlation lines over time.</p>
+<h3 id="usecases-correlation_analysis-view_correlation_analysis-refreshing-the-charts"><strong>Refreshing the Charts</strong></h3>
+<p>If you notice any discrepancies in the charts, you can check the <strong>Refreshed Date</strong> (1), which indicates the last time the charts were updated. If the charts are not up to date, click the <strong>Refresh</strong> button (2) to update them with the latest data.</p>
+<div class="admonition example">
+<p class="admonition-title">Refresh Button</p>
+<p><iframe src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%206.drawio&page-id=M5waSRnalozmSin6oidk&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1hePnM4_D-P9sU-vTy77Q_inod1ZxyEh4%26export%3Ddownload" width="100%" height="400" style="border: none;"></iframe></p>
+</div>
+<hr />
+<h2 id="usecases-correlation_analysis-view_correlation_analysis-filters"><strong>Filters</strong></h2>
+<h3 id="usecases-correlation_analysis-view_correlation_analysis-period-type"><strong>Period Type</strong></h3>
+<p>Choose the type of period to analyze:</p>
+<ul>
+<li><strong>Periodic</strong>: View data for individual months.</li>
+<li><strong>Year-to-Date (YTD)</strong>: Aggregate data from the start of the year to the current date.</li>
+<li><strong>Quarter-to-Date (QTD)</strong>: Aggregate data from the start of the quarter to the current date.</li>
+</ul>
+<div class="admonition example">
+<p class="admonition-title">Period Type Filter</p>
+<p><iframe src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%205.drawio&page-id=JJLwS7TB9j9i7HvK0v2K&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1XU8TC-9GYGWZ_bXdaGy928SGd0uK35UO%26export%3Ddownload" width="100%" height="400" style="border: none;"></iframe></p>
+</div>
+<hr />
+<h3 id="usecases-correlation_analysis-view_correlation_analysis-year"><strong>Year</strong></h3>
+<p>Select the target year for analysis:</p>
+<div class="admonition example">
+<p class="admonition-title">Year Filter</p>
+<p><iframe src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%205.drawio&page-id=7IsV9txrj9F8mevXbYfs&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1XU8TC-9GYGWZ_bXdaGy928SGd0uK35UO%26export%3Ddownload" width="100%" height="600" style="border: none;"></iframe></p>
+</div>
+<ul>
+<li>
+<p><strong>Default</strong>: Specify a particular year for analysis.
+  When you select this option, the <strong>Year</strong> field will be enabled for you to enter the desired year.</p>
+<div class="admonition example">
+<p class="admonition-title">Default Year Selection</p>
+<p><iframe src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%205.drawio&page-id=x9KGjyqIpvk9JbnFlk2W&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1XU8TC-9GYGWZ_bXdaGy928SGd0uK35UO%26export%3Ddownload" width="100%" height="600" style="border: none;"></iframe></p>
+</div>
+</li>
+<li>
+<p><strong>Last Year</strong>: Analyze data from the last 24 months.</p>
+</li>
+</ul>
+<div class="admonition danger">
+<p class="admonition-title">Use only the <strong>Default</strong> and <strong>Last Year</strong> options for optimal results. Other options are not recommended.</p>
+</div>
+<hr />
+<h3 id="usecases-correlation_analysis-view_correlation_analysis-correlation-chart"><strong>Correlation Chart</strong></h3>
+<p>Select a previously created correlation chart for analysis. use the dropdown menu to choose from available charts. This will populate the chart with the selected correlation data.</p>
+<div class="admonition example">
+<p class="admonition-title">Correlation Chart Filter</p>
+<p><iframe src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%205.drawio&page-id=BG8wkAdQJVw7_p3u6i7H&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1XU8TC-9GYGWZ_bXdaGy928SGd0uK35UO%26export%3Ddownload" width="100%" height="600" style="border: none;"></iframe></p>
+</div>
+<hr />
+<h2 id="usecases-correlation_analysis-view_correlation_analysis-charts"><strong>Charts</strong></h2>
+<h3 id="usecases-correlation_analysis-view_correlation_analysis-1-balance-chart">1. <strong>Balance Chart</strong></h3>
+<p>Displays actual values month by month. By default, it shows data for the last 24 months. You can switch between periodic or cumulative values.</p>
+<h3 id="usecases-correlation_analysis-view_correlation_analysis-2-variance-chart">2. <strong>Variance Chart</strong></h3>
+<p>Shows the month-over-month changes in values, helping to identify sudden increases or decreases.</p>
+<h3 id="usecases-correlation_analysis-view_correlation_analysis-3-of-change-chart">3. <strong>% of Change Chart</strong></h3>
+<p>Displays the percentage change from one month to the next, providing insights into relative growth or decline.</p>
+<div class="admonition tip">
+<p class="admonition-title">All charts share the same timeline, enabling easy side-by-side trend comparison.</p>
+</div>
+<hr />
+<h2 id="usecases-correlation_analysis-view_correlation_analysis-detailed-data-table"><strong>Detailed Data Table</strong></h2>
+<p>Below the charts, a data table provides exact numerical values for each month and item. This allows for precise verification of the data visualized in the charts.</p>
+<div class="admonition example">
+<p class="admonition-title">Detailed Data Table</p>
+<p><iframe src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%206.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1hePnM4_D-P9sU-vTy77Q_inod1ZxyEh4%26export%3Ddownload" width="100%" height="600" style="border: none;"></iframe></p>
+</div>
+<hr />
+<p>By using the <strong>Correlation Analysis</strong> tab, you can gain actionable insights into your data, enabling better decision-making and trend analysis.</p></section><section class="print-page" id="usecases-correlation_analysis-view_shared_correlation_analysis" heading-number="2.2.5"><h1 id="usecases-correlation_analysis-view_shared_correlation_analysis-shared-correlation-analysis"><strong>Shared Correlation Analysis</strong></h1>
+<p>The <strong>Shared Correlation Analysis</strong> tab allows users to view correlation charts that have been shared with them by other team members. This is especially useful for collaboration across departments or between analysts and decision-makers.</p>
+<p>Rather than building your own chart, this tab gives you quick access to already-created and shared insights—ready to explore without any setup.</p>
+<h3 id="usecases-correlation_analysis-view_shared_correlation_analysis-refreshing-the-charts"><strong>Refreshing the Charts</strong></h3>
+<p>If you notice any discrepancies in the charts, you can check the <strong>Refreshed Date</strong> (1), which indicates the last time the charts were updated. If the charts are not up to date, click the <strong>Refresh</strong> button (2) to update them with the latest data.</p>
+<h2 id="usecases-correlation_analysis-view_shared_correlation_analysis-how-it-works"><strong>How It Works</strong></h2>
+<p>Once someone shares a correlation chart with you, it becomes available in this section. The interface and functionality are almost identical to the main <strong>Correlation Analysis</strong> tab, so it’s easy to understand and use.</p>
+<div class="admonition example">
+<p class="admonition-title">Shared Correlation Analysis Tab</p>
+<p><iframe src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%206.drawio&page-id=6YRgChPUqBfnbLKA9B1L&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1hePnM4_D-P9sU-vTy77Q_inod1ZxyEh4%26export%3Ddownload" width="100%" height="600" style="border: none;"></iframe></p>
+</div>
+<h2 id="usecases-correlation_analysis-view_shared_correlation_analysis-filters"><strong>Filters</strong></h2>
+<h3 id="usecases-correlation_analysis-view_shared_correlation_analysis-period-type"><strong>Period Type</strong></h3>
+<p>Choose the type of period to analyze:</p>
+<ul>
+<li><strong>Periodic</strong>: View data for individual months.</li>
+<li><strong>Year-to-Date (YTD)</strong>: Aggregate data from the start of the year to the current date.</li>
+<li><strong>Quarter-to-Date (QTD)</strong>: Aggregate data from the start of the quarter to the current date.</li>
+</ul>
+<div class="admonition example">
+<p class="admonition-title">Period Type Filter</p>
+<p><iframe src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%205.drawio&page-id=JJLwS7TB9j9i7HvK0v2K&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1XU8TC-9GYGWZ_bXdaGy928SGd0uK35UO%26export%3Ddownload" width="100%" height="400" style="border: none;"></iframe></p>
+</div>
+<hr />
+<h3 id="usecases-correlation_analysis-view_shared_correlation_analysis-year"><strong>Year</strong></h3>
+<p>Select the target year for analysis:</p>
+<div class="admonition example">
+<p class="admonition-title">Year Filter</p>
+<p><iframe src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%205.drawio&page-id=7IsV9txrj9F8mevXbYfs&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1XU8TC-9GYGWZ_bXdaGy928SGd0uK35UO%26export%3Ddownload" width="100%" height="600" style="border: none;"></iframe></p>
+</div>
+<ul>
+<li>
+<p><strong>Default</strong>: Specify a particular year for analysis.
+  When you select this option, the <strong>Year</strong> field will be enabled for you to enter the desired year.</p>
+<div class="admonition example">
+<p class="admonition-title">Default Year Selection</p>
+<p><iframe src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%205.drawio&page-id=x9KGjyqIpvk9JbnFlk2W&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1XU8TC-9GYGWZ_bXdaGy928SGd0uK35UO%26export%3Ddownload" width="100%" height="600" style="border: none;"></iframe></p>
+</div>
+</li>
+<li>
+<p><strong>Last Year</strong>: Analyze data from the last 24 months.</p>
+</li>
+</ul>
+<div class="admonition danger">
+<p class="admonition-title">Use only the <strong>Default</strong> and <strong>Last Year</strong> options for optimal results. Other options are not recommended.</p>
+</div>
+<h2 id="usecases-correlation_analysis-view_shared_correlation_analysis-displayed-charts"><strong>Displayed Charts</strong></h2>
+<p>You’ll see three panels just like in the main correlation view:</p>
+<h3 id="usecases-correlation_analysis-view_shared_correlation_analysis-1-balance-chart">1. <strong>Balance Chart</strong></h3>
+<p>Shows actual monthly values for the selected items (e.g., total building cost, depreciation, etc.).</p>
+<h3 id="usecases-correlation_analysis-view_shared_correlation_analysis-2-variance-chart">2. <strong>Variance Chart</strong></h3>
+<p>Displays how the value changed from the previous month—helpful for identifying spikes or dips.</p>
+<h3 id="usecases-correlation_analysis-view_shared_correlation_analysis-3-of-change-chart">3. <strong>% of Change Chart</strong></h3>
+<p>Shows the percentage change from one month to the next—useful for evaluating relative growth or decline.</p>
+<p>These charts are visually synchronized, making it easier to spot patterns and draw conclusions.</p>
+<h2 id="usecases-correlation_analysis-view_shared_correlation_analysis-data-table"><strong>Data Table</strong></h2>
+<p>Beneath the charts is a detailed data table showing the actual values behind each line in the charts. You can compare monthly figures side by side for each metric in the chart.</p></section></section></section></div><style>.print-site-enumerate-headings #section-1 > h1:before { content: '1 ' }
 .print-site-enumerate-headings #index > h1:before { content: '1.1 ' }
 
                 .print-site-enumerate-headings #index h2:before { content: '1.1.' counter(counter-index-2) ' ' }
@@ -1533,6 +1678,10 @@
 .print-site-enumerate-headings #usecases-correlation_analysis-create_correlation_group > h1:before { content: '2.2.2 ' }
 
 .print-site-enumerate-headings #usecases-correlation_analysis-create_correlation_chart > h1:before { content: '2.2.3 ' }
+
+.print-site-enumerate-headings #usecases-correlation_analysis-view_correlation_analysis > h1:before { content: '2.2.4 ' }
+
+.print-site-enumerate-headings #usecases-correlation_analysis-view_shared_correlation_analysis > h1:before { content: '2.2.5 ' }
 </style>
 
 
