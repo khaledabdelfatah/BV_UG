@@ -9,6 +9,7 @@ Welcome to the Planning and Analytics User Guide! This guide is designed to help
 This guide is intended for users who are new to IBM Planning Analytics and those who want to enhance their skills in using the dashboards.
 
 ## Table of Contents
+
 - [Getting Started](./getting_started.md)
 - [Navigating the Dashboard](#navigating-the-dashboard)
 - [JE Anomalies Dashboard](../docs/usecases/je_anomalies_dashboard/index.md)

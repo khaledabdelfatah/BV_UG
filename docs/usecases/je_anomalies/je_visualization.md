@@ -22,10 +22,11 @@ You can expand any chart or table for a clearer view:
 2. Click the enlarge icon that appears.
 
 This opens the component in full-screen mode, making it easier to review details.
-!!!+ example "Enlarge Icon"
+!!! example "Enlarge Icon"
     <iframe src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%202.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1Ln9LyxrZ2Z2kJ7HwHWBADKzALrPmS-aM%26export%3Ddownload" width="100%" height="400" style="border: none;"></iframe>
 
 ### **Exporting Data**
+
 You can export tables or charts from the dashboard to Excel for further analysis or reporting.
 
 **Steps to Export Data:**
@@ -44,7 +45,7 @@ Choose your preferred option, then click the **Export button**.
 
 Wait a few seconds, your file will be downloaded automatically to your device.
 
-!!!+ Example "Export Button"
+!!! Example "Export Button"
     <iframe src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%202.drawio&page-id=yigNa85nCfERh74Zhj_U&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1Ln9LyxrZ2Z2kJ7HwHWBADKzALrPmS-aM%26export%3Ddownload" width="100%" height="400" style="border: none;"></iframe>
 
 ### **Formating Options**
@@ -59,7 +60,7 @@ You can apply different formatting styles to the data in tables or charts to imp
 4. A dropdown menu will appear with several formatting options.
 5. Select your desired format, the data will update immediately.
 
-!!!+ Example "Formatting Options"
+!!! Example "Formatting Options"
     <iframe src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%202.drawio&page-id=RQ1y4CAtfro4xMXSQejv&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1Ln9LyxrZ2Z2kJ7HwHWBADKzALrPmS-aM%26export%3Ddownload" width="100%" height="400" style="border: none;"></iframe>
 
 **Available Formatting Options:**
@@ -99,7 +100,7 @@ To ensure the dashboard displays the latest data from the database (and not cach
 
 This process ensures that the displayed information is up-to-date and accurate.
 
-!!!+ example "Refreshing Data Button"
+!!! example "Refreshing Data Button"
     <iframe src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%202.drawio&page-id=qV0n7iYbJdLlpjRB-Nzi&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1Ln9LyxrZ2Z2kJ7HwHWBADKzALrPmS-aM%26export%3Ddownload" width="100%" height="400" style="border: none;"></iframe>
 
 ### **Changing Graph Type**
@@ -116,7 +117,7 @@ You can change the type of graph used to display data in the dashboard. This all
 
 The graph will update automatically to reflect your selection.
 
-!!!+ example "Change Graph Type"
+!!! example "Change Graph Type"
     <iframe src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%203.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D13IU-knkelmwS_gEgqEZrB1ZTDQIpfnwl%26export%3Ddownload" width="100%" height="400" style="border: none;"></iframe>
 
 **Available Chart Types**
@@ -165,7 +166,6 @@ You can choose from a variety of chart types to best visualize your data. Below 
 
 This chart displays the top 10 categories with the highest number of anomalies. It helps identify which categories are most affected by anomalies, allowing for targeted analysis and corrective actions.
 
-
 ### **Top 10 Sources by Number of Anomalies**
 
 This chart shows the top 10 sources of anomalies, helping to identify which systems or modules are most prone to errors. This information can guide further investigation and improvements in those areas.
@@ -208,4 +208,3 @@ This table lists all detected anomalies with detailed metadata for each journal 
     Regular users can view these fields but cannot make changes. This restriction helps ensure data integrity and proper model feedback.
 
 ---
-

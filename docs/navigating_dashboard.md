@@ -1,26 +1,27 @@
 ---
-title: Navigating the Dashboard
 description: A guide to navigating the IBM Planning Analytics dashboards, including tips and tricks for effective use.
 ---
 
-# Navigating the Dashboard
+# **Navigating the Dashboard**
 
-## Exploring and Navigation
+## **Exploring and Navigation**
 
 After logging into IBM Planning Analytics, the main interface appears, organized into several key sections. The **Quick Launch** area provides easy access to essential features.
 
-<iframe src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide.drawio&page-id=1QXaKfpXK7afY8ZVsUp8&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1LP6U6tDhud-D4lCmfg9O36HgN874N636%26export%3Ddownload" width="100%" height="400" style="border: none;"></iframe>
+!!! example "Quick Launch Area"
+    <iframe src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide.drawio&page-id=1QXaKfpXK7afY8ZVsUp8&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1LP6U6tDhud-D4lCmfg9O36HgN874N636%26export%3Ddownload" width="100%" height="400" style="border: none;"></iframe>
 
 ### **Key Sections**
+
+
+!!! note inline end "Primary Focus"
+     The **Reports and Analysis** section is where you will spend most of your time accessing dashboards and reports.
 
 1. **Applications and Plans**  
     Manage and participate in planning processes or access other applications.
 
 2. **Reports and Analysis**  
     Navigate here to view detailed reports and dashboards, and share insights effectively.
-
-!!! note "Primary Focus"
-     The **Reports and Analysis** section is where you will spend most of your time accessing dashboards and reports.
 
 ---
 
@@ -37,7 +38,7 @@ There are two main ways to access reports and analysis:
     This takes you directly to the reports and analysis section, where you can view available dashboards and reports.
 
 !!! tip "Save Time with Favorites"
-     Click the heart icon (1) next to a report name to add it to your favorites for quick access later.
+     Click the heart icon next to a report name to add it to your favorites for quick access later.
 
     <iframe src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide.drawio&page-id=Y9lWeC6Qkl7DUtC7sd8D&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1LP6U6tDhud-D4lCmfg9O36HgN874N636%26export%3Ddownload" width="100%" height="400" style="border: none;"></iframe>
 
