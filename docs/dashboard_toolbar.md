@@ -272,8 +272,26 @@ In the **Advanced** tab, you can fine-tune the forecast with additional options:
 
 - **Save Predicted Values**: Specify where to save forecasted values, including upper and lower bounds.
 
+---
+### **Show / Hide Overview**
+
+The **Show / Hide Overview** button (1) enables you to toggle the visibility of the overview header for table columns. The overview header typically displays the column name and provides options to filter the data within the column.
+
+!!! example "Show / Hide Overview Button: Hidden State"
+    <iframe frameborder="0" style="width:100%;height:1231px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Advanced%20Payments.drawio&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1BCh7WuihrrMysr7j9V05zk8p6AI6JoJQ%26export%3Ddownload" allowtransparency="true"></iframe>
 
 
+#### **How to Use:**
+
+1. **Toggle Visibility**  
+    Click the **Show / Hide Overview** button (1) to switch the current state of the overview header:
+    - If the overview header is **hidden** (2), clicking the button will make it **visible**.
+    - If the overview header is **visible** (3), clicking the button will hide it.
+
+!!! example "Show / Hide Overview Button: Visible State"
+    <iframe frameborder="0" style="width:100%;height:891px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Advanced%20Payments.drawio&page-id=zdHjKNJQwNgUo0kU2JWs&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1BCh7WuihrrMysr7j9V05zk8p6AI6JoJQ%26export%3Ddownload" allowtransparency="true"></iframe>
+
+This feature allows you to customize your workspace by showing or hiding column details as needed, improving focus and reducing clutter.
 
 
 

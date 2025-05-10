@@ -17,6 +17,11 @@ nav:
       - Creating Correlation Chart: usecases/correlation_analysis/create_correlation_chart.md
       - Viewing Correlation Analysis: usecases/correlation_analysis/view_correlation_analysis.md
       - Shared Correlation Analysis: usecases/correlation_analysis/view_shared_correlation_analysis.md
+    - Advanced Payments:
+      - Advanced Payments: usecases/advanced_payments/index.md
+      - Available Filters: usecases/advanced_payments/advanced_payments_filters.md
+      - Dashboard Elements: usecases/advanced_payments/advanced_payments_visualization.md
+
 theme:
   # Language of the documentation (en: English)
   language: en
