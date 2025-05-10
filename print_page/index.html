@@ -372,6 +372,8 @@
       
         
       
+        
+      
     
     
     
@@ -594,6 +596,48 @@
   <a href="#usecases-correlation_analysis-view_shared_correlation_analysis" class="md-nav__link">
     <span class="md-ellipsis">
       2.2.5 Shared Correlation Analysis
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-2-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.3 Advanced Payments
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.3 Advanced Payments">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#usecases-advanced_payments" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.3.1 Advanced Payments
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usecases-advanced_payments-advanced_payments_filters" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.3.2 Available Filters
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usecases-advanced_payments-advanced_payments_visualization" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.3.3 Dashboard Elements
     </span>
   </a>
   
@@ -1119,7 +1163,28 @@
 <li>
 <p><strong>Save Predicted Values</strong>: Specify where to save forecasted values, including upper and lower bounds.</p>
 </li>
-</ul></section></section>
+</ul>
+<hr />
+<h3 id="dashboard_toolbar-show-hide-overview"><strong>Show / Hide Overview</strong></h3>
+<p>The <strong>Show / Hide Overview</strong> button (1) enables you to toggle the visibility of the overview header for table columns. The overview header typically displays the column name and provides options to filter the data within the column.</p>
+<div class="admonition example">
+<p class="admonition-title">Show / Hide Overview Button: Hidden State</p>
+<p><iframe frameborder="0" style="width:100%;height:1231px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Advanced%20Payments.drawio&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1BCh7WuihrrMysr7j9V05zk8p6AI6JoJQ%26export%3Ddownload" allowtransparency="true"></iframe></p>
+</div>
+<h4 id="dashboard_toolbar-how-to-use"><strong>How to Use:</strong></h4>
+<ol>
+<li><strong>Toggle Visibility</strong><br />
+    Click the <strong>Show / Hide Overview</strong> button (1) to switch the current state of the overview header:<ul>
+<li>If the overview header is <strong>hidden</strong> (2), clicking the button will make it <strong>visible</strong>.</li>
+<li>If the overview header is <strong>visible</strong> (3), clicking the button will hide it.</li>
+</ul>
+</li>
+</ol>
+<div class="admonition example">
+<p class="admonition-title">Show / Hide Overview Button: Visible State</p>
+<p><iframe frameborder="0" style="width:100%;height:891px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Advanced%20Payments.drawio&page-id=zdHjKNJQwNgUo0kU2JWs&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1BCh7WuihrrMysr7j9V05zk8p6AI6JoJQ%26export%3Ddownload" allowtransparency="true"></iframe></p>
+</div>
+<p>This feature allows you to customize your workspace by showing or hiding column details as needed, improving focus and reducing clutter.</p></section></section>
                     <section class='print-page md-section' id='section-2' heading-number='2'>
                         <h1>Dashboard<a class='headerlink' href='#section-2' title='Permanent link'></a>
                         </h1>
@@ -1917,7 +1982,190 @@
 <p>Shows the percentage change from one month to the next—useful for evaluating relative growth or decline.</p>
 <p>These charts are visually synchronized, making it easier to spot patterns and draw conclusions.</p>
 <h2 id="usecases-correlation_analysis-view_shared_correlation_analysis-data-table"><strong>Data Table</strong></h2>
-<p>Beneath the charts is a detailed data table showing the actual values behind each line in the charts. You can compare monthly figures side by side for each metric in the chart.</p></section></section></section></div><style>.print-site-enumerate-headings #section-1 > h1:before { content: '1 ' }
+<p>Beneath the charts is a detailed data table showing the actual values behind each line in the charts. You can compare monthly figures side by side for each metric in the chart.</p></section></section>
+                    <section class='print-page md-section' id='section-2-3' heading-number='2.3'>
+                        <h1>Advanced Payments<a class='headerlink' href='#section-2-3' title='Permanent link'></a>
+                        </h1>
+                    <section class="print-page" id="usecases-advanced_payments" heading-number="2.3.1"><h1 id="usecases-advanced_payments-advanced-payments">Advanced Payments</h1>
+<p>The <strong>Advanced Payments Dashboard</strong> offers a comprehensive view of General Ledger (GL) balances against prepayments. It is a valuable tool for financial analysts and accounts payable teams, enabling efficient tracking and management of supplier advances, prepayment balances, and outstanding application statuses over time.</p>
+<h2 id="usecases-advanced_payments-key-features">Key Features</h2>
+<ul>
+<li><strong>Aging Analysis</strong>: Monitor the aging of supplier prepayments to identify overdue or long-standing balances.</li>
+<li><strong>GL Reconciliation</strong>: Compare prepayment balances against GL records to ensure accuracy and consistency.</li>
+<li><strong>Issue Identification</strong>: Detect and investigate unapplied or partially applied prepayments.</li>
+<li><strong>Financial Planning Support</strong>: Facilitate decision-making for financial reconciliation and cash flow management.</li>
+</ul>
+<h2 id="usecases-advanced_payments-summary-visualizations">Summary Visualizations</h2>
+<p>The dashboard includes a set of high-level visualizations to provide actionable insights:</p>
+<ol>
+<li>
+<p><strong>GL vs. Prepayment Balances</strong>:</p>
+<ul>
+<li>Bar charts illustrate the relationship between GL balances and supplier prepayments.</li>
+<li>Two separate charts represent different accounts: <strong>18220</strong> and <strong>18246</strong>.</li>
+<li>Quickly identify discrepancies or inconsistencies in financial records.</li>
+</ul>
+</li>
+<li>
+<p><strong>Annual Trends</strong>:</p>
+<ul>
+<li>A line chart highlights year-over-year changes in prepayment balances.</li>
+<li>This trend analysis aids in strategic planning and identifies periods of increased financial activity or delays in application.</li>
+</ul>
+</li>
+</ol>
+<p>These visualizations empower stakeholders to detect anomalies, monitor financial performance, and prioritize reconciliation efforts effectively.</p></section><section class="print-page" id="usecases-advanced_payments-advanced_payments_filters" heading-number="2.3.2"><h1 id="usecases-advanced_payments-advanced_payments_filters-advanced-payments-filters"><strong>Advanced Payments Filters</strong></h1>
+<p>In the top of the dashboard, you will find a set of filters (1) that allow you to customize the data displayed in the dashboard. The filters are as follows:</p>
+<div class="admonition example">
+<p class="admonition-title">Available Filters</p>
+<p><iframe frameborder="0" style="width:100%;height:625px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Advanced%20Payments.drawio&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1BCh7WuihrrMysr7j9V05zk8p6AI6JoJQ%26export%3Ddownload" allowtransparency="true"></iframe></p>
+</div>
+<h3 id="usecases-advanced_payments-advanced_payments_filters-prepayment"><strong>Prepayment</strong></h3>
+<h3 id="usecases-advanced_payments-advanced_payments_filters-year-prepayment"><strong>Year Prepayment</strong></h3>
+<h3 id="usecases-advanced_payments-advanced_payments_filters-month-prepayment"><strong>Month Prepayment</strong></h3>
+<h2 id="usecases-advanced_payments-advanced_payments_filters-adjusting-invoice-and-receipt-thresholds"><strong>Adjusting Invoice and Receipt Thresholds</strong></h2>
+<p>The <strong>Days Since Invoice</strong> and <strong>Days Since Receipt</strong> filters allow you to define thresholds for highlighting values in red, helping you quickly identify overdue transactions.</p>
+<div class="admonition example">
+<p class="admonition-title">Changing Thresholds</p>
+<p><iframe frameborder="0" style="width:100%;height:1256px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Advanced%20Payment.drawio&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1vrFzIeC_EkLPfqy77hd095CaFCyWvN5s%26export%3Ddownload" allowtransparency="true"></iframe></p>
+</div>
+<h3 id="usecases-advanced_payments-advanced_payments_filters-steps-to-change-thresholds"><strong>Steps to Change Thresholds</strong></h3>
+<ol>
+<li>
+<p><strong>Locate the Threshold Fields</strong><br />
+    At the top of the dashboard, find the input fields labeled:  </p>
+<ul>
+<li><strong>Days Since Last Invoice</strong>  </li>
+<li><strong>Days Since Last Receipt</strong>  </li>
+</ul>
+<p>These fields are positioned directly below the dashboard title bar.</p>
+</li>
+<li>
+<p><strong>Enter a New Threshold Value</strong>  </p>
+<ul>
+<li>Click inside the desired field.  </li>
+<li>Input the number of days you want as the threshold (e.g., <code>30</code>, <code>90</code>, <code>180</code>, etc.).  </li>
+<li>Press Enter or click outside the field to apply the new value.</li>
+</ul>
+</li>
+<li>
+<p><strong>Observe Automatic Updates</strong><br />
+    Once the new thresholds are set:  </p>
+<ul>
+<li>The data grid below will refresh automatically.  </li>
+<li>Rows in the <strong>Prepayment Details</strong> table will be highlighted in red if the <strong>Days Since Invoice</strong> or <strong>Days Since Receipt</strong> exceeds the specified threshold.  </li>
+<li>Summary charts may also reflect the updated filter settings.</li>
+</ul>
+</li>
+<li>
+<p><strong>Review Highlighted Records</strong><br />
+    Red-highlighted cells indicate transactions that exceed the defined thresholds. Use this visual cue to prioritize follow-up actions or reconciliation tasks.</p>
+</li>
+</ol></section><section class="print-page" id="usecases-advanced_payments-advanced_payments_visualization" heading-number="2.3.3"><h1 id="usecases-advanced_payments-advanced_payments_visualization-advanced-payments-visualization"><strong>Advanced Payments Visualization</strong></h1>
+<h2 id="usecases-advanced_payments-advanced_payments_visualization-available-charts"><strong>Available Charts</strong></h2>
+<p>The <strong>Advanced Payments Dashboard</strong> provides a set of visualizations to help users understand the relationship between General Ledger (GL) balances and prepayments.</p>
+<div class="admonition example">
+<p class="admonition-title">Available Charts</p>
+<p><iframe frameborder="0" style="width:100%;height:1086px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Advanced%20Payments.drawio&page-id=3Z0t8OnM874MAqX8Oe6p&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1BCh7WuihrrMysr7j9V05zk8p6AI6JoJQ%26export%3Ddownload" allowtransparency="true"></iframe></p>
+</div>
+<h3 id="usecases-advanced_payments-advanced_payments_visualization-18220-gl-vs-prepayments"><strong>18220 GL vs Prepayments</strong></h3>
+<p>The <strong>18220 GL vs Prepayments</strong> bar chart provides a visual representation of the relationship between the General Ledger (GL) balance and prepayment amounts for the GL account <strong>18220</strong>. This chart is essential quickly identify discrepancies or inconsistencies in financial records.</p>
+<h3 id="usecases-advanced_payments-advanced_payments_visualization-18246-gl-vs-prepayments"><strong>18246 GL vs Prepayments</strong></h3>
+<p>The <strong>18246 GL vs Prepayments</strong> bar chart serves a similar purpose as the previous one, but it focuses on the GL account <strong>18246</strong>. By comparing the GL balance with prepayment amounts, users can gain insights into the financial status of this specific account.</p>
+<h3 id="usecases-advanced_payments-advanced_payments_visualization-prepayment-balance-by-year"><strong>Prepayment Balance By Year</strong></h3>
+<p>The <strong>Prepayment Balance By Year</strong> line chart illustrates the annual trends in prepayment balances. It provides a clear view of how prepayment amounts have changed over the years, helping users identify periods of increased financial activity or delays in application. This trend analysis is valuable for strategic planning and decision-making.</p>
+<h2 id="usecases-advanced_payments-advanced_payments_visualization-prepayment-details-table"><strong>Prepayment Details Table</strong></h2>
+<p>The <strong>Prepayment Details</strong> section (1) of the Advanced Payments Dashboard provides a comprehensive overview of prepayment transactions. It includes detailed information about each prepayment, allowing users to analyze and manage their financial commitments effectively.</p>
+<div class="admonition example">
+<p class="admonition-title">Prepayment Details Table</p>
+<p><iframe frameborder="0" style="width:100%;height:1101px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Advanced%20Payments.drawio&page-id=wfZBhOQVN60zI07BCpfm&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1BCh7WuihrrMysr7j9V05zk8p6AI6JoJQ%26export%3Ddownload" allowtransparency="true"></iframe></p>
+</div>
+<table>
+<thead>
+<tr>
+<th><strong>Column Name</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Prepayment</strong></td>
+<td>Displays the prepayment identifier. By default, all prepayments are shown.</td>
+</tr>
+<tr>
+<td><strong>GL Account</strong></td>
+<td>Shows the General Ledger (GL) account number linked to the prepayment.</td>
+</tr>
+<tr>
+<td><strong>Prepayment Purchasing Order</strong></td>
+<td>Indicates the purchasing order associated with the prepayment.</td>
+</tr>
+<tr>
+<td><strong>Supplier</strong></td>
+<td>Name of the supplier to whom the prepayment was made.</td>
+</tr>
+<tr>
+<td><strong>Year of Prepayment</strong></td>
+<td>Indicates the calendar year in which the prepayment occurred.</td>
+</tr>
+<tr>
+<td><strong>Month of Prepayment</strong></td>
+<td>Indicates the calendar month of the prepayment.</td>
+</tr>
+<tr>
+<td><strong>Day of Prepayment</strong></td>
+<td>Indicates the calendar day on which the prepayment was recorded.</td>
+</tr>
+<tr>
+<td><strong>Days Since Invoice</strong></td>
+<td>Number of days since the related invoice was issued. Values exceeding the defined threshold are highlighted in red.</td>
+</tr>
+<tr>
+<td><strong>Days Since Receipt</strong></td>
+<td>Number of days since the goods receipt was recorded. Red highlight appears if the value exceeds the set threshold.</td>
+</tr>
+<tr>
+<td><strong>Prepayment Number</strong></td>
+<td>Unique reference number of the prepayment transaction.</td>
+</tr>
+<tr>
+<td><strong>Prepayment Purchasing Order Number</strong></td>
+<td>Displays the purchasing order number. A single prepayment may be linked to multiple POs.</td>
+</tr>
+<tr>
+<td><strong>Prepayment Amount (SAR)</strong></td>
+<td>Total value of the prepayment in Saudi Riyals (SAR).</td>
+</tr>
+<tr>
+<td><strong>Applied Amount (SAR)</strong></td>
+<td>Portion of the prepayment that has been utilized or matched to invoices.</td>
+</tr>
+<tr>
+<td><strong>Balance (SAR)</strong></td>
+<td>Remaining unapplied amount from the prepayment (i.e., Prepayment Amount - Applied Amount).</td>
+</tr>
+<tr>
+<td><strong>Receipt Date</strong></td>
+<td>Date on which the goods or services were officially received.</td>
+</tr>
+<tr>
+<td><strong>Invoice Date</strong></td>
+<td>Date on which the supplier’s invoice was issued.</td>
+</tr>
+<tr>
+<td><strong>Prepayment Date</strong></td>
+<td>Date the prepayment transaction was executed.</td>
+</tr>
+<tr>
+<td><strong>Prepayment Description</strong></td>
+<td>Provides contextual details about the nature or purpose of the prepayment.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition question">
+<p class="admonition-title">Why are some values highlighted in red in the Days Since Invoice and Days Since Receipt columns?</p>
+<p>Red highlights in the <strong>Days Since Invoice</strong> and <strong>Days Since Receipt</strong> columns signify values that exceed predefined thresholds. These visual cues help users quickly identify prepayments requiring further investigation or immediate attention.</p>
+</div></section></section></section></div><style>.print-site-enumerate-headings #section-1 > h1:before { content: '1 ' }
 .print-site-enumerate-headings #index > h1:before { content: '1.1 ' }
 
                 .print-site-enumerate-headings #index h2:before { content: '1.1.' counter(counter-index-2) ' ' }
@@ -1956,6 +2204,13 @@
 .print-site-enumerate-headings #usecases-correlation_analysis-view_correlation_analysis > h1:before { content: '2.2.4 ' }
 
 .print-site-enumerate-headings #usecases-correlation_analysis-view_shared_correlation_analysis > h1:before { content: '2.2.5 ' }
+
+.print-site-enumerate-headings #section-2-3 > h1:before { content: '2.3 ' }
+.print-site-enumerate-headings #usecases-advanced_payments > h1:before { content: '2.3.1 ' }
+
+.print-site-enumerate-headings #usecases-advanced_payments-advanced_payments_filters > h1:before { content: '2.3.2 ' }
+
+.print-site-enumerate-headings #usecases-advanced_payments-advanced_payments_visualization > h1:before { content: '2.3.3 ' }
 </style>
 
 
