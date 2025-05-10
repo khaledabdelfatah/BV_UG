@@ -1,100 +1,129 @@
 # **Dashboard Toolbar**
 
-In each dashboard, you will find a toolbar at the top of the screen. This toolbar provides quick access to various features and functions that enhance your dashboard experience. Below is a detailed overview of the dashboard toolbar and its components.
+The dashboard toolbar, located at the top of the screen, provides quick access to essential features and functions to enhance your dashboard experience. Below is an overview of its components.
 
 ## **General Toolbar**
 
-The general toolbar appears at the top of your dashboard when no specific table or chart is selected. It offers quick access to features and functions that enhance your dashboard experience. Below is an overview of its components.
+The general toolbar is visible when no specific table or chart is selected. It offers a range of features to streamline your workflow and improve usability.
 
 ### **Refreshing the Dashboard**
 
-To ensure the dashboard displays the latest data, click the **Refresh** button (1). This action refreshes the dashboard and updates all charts and tables with the most recent data from the database.
+Keep your dashboard up-to-date by clicking the **Refresh** button (1). This ensures all charts and tables display the latest data from the database.
 
 !!! example "Refresh Button"
 
     <iframe frameborder="0" style="width:100%;height:508px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BDashboard%20Toolbar%5D.drawio&page-id=HqM34su9vUWKNx1Cah3x&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1IOT9SJvfq5OJkzDqxffZRdNrOn5Pj_TD%26export%3Ddownload" allowtransparency="true"></iframe>
 
+---
+
 ### **Sharing the Dashboard**
 
-To share the dashboard with others, click the **Share** button (1). This action opens a sidebar where you can choose the sharing options. You can Share the link of the dashboard, or you can export it as a PDF.
-
-**Sharing options include:**
-
-- **Link Sharing:** Share the dashboard via a link or embed it in a website or application (3).
-    - Use the "Link" tab to copy the shareable link.
-    - Alternatively, copy the embed code to integrate the dashboard into your website or application. Adjust the iframe's width and height as needed.
-    
-    !!! example "Link Sharing"
-    
-        <iframe frameborder="0" style="width:100%;height:798px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BDashboard%20Toolbar%5D.drawio&page-id=W42KWqr3MNADhDQLjADy&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1IOT9SJvfq5OJkzDqxffZRdNrOn5Pj_TD%26export%3Ddownload" allowtransparency="true"></iframe>
-
-- **PDF Export:** Export the dashboard as a PDF file (4).
-    - Use the "PDF" tab to select the export options.
-    - Choose the desired page size and orientation (portrait or landscape).
-    - Click the **Export** button to download the PDF file.
-    - You will be prompted to preview the PDF, you can choose to download it or print it directly from the preview window.
-
-    !!! example "PDF Export"
-    
-        <iframe frameborder="0" style="width:100%;height:798px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BDashboard%20Toolbar%5D.drawio&page-id=Y9lWeC6Qkl7DUtC7sd8D&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1IOT9SJvfq5OJkzDqxffZRdNrOn5Pj_TD%26export%3Ddownload" allowtransparency="true"></iframe>
+The **Share** button (2) allows you to share the dashboard or export it as a PDF. Clicking this button opens a sidebar with the following options:
 
 !!! example "Share Button"
+    <iframe frameborder="0" style="width:100%;height:910px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BDashboard%20Toolbar%5D.drawio&page-id=2qIpwAxrgqDPdVyK3Nxz&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1IOT9SJvfq5OJkzDqxffZRdNrOn5Pj_TD%26export%3Ddownload" allowtransparency="true"></iframe>
 
-    <iframe frameborder="0" style="width:100%;height:910px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BDashboard%20Toolbar%5D.drawio&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1IOT9SJvfq5OJkzDqxffZRdNrOn5Pj_TD%26export%3Ddownload" allowtransparency="true"></iframe>
+#### **Link Sharing Option**
+
+Share the dashboard via a link or embed it in a website or application.
+
+- **Copy Link:** Use the "Link" tab (3) to copy a shareable link.
+- **Embed Code:** Copy the embed code to integrate the dashboard into a website or application. Adjust the iframe's width and height as needed.
+
+!!! example "Link Sharing"
+    <iframe frameborder="0" style="width:100%;height:798px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BDashboard%20Toolbar%5D.drawio&page-id=W42KWqr3MNADhDQLjADy&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1IOT9SJvfq5OJkzDqxffZRdNrOn5Pj_TD%26export%3Ddownload" allowtransparency="true"></iframe>
+
+#### **PDF Export Option**
+
+Export the dashboard as a PDF file.
+
+- **Export Options:** Use the "PDF" tab (4) to select page size and orientation (portrait or landscape).
+- **Download or Print:** Preview the PDF, then download it or print it directly.
+
+!!! example "PDF Export Option"
+    <iframe frameborder="0" style="width:100%;height:587px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BDashboard%20Toolbar%5D.drawio&page-id=lGgd0BbREfP6njmbsNsp&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1IOT9SJvfq5OJkzDqxffZRdNrOn5Pj_TD%26export%3Ddownload" allowtransparency="true"></iframe>
+
+---
 
 ### **Undo and Redo**
 
-To undo or redo your last action, use the **Undo** (5) and **Redo** (6) buttons. These buttons allow you to revert changes or reapply them as needed.
+Use the **Undo** (5) button to reverse your last action or the **Redo** (6) button to reapply a reverted change. These tools help you efficiently manage modifications and maintain accuracy in your work.
 
-!!! example "Undo and Redo"
-    <iframe frameborder="0" style="width:100%;height:771px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BDashboard%20Toolbar%5D.drawio&page-id=RnRht1ARlE4bc76Ski9n&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1IOT9SJvfq5OJkzDqxffZRdNrOn5Pj_TD%26export%3Ddownload" allowtransparency="true"></iframe>'
+!!! example "Undo and Redo Buttons"
+    <iframe frameborder="0" style="width:100%;height:771px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BDashboard%20Toolbar%5D.drawio&page-id=RnRht1ARlE4bc76Ski9n&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1IOT9SJvfq5OJkzDqxffZRdNrOn5Pj_TD%26export%3Ddownload" allowtransparency="true"></iframe>
+
+---
 
 ### **Rollback Data Entry**
 
-If you've made changes to table entries and want to revert them, use the **Rollback Data Entry** (7) button. This action allows you to roll back the last data entry made in the table. It is useful for correcting mistakes or reverting to a previous state.
+The **Rollback Data Entry** button (7) allows you to revert the most recent changes made to table entries. This feature is particularly useful for correcting errors or restoring the table to its previous state.
 
 !!! example "Rollback Data Entry"
     <iframe frameborder="0" style="width:100%;height:841px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BDashboard%20Toolbar%20-%202%5D.drawio&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1H0qmlOdnnRY0UQDQVtNxu3yZsvdgsTzr%26export%3Ddownload" allowtransparency="true"></iframe>
 
 ### **Maximize and Minimize**
 
-To maximize or minimize the dashboard view, use the **Maximize** (8) button. This action expands the dashboard to fill the entire screen, providing a more immersive experience. Click the button again to restore the original view.
+The Maximize button (8) allows you to expand the dashboard to full-screen mode for an immersive view. To return to the original view, click the button again.
 
 !!! example "Maximize and Minimize"
     <iframe frameborder="0" style="width:100%;height:1095px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BDashboard%20Toolbar%5D.drawio&page-id=R57kLdBiRn93rMK2StgJ&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1IOT9SJvfq5OJkzDqxffZRdNrOn5Pj_TD%26export%3Ddownload" allowtransparency="true"></iframe>
 
+---
+
 ## **Table Toolbar**
 
-When a table is selected in the dashboard, a dedicated toolbar appears above it, offering features specific to table management. While similar to the general toolbar, this table toolbar includes additional options tailored for managing and interacting with tables. Below is an overview of its components.
+When you select a table in the dashboard, a specialized toolbar appears above it, providing tools specifically designed for table management. This toolbar extends the functionality of the general toolbar with additional features tailored for efficient table interaction. Below is a summary of its key components:
 
-### **Exporting the Table**
+- **Export Table**: Export the selected table's data as an Excel file. Click the **Export** button, confirm in the popup, and download the file.
+
+- **Save Changes**: Save any modifications made to the table directly to the database by clicking the **Save** button.
+
+- **Formatting Options**: Customize the appearance of table data using various formatting styles, such as currency, percentages, or date formats. Access these options via the **Format Values** menu.
+
+- **Suppress Zero Values**: Hide zero values in the table to declutter the view. Use the **Suppress Zero Values** button to configure and apply this setting.
+
+- **Forecast Feature**: Predict future trends based on historical data. Click the **Forecast** button to configure forecast parameters, preview results, and apply predictions to the table.
+
+This toolbar streamlines table management, enabling you to perform essential tasks efficiently and effectively.
+
+---
+
+### **Exporting Table Data**
+
+To export table data as an Excel file, follow these steps:
 
 1. **Select the Table**  
-    Click on the table you want to export. This action will display a dedicated toolbar at the top of the dashboard.
+    Click on the table you want to export. This will activate the table-specific toolbar at the top of the dashboard.
 
 2. **Click the Export Button**  
-    Locate and click the **Export** button (1) in the toolbar.
+    In the toolbar, click the **Export** button (1).
 
-    !!! example "Export Table"
-        <iframe frameborder="0" style="width:100%;height:695px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BToolbar%20-3%5D.drawio&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D10Eyxd-FfYAldUad-lfjK3TznTz6xIncM%26export%3Ddownload" allowtransparency="true"></iframe>
+    !!! example "Export Button"
+         <iframe frameborder="0" style="width:100%;height:695px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BToolbar%20-3%5D.drawio&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D10Eyxd-FfYAldUad-lfjK3TznTz6xIncM%26export%3Ddownload" allowtransparency="true"></iframe>
 
-3. **Confirm Export in the Popup**  
-    A popup window will appear. Click the **Export** button in the popup to initiate the download.
+3. **Confirm Export**  
+    A confirmation popup will appear. Click **Export** to proceed.
 
-    !!! example "Export Popup"
-        <iframe frameborder="0" style="width:100%;height:682px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BToolbar%20-3%5D.drawio&page-id=o_zgBZxfkIXMUDMTURjf&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D10Eyxd-FfYAldUad-lfjK3TznTz6xIncM%26export%3Ddownload" allowtransparency="true"></iframe> 
+    !!! example "Export Confirmation"
+         <iframe frameborder="0" style="width:100%;height:682px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BToolbar%20-3%5D.drawio&page-id=o_zgBZxfkIXMUDMTURjf&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D10Eyxd-FfYAldUad-lfjK3TznTz6xIncM%26export%3Ddownload" allowtransparency="true"></iframe>
 
-4. **Download the Excel File**  
-    The table data will be exported and downloaded as an Excel file to your device.
+4. **Download the File**  
+    The table data will be downloaded as an Excel file to your device.
+
+---
 
 ### **Saving Table Changes**
 
-If you make changes to the table, and want to save them to the database, use the **Save** button (1). This action saves all changes made to the table, ensuring that your updates are stored in the database.
+!!! warning inline end "Saving changes is irreversible. Verify your updates before proceeding."
 
-!!! example "Save Table Changes"
+To save modifications made to a table directly to the database, click the **Save** button (1) in the toolbar. This ensures all updates are securely stored and reflected in the database.
+
+!!! example "Save Table Changes Button"
     <iframe frameborder="0" style="width:100%;height:546px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BToolbar%20-3%5D.drawio&page-id=8u7oTcfGFOPL-_yAJtgI&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D10Eyxd-FfYAldUad-lfjK3TznTz6xIncM%26export%3Ddownload" allowtransparency="true"></iframe>
 
-### **Formating Options**
+---
+
+### **Formatting Options**
 
 You can apply different formatting styles to the data in tables or charts to improve readability or match reporting standards.
 
@@ -131,98 +160,120 @@ You can apply different formatting styles to the data in tables or charts to imp
 | **Navigate with Minus Sign** | Shows negative values with a minus.                                 | `-12345.67`         |
 | **Use Database Format**   | Keeps the original format from the database.      
 
+---
 
 ### **Suppress Zero Values**
 
-When working with large datasets, zero values can clutter the table and make it difficult to focus on relevant data. The **Suppress Zero Values** feature allows you to hide these zero values, making your table cleaner and easier to read.
+The **Suppress Zero Values** feature helps declutter tables by hiding zero values, making it easier to focus on meaningful data. Follow these steps to use this feature:
 
-To hide zero values in the table, follow these steps:
+1. **Activate the Feature**  
+    Click the **Suppress Zero Values** button (2) in the toolbar.
 
-1. **Click the Suppress Zero Values Button**  
-    Locate and click the **Suppress Zero Values** button (2) in the toolbar.
-    !!! example "Suppress Zero Values"
-        <iframe frameborder="0" style="width:100%;height:687px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BToolbar%20-3%5D.drawio&page-id=_CQhRC50bOCk7GyaA_Hd&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D10Eyxd-FfYAldUad-lfjK3TznTz6xIncM%26export%3Ddownload" allowtransparency="true"></iframe>
+    !!! example "Suppress Zero Values Button"
+         <iframe frameborder="0" style="width:100%;height:687px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BToolbar%20-3%5D.drawio&page-id=_CQhRC50bOCk7GyaA_Hd&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D10Eyxd-FfYAldUad-lfjK3TznTz6xIncM%26export%3Ddownload" allowtransparency="true"></iframe>
 
-2. **Select Rows or Columns**  
-    A list of checkboxes will appear. Choose whether to suppress rows, columns, or both by selecting the appropriate checkboxes.
+2. **Choose Suppression Scope**  
+    Select whether to suppress zero values in rows, columns, or both by using the checkboxes provided.
 
 3. **Apply Changes**  
-    Click the **Apply** button to confirm your selection. The table will update to hide the zero values, allowing you to focus on relevant data.
+    Click **Apply** to confirm your selection. The table will refresh, hiding all zero values and presenting a cleaner view of the data.
 
 ### **Forecast Feature**
 
-The **Forecast** feature allows you to predict future values based on historical data. This is particularly useful for trend analysis and making informed decisions.
+The Forecast feature enables you to predict future values based on historical data, making it a valuable tool for trend analysis and informed decision-making. This feature is accessible in the table toolbar when a table is selected.
 
-This feature is available in the table toolbar when a table is selected. To use the forecast feature, follow these steps:
+!!! success "The forecast feature uses advanced algorithms to analyze historical data and generate predictions. It can be particularly useful for sales forecasting, inventory management, and financial planning."
+
+**Steps to Use the Forecast Feature**
 
 1. **Select the Table Row**  
-    Click on the table row you want to forecast. you can select multiple rows if needed.
-2. **Click the Forecast Button**
-    Locate and click the **Forecast** button (1) in the toolbar.
+    Choose the table row(s) you want to forecast by clicking on them. Ensure the row(s) contain sufficient historical data for accurate predictions.
+
+2. **Click the Forecast Button**  
+    Locate and click the **Forecast** button(1) in the toolbar.
 
     !!! example "Forecast Button"
         <iframe frameborder="0" style="width:100%;height:364px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BForcast%5B.drawio&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1cG7__R6ao7DwsJiMJ7L_BoX3pnhc143u%26export%3Ddownload" allowtransparency="true"></iframe>
 
-3. **Setup the Forecast**  
-    A sidebar will appear with options to set up the forecast. this sidebar includes 2 tabs:
-    1. **Setup**: This tab (2) includes options to setup the forecast start and end period.
-        
-        !!! example "Setup Tab"
-            <iframe frameborder="0" style="width:100%;height:505px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BForcast%5B.drawio&page-id=4pKkokPlCErSWmAga1K0&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1cG7__R6ao7DwsJiMJ7L_BoX3pnhc143u%26export%3Ddownload" allowtransparency="true"></iframe>
+3. **Configure the Forecast**  
+    A sidebar will appear with two tabs for configuration:
 
-        - **Forecast Period Start**: Select the start period for the forecast. This is the point in time from which the forecast will begin. To choose click on the drop down menu snd choose the month you want to start the forecast from.
-        - **Forecast Period End**: Select the end period for the forecast. This is the point in time at which the forecast will end. To choose click on the drop down menu snd choose the month you want to end the forecast from.
-        - **Save Statistics details as Comments**: This checkbox allows you to save the forecast statistics as comments in the table. This is useful for keeping track of the forecast details and sharing them with others.
+    1. **Setup Tab:** Use this tab when you want to configure basic forecast settings, [learn more](#forecast-configuration-options).
+   2. **Advanced Tab:** Use this tab when you want to configure advanced forecast settings. [learn more](#forecast-configuration-options).
 
-    2. **Advanced**: This tab (3) includes advanced options for the forecast, such as the forecast interval, seasonality and more.
-
-        !!! example "Advanced Tab"
-            <iframe frameborder="0" style="width:100%;height:469px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BForcast%5B.drawio&page-id=uZCD331ZyfirCTKKHkwX&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1cG7__R6ao7DwsJiMJ7L_BoX3pnhc143u%26export%3Ddownload" allowtransparency="true"></iframe>
-        - **Seasonality**: If turned on, the forecast will take into account the seasonality of the data. This is useful for data that has a seasonal pattern, such as sales data that peaks during certain times of the year.
-        !!! tip inline end "For a better forecast, it is recommended to use the entire dataset."
-        - **Scope of Historical Data Used**: This option allows you to choose the scope of historical data used for the forecast. You can choose whether to forecast based on the entire dataset (Use historical data in Cube) or only the selected data (Use historical data in the exploration).
-
-        !!! tip inline end "For a better forecast, it is recommended to use a confidence interval of 95%."        
-        - **Confidence Interval**: This option allows you to set the confidence interval for the forecast. The confidence interval is a range of values that is likely to contain the true value of the forecast. A higher confidence interval means a wider range of values, while a lower confidence interval means a narrower range of values.
-
-        !!! tip inline end "For a better forecast, it is recommended to turn on the adjust outliers option."
-        - **Adjust Outliers**: When turned on, the forecast will adjust for outliers in the data. This is useful for data that has extreme values that may skew the forecast.
-
-        - **Ignore Historical Time Period**: This option allows you to ignore a specific historical time period when generating the forecast. This is useful for data that has a known issue during a specific time period, such as a data entry error or a system outage. to add a period, click on "Select" then choose whether to ignore After or individual periods. then choose the period you want to ignore.
-        Ignoring After means that the forecast will ignore all data after the selected period, while ignoring individual periods means that you can select specific periods to ignore.
-        - **Spread Forecast Values**: This option allows you to spread the forecast values across the selected periods. This is useful for data that has a known pattern, such as sales data that peaks during certain times of the year. By default its set to Relative Proportional (seasonality).
-        - **Where to save the predicted values**: This option allows you to choose where to save the predicted values. Be cautious when dealing with this option.
-           - **Select Dimension**: Choose from the drop down menu the dimension you want to save the predicted values to.
-           - **Select Hirarchy**: Choose from the drop down menu the hierarchy you want to save the predicted values to.
-           - **Select Member**: Choose from the drop down menu the member you want to save the predicted values to.
-           - **Select Member to Save Upper-bound**: Choose from the drop down menu the member you want to save the upper-bound values to.
-           - **Select Member to Save Lower-bound**: Choose from the drop down menu the member you want to save the lower-bound values to.
-    
 4. **Preview the Forecast**  
+    Click the **Preview** button (4) to review the forecast before applying it. The preview includes:
 
-    !!! success inline end "It's always recommended to preview the forecast before applying it."
-
-    After setting up the forecast, Whether you are in the setup or advanced tab, click the **Preview** button (4) to see a preview of the forecast. This will show you how the forecast will look based on your selected options.
-
-    !!! example "Preview Forecast Button"
+    !!! example "Forecast Preview Button"
         <iframe frameborder="0" style="width:100%;height:482px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BForcast%5B.drawio&page-id=VC-0nwEGBWG6_javhfxL&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1cG7__R6ao7DwsJiMJ7L_BoX3pnhc143u%26export%3Ddownload" allowtransparency="true"></iframe>
 
-    The forecast preview popup contains the following components:
+    - **Forecast Chart (A)**: Visual representation of historical data, corrected outliers, and forecasted values.
+    - **Statistical Details (B)**: Information about forecast accuracy, model trends, seasonality, and more.
 
-    -  **Preview Chart**: click on the preview chart tab (A) to view the forecast chart. which repesete the historical and corrected outliers and forecast also the conficnace reang 
+        !!! example "Statistical Details Tab"
+            <iframe frameborder="0" style="width:100%;height:552px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BForcast%5B.drawio&page-id=zPx1BQ36yC755oUH0Oh0&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1cG7__R6ao7DwsJiMJ7L_BoX3pnhc143u%26export%3Ddownload" allowtransparency="true"></iframe>
 
-    - **Statistcal details**: click on the statistical details tab (B) to view the forecast statistics. which includes more detaisl a, like the accuracty of the forecase , and statsstl model just model selected , trend , seadsllaty , model influncerrs , and more.
-        
-    !!! example "Statistical Details Tab"
-        <iframe frameborder="0" style="width:100%;height:552px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BForcast%5B.drawio&page-id=zPx1BQ36yC755oUH0Oh0&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1cG7__R6ao7DwsJiMJ7L_BoX3pnhc143u%26export%3Ddownload" allowtransparency="true"></iframe>
-     
+    - **Row Selection (C)**: Choose rows to visualize in the preview.
+    - **Predictive Accuracy (D)**: Evaluate the reliability of the forecast.
+    !!! example "Preview Forecast"
+        <iframe frameborder="0" style="width:100%;height:574px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BForcast%5B.drawio&page-id=93g5lJpQqaHmquPOvFbD&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1cG7__R6ao7DwsJiMJ7L_BoX3pnhc143u%26export%3Ddownload" allowtransparency="true"></iframe>
+
     !!! danger "Preview Limitation"
-        If the historical data is insufficient, the forecast preview may not be available. Ensure you have enough historical data to generate a meaningful forecast.
-    - **Row Selection**: The row selection (C) allows you to select the rows you want to visualize in the preview chart. 
-    - **Predictive Accuracy**: The predictive accuracy (D) shows the accuracy of the forecast based on the selected options. This is useful for evaluating the reliability of the forecast.
+         Insufficient historical data may prevent the forecast preview from being generated. Ensure adequate data is available.
+
 5. **Apply the Forecast**  
-    After previewing the forecast and ensuring it meets your requirements, click the **Forecast** button (5) to apply the forecast to the selected table row. The forecasted values will be added to the table, and you can save them as needed.
-    !!! example "Apply Forecast Button"
+
+    Once satisfied with the preview, click the **Forecast** button to apply the forecast to the selected table row(s). The forecasted values will be added to the table.
+
+    !!! example "Forecast Application"
         <iframe frameborder="0" style="width:100%;height:482px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BForcast%5B.drawio&page-id=3FuKQrrFKeUzR3cwInOb&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1cG7__R6ao7DwsJiMJ7L_BoX3pnhc143u%26export%3Ddownload" allowtransparency="true"></iframe>
-    !!! warning "It may take a few minutes to apply the forecast."
-        Depending on the size of the dataset and the complexity of the forecast, it may take some time to apply the forecast. Be patient and allow the system to process the data.
+
+!!! Info  "Forecast durtation may vary based on data size and complexity. Be patient while the forecast is generated."
+
+---
+
+#### **Forecast Configuration Options**
+
+##### **Basic Setup**
+
+When you click the **Forecast** button, a sidebar will appear with two tabs: **Setup** and **Advanced**. The **Setup** tab allows you to configure basic forecast settings.
+
+!!! example "Forecast Setup Tab"
+    <iframe frameborder="0" style="width:100%;height:505px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BForcast%5B.drawio&page-id=4pKkokPlCErSWmAga1K0&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1cG7__R6ao7DwsJiMJ7L_BoX3pnhc143u%26export%3Ddownload" allowtransparency="true"></iframe>
+
+**Setup Tab Options**
+
+- **Forecast Period Start**: Select the start period for the forecast using a dropdown menu.
+- **Forecast Period End**: Select the end period for the forecast using a dropdown menu.
+- **Save Statistics as Comments**: Optionally save forecast statistics as comments in the table.
+
+##### **Advanced Setup**
+
+!!! example "Forecast Advanced Tab"
+    <iframe frameborder="0" style="width:100%;height:469px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BForcast%5B.drawio&page-id=uZCD331ZyfirCTKKHkwX&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1cG7__R6ao7DwsJiMJ7L_BoX3pnhc143u%26export%3Ddownload" allowtransparency="true"></iframe>
+
+In the **Advanced** tab, you can fine-tune the forecast with additional options:
+
+- **Seasonality**: If turned on, the forecast will take into account the seasonality of the data. This is useful for data that has a seasonal pattern, such as sales data that peaks during certain times of the year.
+
+!!! tip "For a better forecast, it is recommended to use the entire dataset."
+
+- **Scope of Historical Data**: Choose between using the entire dataset or only selected data for the forecast. This allows you to focus on specific time periods or data points.
+
+!!! tip "For a better forecast, it is recommended to use a confidence interval of 95%."
+
+- **Confidence Interval**: Set the confidence interval for the forecast. A higher confidence interval means that you are more certain about the forecasted values, but it may also result in a wider range of predicted values.
+
+- **Adjust Outliers**: Enable this option to handle extreme values in the data. This can help improve the accuracy of the forecast by reducing the impact of outliers.
+
+- **Ignore Historical Time Period**: Exclude specific time periods from the forecast. This is useful if you know that certain periods are not representative of future trends.
+
+- **Spread Forecast Values**: Distribute forecast values proportionally across periods. This can help ensure that the forecasted values are more evenly distributed over time.
+
+- **Save Predicted Values**: Specify where to save forecasted values, including upper and lower bounds.
+
+
+
+
+
+
