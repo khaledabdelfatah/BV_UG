@@ -5,6 +5,7 @@ nav:
     - Home: index.md
     - Getting Started: ./getting_started.md
     - Navigating the Dashboard: ./navigating_dashboard.md
+    - Dashboard Toolbar: ./dashboard_toolbar.md
   - Dashboard:
     - JE Anomalies: 
       - JE Anomalies: usecases/je_anomalies/index.md

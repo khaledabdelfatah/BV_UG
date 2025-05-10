@@ -63,24 +63,3 @@ Follow these steps to define and create a correlation group:
     <iframe src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%204.drawio&page-id=pnaxDQNCOnDq4f7hcBOd&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1_OfaDPzOM6kqujgmEcdTFvcsNgRN2-HO%26export%3Ddownload" width="100%" height="500px"></iframe>
 
 ---
-
-### Supported Segments (Nine Segments)
-
-The correlation group supports analysis based on the following business segments:
-
-- **Company**
-- **Function**
-- **Account**
-- **Product**
-- **Project**
-- **Network**
-- **Customer**
-- **Function Group**
-- **Account Group**
-
-These segments provide multi-dimensional flexibility when analyzing financial and operational trends using correlation methods.
-
----
-
-
-

@@ -6,9 +6,9 @@ The **Correlation Analysis** tab provides an interactive visualization of the co
 
 ### **Refreshing the Charts**
 
-If you notice any discrepancies in the charts, you can check the **Refreshed Date** (1), which indicates the last time the charts were updated. If the charts are not up to date, click the **Refresh** button (2) to update them with the latest data.
+If you notice any discrepancies in the charts, you can check the **Refreshed Date** (1), which indicates the last time the charts were updated. If the charts are not up to date, click the **Update** button (2) to update them with the latest data.
 
-!!! example "Refresh Button"
+!!! example "Update Button"
     <iframe src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%206.drawio&page-id=M5waSRnalozmSin6oidk&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1hePnM4_D-P9sU-vTy77Q_inod1ZxyEh4%26export%3Ddownload" width="100%" height="400" style="border: none;"></iframe>
 
 ---
