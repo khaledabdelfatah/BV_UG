@@ -281,7 +281,7 @@ The **Show / Hide Overview** button (1) enables you to toggle the visibility of 
     <iframe frameborder="0" style="width:100%;height:1231px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Advanced%20Payments.drawio&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1BCh7WuihrrMysr7j9V05zk8p6AI6JoJQ%26export%3Ddownload" allowtransparency="true"></iframe>
 
 
-#### **How to Use:**
+**How to Use:**
 
 1. **Toggle Visibility**  
     Click the **Show / Hide Overview** button (1) to switch the current state of the overview header:
@@ -292,6 +292,26 @@ The **Show / Hide Overview** button (1) enables you to toggle the visibility of 
     <iframe frameborder="0" style="width:100%;height:891px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Advanced%20Payments.drawio&page-id=zdHjKNJQwNgUo0kU2JWs&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1BCh7WuihrrMysr7j9V05zk8p6AI6JoJQ%26export%3Ddownload" allowtransparency="true"></iframe>
 
 This feature allows you to customize your workspace by showing or hiding column details as needed, improving focus and reducing clutter.
+
+### **View Table in Full Screen**
+
+The **View Table in Full Screen** feature enhances your ability to analyze data by expanding the selected table to occupy the entire screen, providing an unobstructed and immersive view.
+
+!!! example "View Table in Full Screen"
+    <iframe frameborder="0" style="width:100%;height:523px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BToolbar%20-3%5D.drawio&page-id=8FoPdVv-Ca9da66Ln_zI&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D10Eyxd-FfYAldUad-lfjK3TznTz6xIncM%26export%3Ddownload" allowtransparency="true"></iframe>
+
+#### **How to Use:**
+
+1. **Select the Desired Table**  
+    Click on the table you wish to view in full-screen mode. This action activates the table-specific toolbar.
+
+2. **Activate Full-Screen Mode**  
+    Locate and click the **View Table in Full Screen** button (1) in the top-right corner of the table. The table will expand to fill the entire screen, allowing for detailed analysis without distractions.
+
+3. **Exit Full-Screen Mode**  
+    To return to the standard view, press the **ESC** key on your keyboard or click the **Exit Full Screen** button, which appears in the top-right corner of the screen during full-screen mode.
+
+This functionality is particularly useful for reviewing large datasets or presenting data in meetings, ensuring clarity and focus.
 
 
 
