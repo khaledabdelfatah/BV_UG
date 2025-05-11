@@ -49,3 +49,36 @@ The **Prepayment Details** section (1) of the Advanced Payments Dashboard provid
 
 !!! Question "Why are some values highlighted in red in the Days Since Invoice and Days Since Receipt columns?"
     Red highlights in the **Days Since Invoice** and **Days Since Receipt** columns signify values that exceed predefined thresholds. These visual cues help users quickly identify prepayments requiring further investigation or immediate attention.
+
+### **Drill Through Functionality**
+
+The dashboard includes **Drill Through** features that enable users to explore detailed data related to specific prepayments. By selecting a prepayment or prepayment PO in the **Prepayment Details** table, users can access associated records such as applied invoices or receipts.
+
+#### **Prepayment Number → Applied Invoices**
+
+To view the invoices applied to a specific prepayment:
+
+1. In the **Prepayment Details** table, click on the desired **Prepayment Number**.
+2. A contextual pop-up will appear.
+3. Select the **Drill Through** option.
+4. Click **Applied Invoices** to view a detailed list of invoices linked to the selected prepayment.
+
+This allows users to track how prepayments have been allocated to supplier invoices and review corresponding financial records.
+
+!!! example "Applied Invoices"
+    <iframe frameborder="0" style="width:100%;height:1033px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Advanced%20Payment.drawio&page-id=SlNc7qvbLCX3ifQdFVGB&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1vrFzIeC_EkLPfqy77hd095CaFCyWvN5s%26export%3Ddownload" allowtransparency="true"></iframe>
+
+#### **Prepayment PO → Applied Receipts**
+
+To view the receipts associated with a specific **Prepayment PO**:
+
+1. In the **Prepayment Details** table, click on the relevant **Prepayment PO** number.
+2. A contextual pop-up will appear.
+3. Choose the **Drill Through** option.
+4. Click **Applied Receipts** to view the receipt records linked to that prepayment PO.
+
+This view helps validate whether the goods or services related to a prepayment PO were received as expected.
+
+!!! example "Applied Receipts"
+    <iframe frameborder="0" style="width:100%;height:603px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Advanced%20Payment.drawio&page-id=9onJPyvQC6vouHnhAQi5&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1vrFzIeC_EkLPfqy77hd095CaFCyWvN5s%26export%3Ddownload" allowtransparency="true"></iframe>
+

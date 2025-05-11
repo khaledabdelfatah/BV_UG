@@ -1,25 +1,33 @@
-# Advanced Payments
+# **Advanced Payments**
 
-The **Advanced Payments Dashboard** offers a comprehensive view of General Ledger (GL) balances against prepayments. It is a valuable tool for financial analysts and accounts payable teams, enabling efficient tracking and management of supplier advances, prepayment balances, and outstanding application statuses over time.
+The **Advanced Payments Dashboard** provides a centralized and insightful view of General Ledger (GL) accounts versus prepayment activity. Designed for finance teams and business analysts, this dashboard streamlines the monitoring, reconciliation, and investigation of supplier advances and outstanding balances.
 
 ## Key Features
 
-- **Aging Analysis**: Monitor the aging of supplier prepayments to identify overdue or long-standing balances.
-- **GL Reconciliation**: Compare prepayment balances against GL records to ensure accuracy and consistency.
-- **Issue Identification**: Detect and investigate unapplied or partially applied prepayments.
-- **Financial Planning Support**: Facilitate decision-making for financial reconciliation and cash flow management.
+- Track the aging of supplier prepayments to identify long-standing or overdue balances.
+- Compare prepayment balances against General Ledger entries to ensure data consistency and accuracy.
+- Identify unapplied or partially applied prepayments requiring action or investigation.
+- Support strategic decisions related to cash flow and supplier payment reconciliation.
 
 ## Summary Visualizations
 
-The dashboard includes a set of high-level visualizations to provide actionable insights:
+The dashboard offers intuitive visual representations that help users interpret data quickly and effectively:
 
-1. **GL vs. Prepayment Balances**:
-    - Bar charts illustrate the relationship between GL balances and supplier prepayments.
-    - Two separate charts represent different accounts: **18220** and **18246**.
-    - Quickly identify discrepancies or inconsistencies in financial records.
 
-2. **Annual Trends**:
-    - A line chart highlights year-over-year changes in prepayment balances.
-    - This trend analysis aids in strategic planning and identifies periods of increased financial activity or delays in application.
+### 1. **GL vs. Prepayment Balances**
 
-These visualizations empower stakeholders to detect anomalies, monitor financial performance, and prioritize reconciliation efforts effectively.
+- Two bar charts show the relationship between GL balances and corresponding prepayments.
+    - Separate views are provided for:
+        - **GL Account 18220**
+        - **GL Account 18246**
+- These comparisons help users detect mismatches or unusual variances in financial postings.
+
+### 2. **Prepayment Balance by Year**
+
+- A line chart visualizes the yearly evolution of total prepayment balances.
+- Users can easily identify trends, such as:
+    - Growth in outstanding prepayments
+    - Delays in invoice applications
+    - Shifts in supplier payment behavior over time
+
+!!! info "You can find the last update timestamp at the top right corner of the dashboard. The dashboard refreshes automatically on a daily basis."
