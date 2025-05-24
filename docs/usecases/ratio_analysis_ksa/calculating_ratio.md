@@ -1,0 +1,96 @@
+# **Calculating a Ratio**
+
+The **Calculate a Ratio** tab allows users to define and compute custom financial ratios in real time. Users can select existing ratio items, combine them using arithmetic operators, and instantly view the results. This interface supports building, validating, and analyzing complex ratio formulas interactively.
+
+## Purpose
+
+- Create and customize financial ratios by combining multiple items.
+- Define arithmetic operations between ratio items.
+- Preview and validate ratio formulas before calculation.
+- Analyze financial performance across different time periods.
+
+---
+
+## **Available Actions**
+
+### Creating a New Ratio Item
+
+To create a new ratio item:
+
+1. Enter the desired ratio item name in the **Ratio Item** field (1).
+2. Click the **Insert New Ratio** button (2). This action adds a new row to the table below, allowing you to define the financial ratio equation for the new item.
+
+!!! example "Creating a New Ratio Item"
+    <iframe frameborder="0" style="width:100%;height:773px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=ratio_analysis_ksa.drawio&page-id=-m8zmtbr_6qzTahKUsii&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1hKgOcEDgKFqvXKH_T1YuvhA6f-4lwTjP%26export%3Ddownload"></iframe>
+
+### Defining the Ratio Equation
+
+1. **Ratio Item**: Select the ratio item from the dropdown list to include in your equation. You can select up to five ratio items per equation.
+2. **Operation**: Choose the arithmetic operation from the dropdown list. Supported operations include:
+   - **Addition (+)**
+   - **Subtraction (-)**
+   - **Multiplication (*)**
+   - **Division (/)**
+   - **(**, **+(**, **-(**, ***(**, **/(** (for grouping and advanced expressions)
+
+You can combine multiple operations to construct complex equations.
+
+After defining the equation, click the **Calculate** button (3) to compute the ratio. The resulting equation will be displayed in the ratio equation field.
+
+!!! example "Calculate Button"
+    <iframe frameborder="0" style="width:100%;height:419px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=ratio_analysis_ksa.drawio&page-id=JLmPp2h9JJx6Mi7vKg4U&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1hKgOcEDgKFqvXKH_T1YuvhA6f-4lwTjP%26export%3Ddownload"></iframe>
+
+### **Deleting a Ratio Item**
+
+To delete a ratio item:
+
+1. Enter the name of the ratio item you want to remove in the **Ratio Item** field (1).
+2. Click the **Delete** button (2).
+
+The selected ratio item will be permanently removed from the list. Ensure you have selected the correct item, as this action cannot be undone.
+
+!!! example "Deleting a Ratio Item"
+    <iframe frameborder="0" style="width:100%;height:979px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=ratio_analysis_ksa.drawio&page-id=zHkImCiCzPTUo3z-WZo0&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1hKgOcEDgKFqvXKH_T1YuvhA6f-4lwTjP%26export%3Ddownload" allowtransparency="true"></iframe>
+
+### **Publishing the Ratio**
+
+Only Admin users can publish a calculated ratio. Publishing makes the ratio available to all users across the organization and enables its use in the Shared Ratio Visualization tab.
+
+To publish a ratio:
+
+1. In the Publish column (1) next to the calculated ratio, click the dropdown:
+   - Select Publish to make the ratio available for all users.
+   - Select None if you do not want the ratio to be published.
+2. Click the Publish button (2) to finalize the process.
+
+!!! example "Publishing the Ratio"
+    <iframe frameborder="0" style="width:100%;height:686px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=ratio_analysis_ksa.drawio&page-id=HxmOd92xwddiCB2fCV1s&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1hKgOcEDgKFqvXKH_T1YuvhA6f-4lwTjP%26export%3Ddownload" allowtransparency="true"></iframe>
+
+---
+
+## **Validating Numbers**
+
+Before and after calculating a ratio, it’s important to validate the underlying data to ensure accuracy and reliability.
+
+!!! example "Validating Numbers"
+    <iframe frameborder="0" style="width:100%;height:1071px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=ratio_analysis_ksa.drawio&page-id=x4FzhmaESt6CFqvuNsAR&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1hKgOcEDgKFqvXKH_T1YuvhA6f-4lwTjP%26export%3Ddownload" allowtransparency="true"></iframe>
+
+1. Pre-Calculation Validation
+Use the Balance Table (1) to verify the raw financial figures used in the ratio formula:
+
+Review each Ratio Item (e.g., CURRENT ASSETS, ERP) and its corresponding Balance.
+
+Ensure the data aligns with your expectations and source records.
+
+This step helps catch anomalies or incorrect data before calculation.
+
+2. Post-Calculation Validation
+After running the calculation, use the Calculated Ratio Table (2) to confirm the output:
+
+View the final Ratio results for the selected period.
+
+Ensure the logic and results reflect the intended formula and input values.
+
+This two-step validation process helps maintain confidence in your ratio analysis and ensures the results are trustworthy for decision-making.
+
+

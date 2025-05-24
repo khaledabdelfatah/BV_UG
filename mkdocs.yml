@@ -27,6 +27,15 @@ nav:
       - Creating Correlation Chart: usecases/trend_correlation_analysis/create_correlation_chart.md
       - Personal Correlation Analysis: usecases/trend_correlation_analysis/personal_correlation_analysis.md
       - Shared Correlation Analysis: usecases/trend_correlation_analysis/shared_correlation_analysis.md
+    - Ratio Analysis (KSA):
+      - Ratio Analysis (KSA): usecases/ratio_analysis_ksa/index.md
+      - Creating Ratio Item: usecases/ratio_analysis_ksa/create_ratio_item.md
+      - Calculating Ratio: usecases/ratio_analysis_ksa/calculating_ratio.md
+      - Personal Ratio Visualization: usecases/ratio_analysis_ksa/personal_ratio_visualization.md
+      - Shared Ratio Visualization: usecases/ratio_analysis_ksa/shared_ratio_visualization.md
+
+
+
 theme:
   # Language of the documentation (en: English)
   language: en
