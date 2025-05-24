@@ -14,7 +14,7 @@
       
       
       <link rel="icon" href="../assets/logo.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.13">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
     
     
       
@@ -376,6 +376,8 @@
       
         
       
+        
+      
     
     
     
@@ -700,6 +702,66 @@
   <a href="#usecases-trend_correlation_analysis-shared_correlation_analysis" class="md-nav__link">
     <span class="md-ellipsis">
       2.4.5 Shared Correlation Analysis
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-2-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.5 Ratio Analysis (KSA)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.5 Ratio Analysis (KSA)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#usecases-ratio_analysis_ksa" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.5.1 Ratio Analysis (KSA)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usecases-ratio_analysis_ksa-create_ratio_item" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.5.2 Creating Ratio Item
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usecases-ratio_analysis_ksa-calculating_ratio" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.5.3 Calculating Ratio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usecases-ratio_analysis_ksa-personal_ratio_visualization" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.5.4 Personal Ratio Visualization
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usecases-ratio_analysis_ksa-shared_ratio_visualization" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.5.5 Shared Ratio Visualization
     </span>
   </a>
   
@@ -2494,7 +2556,269 @@
 <p>Shows the percentage change from one month to the next—useful for evaluating relative growth or decline.</p>
 <p>These charts are visually synchronized, making it easier to spot patterns and draw conclusions.</p>
 <h2 id="usecases-trend_correlation_analysis-shared_correlation_analysis-data-table"><strong>Data Table</strong></h2>
-<p>Beneath the charts is a detailed data table showing the actual values behind each line in the charts. You can compare monthly figures side by side for each metric in the chart.</p></section></section></section></div><style>.print-site-enumerate-headings #section-1 > h1:before { content: '1 ' }
+<p>Beneath the charts is a detailed data table showing the actual values behind each line in the charts. You can compare monthly figures side by side for each metric in the chart.</p></section></section>
+                    <section class='print-page md-section' id='section-2-5' heading-number='2.5'>
+                        <h1>Ratio Analysis (KSA)<a class='headerlink' href='#section-2-5' title='Permanent link'></a>
+                        </h1>
+                    <section class="print-page" id="usecases-ratio_analysis_ksa" heading-number="2.5.1"><h1 id="usecases-ratio_analysis_ksa-ration-analysis-ksa"><strong>Ration Analysis KSA</strong></h1>
+<h2 id="usecases-ratio_analysis_ksa-overview"><strong>Overview</strong></h2>
+<p>The <strong>Ratio Analysis KSA</strong> dashboard is designed to provide a comprehensive overview of key financial ratios for the Kingdom of Saudi Arabia (KSA). This dashboard is particularly useful for financial analysts, accountants, and decision-makers who need to assess the financial health and performance of organizations operating in KSA.
+It offers a detailed analysis of various financial ratios, enabling users to make informed decisions based on the financial data presented.</p>
+<p>Main features include:
+- Create Ratio Item
+- Calculate a ratio
+- Personal Ratio Visualization
+- Share Ratio Visualization</p></section><section class="print-page" id="usecases-ratio_analysis_ksa-create_ratio_item" heading-number="2.5.2"><h1 id="usecases-ratio_analysis_ksa-create_ratio_item-creating-ratio-item"><strong>Creating Ratio Item</strong></h1>
+<h2 id="usecases-ratio_analysis_ksa-create_ratio_item-use-case-creating-a-ratio-item">Use Case: Creating a Ratio Item</h2>
+<p>This table describes all available columns when configuring a ratio item in the Ratio Analysis module.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Column Name</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Serial Number</strong></td>
+<td>A unique, incremental identifier for each ratio item. Used to maintain the order of items.</td>
+</tr>
+<tr>
+<td><strong>Ratio Item</strong></td>
+<td>A descriptive label for the ratio line. It appears in correlation visualizations and reports.</td>
+</tr>
+<tr>
+<td><strong>Numeric</strong></td>
+<td>When the ratio item is only a static numeric value. this column indicates the numeric value directly.</td>
+</tr>
+<tr>
+<td><strong>Exclude</strong></td>
+<td>Marks the ratio item as temporarily inactive in the analysis. Useful for testing or iteration without deletion.</td>
+</tr>
+<tr>
+<td><strong>Negate</strong></td>
+<td>Applies a negative sign to the value of the item. Commonly used when reversing values for comparative analysis.</td>
+</tr>
+<tr>
+<td><strong>Income Statement</strong></td>
+<td>The income statement classification related to this ratio item.</td>
+</tr>
+<tr>
+<td><strong>Balance Sheet</strong></td>
+<td>The balance sheet where this ratio item is classified.</td>
+</tr>
+<tr>
+<td><strong>GS Group</strong></td>
+<td>The Group Statement category that this ratio item belongs to.</td>
+</tr>
+<tr>
+<td><strong>FS Group</strong></td>
+<td>The Financial Statement grouping to categorize and report this item.</td>
+</tr>
+<tr>
+<td><strong>Company</strong></td>
+<td>Identifies the company entity associated with this ratio item.</td>
+</tr>
+<tr>
+<td><strong>Function</strong></td>
+<td>Indicates the business function (e.g., operations, marketing) related to the item.</td>
+</tr>
+<tr>
+<td><strong>Account</strong></td>
+<td>Specifies the general ledger account associated with the ratio item.</td>
+</tr>
+<tr>
+<td><strong>Period Type</strong></td>
+<td>Defines the reporting period type (e.g., YTD, monthly, quarterly) for this ratio.</td>
+</tr>
+<tr>
+<td><strong>Product</strong></td>
+<td>Identifies the product to which the ratio item is linked.</td>
+</tr>
+<tr>
+<td><strong>Project</strong></td>
+<td>Associates the ratio item with a specific project, if applicable.</td>
+</tr>
+<tr>
+<td><strong>Network</strong></td>
+<td>Indicates the relevant network element tied to the ratio item.</td>
+</tr>
+<tr>
+<td><strong>Customer</strong></td>
+<td>Specifies the customer related to this item, useful for customer-specific financial ratios.</td>
+</tr>
+<tr>
+<td><strong>Function Group</strong></td>
+<td>Categorizes the item into a broader function group for hierarchical analysis.</td>
+</tr>
+<tr>
+<td><strong>Account Group</strong></td>
+<td>Groups similar accounts together for consolidated reporting.</td>
+</tr>
+<tr>
+<td><strong>Product Group</strong></td>
+<td>Groups related products for more streamlined ratio reporting.</td>
+</tr>
+<tr>
+<td><strong>Balance Type</strong></td>
+<td>Defines how the balance is calculated or interpreted for the ratio item. Available options: <br><br> - <strong>Average Balance</strong>: Calculates the average between the opening and closing balances over a period.<br> - <strong>Opening Balance</strong>: Uses the starting balance at the beginning of the reporting period.<br> - <strong>Movement</strong>: Net change within the period (debits minus credits).<br> - <strong>YTD Balance</strong>: Aggregated balance from the start of the fiscal year up to the current period.</td>
+</tr>
+<tr>
+<td><strong>Used In Group Ratio</strong></td>
+<td>Indicates whether the ratio item is shared with other groups. Select <strong>Yes</strong> to enable sharing or <strong>No</strong> to keep it local.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="usecases-ratio_analysis_ksa-create_ratio_item-creating-a-new-ratio-item">Creating a New Ratio Item</h2>
+<p>To create a new ratio item, follow these steps:
+Insert the serial number in the <strong>Serial Number</strong> field.  This is a unique identifier for the ratio item.
+2. Enter the ratio item name in the <strong>Ratio Item</strong> field.  This is the name of the financial ratio you want to create.
+3. Fill in the remaining fields as needed to define the ratio item fully.
+4. Click on the "Create Ratio Item" button (1) to add a new row for the ratio item with the name you entered. Once you click on the button, the ration item will be created in the table , this might take 1-2 minutes to be created. once created and you can use it in the calculation of the ratio item.</p>
+<div class="admonition example">
+<p class="admonition-title">Create Ratio Item Button</p>
+<p><iframe frameborder="0" style="width:100%;height:357px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=ratio_analysis_ksa.drawio&page-id=pryP_8vYTykO-8-kc3v9&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1hKgOcEDgKFqvXKH_T1YuvhA6f-4lwTjP%26export%3Ddownload"></iframe></p>
+</div></section><section class="print-page" id="usecases-ratio_analysis_ksa-calculating_ratio" heading-number="2.5.3"><h1 id="usecases-ratio_analysis_ksa-calculating_ratio-calculating-a-ratio"><strong>Calculating a Ratio</strong></h1>
+<p>The <strong>Calculate a Ratio</strong> tab allows users to define and compute custom financial ratios in real time. Users can select existing ratio items, combine them using arithmetic operators, and instantly view the results. This interface supports building, validating, and analyzing complex ratio formulas interactively.</p>
+<h2 id="usecases-ratio_analysis_ksa-calculating_ratio-purpose">Purpose</h2>
+<ul>
+<li>Create and customize financial ratios by combining multiple items.</li>
+<li>Define arithmetic operations between ratio items.</li>
+<li>Preview and validate ratio formulas before calculation.</li>
+<li>Analyze financial performance across different time periods.</li>
+</ul>
+<hr />
+<h2 id="usecases-ratio_analysis_ksa-calculating_ratio-available-actions"><strong>Available Actions</strong></h2>
+<h3 id="usecases-ratio_analysis_ksa-calculating_ratio-creating-a-new-ratio-item">Creating a New Ratio Item</h3>
+<p>To create a new ratio item:</p>
+<ol>
+<li>Enter the desired ratio item name in the <strong>Ratio Item</strong> field (1).</li>
+<li>Click the <strong>Insert New Ratio</strong> button (2). This action adds a new row to the table below, allowing you to define the financial ratio equation for the new item.</li>
+</ol>
+<div class="admonition example">
+<p class="admonition-title">Creating a New Ratio Item</p>
+<p><iframe frameborder="0" style="width:100%;height:773px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=ratio_analysis_ksa.drawio&page-id=-m8zmtbr_6qzTahKUsii&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1hKgOcEDgKFqvXKH_T1YuvhA6f-4lwTjP%26export%3Ddownload"></iframe></p>
+</div>
+<h3 id="usecases-ratio_analysis_ksa-calculating_ratio-defining-the-ratio-equation">Defining the Ratio Equation</h3>
+<ol>
+<li><strong>Ratio Item</strong>: Select the ratio item from the dropdown list to include in your equation. You can select up to five ratio items per equation.</li>
+<li><strong>Operation</strong>: Choose the arithmetic operation from the dropdown list. Supported operations include:</li>
+<li><strong>Addition (+)</strong></li>
+<li><strong>Subtraction (-)</strong></li>
+<li><strong>Multiplication (*)</strong></li>
+<li><strong>Division (/)</strong></li>
+<li><strong>(</strong>, <strong>+(</strong>, <strong>-(</strong>, <strong><em>(</em>*, </strong>/(** (for grouping and advanced expressions)</li>
+</ol>
+<p>You can combine multiple operations to construct complex equations.</p>
+<p>After defining the equation, click the <strong>Calculate</strong> button (3) to compute the ratio. The resulting equation will be displayed in the ratio equation field.</p>
+<div class="admonition example">
+<p class="admonition-title">Calculate Button</p>
+<p><iframe frameborder="0" style="width:100%;height:419px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=ratio_analysis_ksa.drawio&page-id=JLmPp2h9JJx6Mi7vKg4U&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1hKgOcEDgKFqvXKH_T1YuvhA6f-4lwTjP%26export%3Ddownload"></iframe></p>
+</div>
+<h3 id="usecases-ratio_analysis_ksa-calculating_ratio-deleting-a-ratio-item"><strong>Deleting a Ratio Item</strong></h3>
+<p>To delete a ratio item:</p>
+<ol>
+<li>Enter the name of the ratio item you want to remove in the <strong>Ratio Item</strong> field (1).</li>
+<li>Click the <strong>Delete</strong> button (2).</li>
+</ol>
+<p>The selected ratio item will be permanently removed from the list. Ensure you have selected the correct item, as this action cannot be undone.</p>
+<div class="admonition example">
+<p class="admonition-title">Deleting a Ratio Item</p>
+<p><iframe frameborder="0" style="width:100%;height:979px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=ratio_analysis_ksa.drawio&page-id=zHkImCiCzPTUo3z-WZo0&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1hKgOcEDgKFqvXKH_T1YuvhA6f-4lwTjP%26export%3Ddownload" allowtransparency="true"></iframe></p>
+</div>
+<h3 id="usecases-ratio_analysis_ksa-calculating_ratio-publishing-the-ratio"><strong>Publishing the Ratio</strong></h3>
+<p>Only Admin users can publish a calculated ratio. Publishing makes the ratio available to all users across the organization and enables its use in the Shared Ratio Visualization tab.</p>
+<p>To publish a ratio:</p>
+<ol>
+<li>In the Publish column (1) next to the calculated ratio, click the dropdown:</li>
+<li>Select Publish to make the ratio available for all users.</li>
+<li>Select None if you do not want the ratio to be published.</li>
+<li>Click the Publish button (2) to finalize the process.</li>
+</ol>
+<div class="admonition example">
+<p class="admonition-title">Publishing the Ratio</p>
+<p><iframe frameborder="0" style="width:100%;height:686px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=ratio_analysis_ksa.drawio&page-id=HxmOd92xwddiCB2fCV1s&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1hKgOcEDgKFqvXKH_T1YuvhA6f-4lwTjP%26export%3Ddownload" allowtransparency="true"></iframe></p>
+</div>
+<hr />
+<h2 id="usecases-ratio_analysis_ksa-calculating_ratio-validating-numbers"><strong>Validating Numbers</strong></h2>
+<p>Before and after calculating a ratio, it’s important to validate the underlying data to ensure accuracy and reliability.</p>
+<div class="admonition example">
+<p class="admonition-title">Validating Numbers</p>
+<p><iframe frameborder="0" style="width:100%;height:1071px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=ratio_analysis_ksa.drawio&page-id=x4FzhmaESt6CFqvuNsAR&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1hKgOcEDgKFqvXKH_T1YuvhA6f-4lwTjP%26export%3Ddownload" allowtransparency="true"></iframe></p>
+</div>
+<ol>
+<li>Pre-Calculation Validation
+Use the Balance Table (1) to verify the raw financial figures used in the ratio formula:</li>
+</ol>
+<p>Review each Ratio Item (e.g., CURRENT ASSETS, ERP) and its corresponding Balance.</p>
+<p>Ensure the data aligns with your expectations and source records.</p>
+<p>This step helps catch anomalies or incorrect data before calculation.</p>
+<ol>
+<li>Post-Calculation Validation
+After running the calculation, use the Calculated Ratio Table (2) to confirm the output:</li>
+</ol>
+<p>View the final Ratio results for the selected period.</p>
+<p>Ensure the logic and results reflect the intended formula and input values.</p>
+<p>This two-step validation process helps maintain confidence in your ratio analysis and ensures the results are trustworthy for decision-making.</p></section><section class="print-page" id="usecases-ratio_analysis_ksa-personal_ratio_visualization" heading-number="2.5.4"><h1 id="usecases-ratio_analysis_ksa-personal_ratio_visualization-personal-ratio-visualization"><strong>Personal Ratio Visualization</strong></h1>
+<p>The <strong>Personal Ratio Visualization</strong> tab enables you to graphically explore the financial ratios you have defined in the <strong>Calculate a Ratio</strong> tab. This feature provides interactive visualizations to help you analyze, interpret, and communicate the significance of your custom ratios for your organization.</p>
+<p>With this tab, you can:</p>
+<ul>
+<li>Track the historical and seasonal performance of your ratios.</li>
+<li>Compare ratio trends across different time granularities (year, quarter, month).</li>
+<li>Identify patterns, anomalies, and areas for improvement.</li>
+<li>Support data-driven storytelling with dynamic, visual insights.</li>
+</ul>
+<div class="admonition example">
+<p class="admonition-title">Personal Ratio Visualization Tab</p>
+<p><iframe frameborder="0" style="width:100%;height:1042px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=ratio_analysis_ksa.drawio&page-id=ZFo4yT7ld_xlA9CGAn9G&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1hKgOcEDgKFqvXKH_T1YuvhA6f-4lwTjP%26export%3Ddownload" allowtransparency="true"></iframe></p>
+</div>
+<h2 id="usecases-ratio_analysis_ksa-personal_ratio_visualization-available-filters"><strong>Available Filters</strong></h2>
+<ul>
+<li><strong>Ratio Calculated</strong>: Select the specific financial ratio to visualize from those you have previously defined.</li>
+<li><strong>Year</strong>: Choose the fiscal year for which you want to view ratio data.</li>
+</ul>
+<p>After selecting your desired ratio and year, the visualization updates instantly to reflect your choices.</p>
+<h2 id="usecases-ratio_analysis_ksa-personal_ratio_visualization-visualization-tiles"><strong>Visualization Tiles</strong></h2>
+<p>The tab provides the following interactive charts:</p>
+<h2 id="usecases-ratio_analysis_ksa-personal_ratio_visualization-ratio-by-year"><strong>Ratio by Year</strong></h2>
+<ul>
+<li>Line Chart that Visualizes the trend of the selected ratio across multiple fiscal years, highlighting long-term changes.</li>
+</ul>
+<h2 id="usecases-ratio_analysis_ksa-personal_ratio_visualization-ratio-by-quarter"><strong>Ratio by Quarter</strong></h2>
+<ul>
+<li>Line Chart that shows quarterly performance within a selected year, supporting seasonal analysis.</li>
+</ul>
+<h2 id="usecases-ratio_analysis_ksa-personal_ratio_visualization-ratio-by-month"><strong>Ratio by Month</strong></h2>
+<ul>
+<li>Line Chart that offers granular, month-by-month insights into ratio fluctuations throughout the year.</li>
+</ul>
+<p>Use these visualizations to gain actionable insights and make informed decisions based on your organization’s financial data.</p></section><section class="print-page" id="usecases-ratio_analysis_ksa-shared_ratio_visualization" heading-number="2.5.5"><h1 id="usecases-ratio_analysis_ksa-shared_ratio_visualization-shared-ratio-visualization">Shared Ratio Visualization</h1>
+<p>The <strong>Shared Ratio Visualization</strong> tab allows you to view and analyze financial ratios that have been shared with you by admins. Group admins can share specific ratios with users, enabling collaborative analysis and insights across the organization.</p>
+<div class="admonition example">
+<p class="admonition-title">Shared Ratio Visualization Tab</p>
+<p><iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=ratio_analysis_ksa.drawio&page-id=WTNVDO6V3DSybZCJiBdp&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1hKgOcEDgKFqvXKH_T1YuvhA6f-4lwTjP%26export%3Ddownload" allowtransparency="true"></iframe></p>
+</div>
+<h2 id="usecases-ratio_analysis_ksa-shared_ratio_visualization-available-filters"><strong>Available Filters</strong></h2>
+<ul>
+<li><strong>Ratio Calculated</strong>: Select the specific financial ratio to visualize you can only view shared ratios.</li>
+<li><strong>Year</strong>: Choose the fiscal year for which you want to view ratio data.</li>
+</ul>
+<p>After selecting your desired ratio and year, the visualization updates instantly to reflect your choices.</p>
+<h2 id="usecases-ratio_analysis_ksa-shared_ratio_visualization-visualization-tiles"><strong>Visualization Tiles</strong></h2>
+<p>The tab provides the following interactive charts:</p>
+<h2 id="usecases-ratio_analysis_ksa-shared_ratio_visualization-ratio-by-year"><strong>Ratio by Year</strong></h2>
+<ul>
+<li>Line Chart that visualizes the trend of the selected ratio across multiple fiscal years, highlighting long-term changes.</li>
+</ul>
+<h2 id="usecases-ratio_analysis_ksa-shared_ratio_visualization-ratio-by-quarter"><strong>Ratio by Quarter</strong></h2>
+<ul>
+<li>Line Chart that shows quarterly performance within a selected year, supporting seasonal analysis.</li>
+</ul>
+<h2 id="usecases-ratio_analysis_ksa-shared_ratio_visualization-ratio-by-month"><strong>Ratio by Month</strong></h2>
+<ul>
+<li>Line Chart that offers granular, month-by-month insights into ratio fluctuations throughout the year.</li>
+</ul>
+<p>Use these visualizations to gain actionable insights and make informed decisions based on your organization’s financial data.</p></section></section></section></div><style>.print-site-enumerate-headings #section-1 > h1:before { content: '1 ' }
 .print-site-enumerate-headings #index > h1:before { content: '1.1 ' }
 
                 .print-site-enumerate-headings #index h2:before { content: '1.1.' counter(counter-index-2) ' ' }
@@ -2551,6 +2875,17 @@
 .print-site-enumerate-headings #usecases-trend_correlation_analysis-personal_correlation_analysis > h1:before { content: '2.4.4 ' }
 
 .print-site-enumerate-headings #usecases-trend_correlation_analysis-shared_correlation_analysis > h1:before { content: '2.4.5 ' }
+
+.print-site-enumerate-headings #section-2-5 > h1:before { content: '2.5 ' }
+.print-site-enumerate-headings #usecases-ratio_analysis_ksa > h1:before { content: '2.5.1 ' }
+
+.print-site-enumerate-headings #usecases-ratio_analysis_ksa-create_ratio_item > h1:before { content: '2.5.2 ' }
+
+.print-site-enumerate-headings #usecases-ratio_analysis_ksa-calculating_ratio > h1:before { content: '2.5.3 ' }
+
+.print-site-enumerate-headings #usecases-ratio_analysis_ksa-personal_ratio_visualization > h1:before { content: '2.5.4 ' }
+
+.print-site-enumerate-headings #usecases-ratio_analysis_ksa-shared_ratio_visualization > h1:before { content: '2.5.5 ' }
 </style>
 
 
