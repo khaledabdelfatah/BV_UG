@@ -8,8 +8,13 @@ Welcome to the Planning and Analytics User Guide! This guide is designed to help
 
 This guide is intended for users who are new to IBM Planning Analytics and those who want to enhance their skills in using the dashboards.
 
-## Table of Contents
+## **Table of Contents**
 
 - [Getting Started](./getting_started.md)
-- [Navigating the Dashboard](#navigating-the-dashboard)
-- [JE Anomalies Dashboard](../docs/usecases/je_anomalies_dashboard/index.md)
+- [Navigating the Dashboard](./navigating_dashboard.md)
+- [Dashboard Toolbar](./dashboard_toolbar.md)
+- [JE Anomalies Dashboard](./usecases/je_anomalies/)
+- [Ratio Analysis Dashboard](./usecases/ratio_analysis_ksa/)
+- [Advanced Payments Dashboard](./usecases/advanced_payments/)
+- [Correlation Analysis Dashboard](./usecases/correlation_analysis/)
+- [Trend & Correlation Analysis](./usecases/trend_correlation_analysis/)
