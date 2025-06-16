@@ -33,8 +33,10 @@ nav:
       - Calculating Ratio: usecases/ratio_analysis_ksa/calculating_ratio.md
       - Personal Ratio Visualization: usecases/ratio_analysis_ksa/personal_ratio_visualization.md
       - Shared Ratio Visualization: usecases/ratio_analysis_ksa/shared_ratio_visualization.md
-
-
+    - Group Ratio Analysis:
+      - Group Ratio Analysis: usecases/group_ratio_analysis/index.md
+      - Group Ration Item: usecases/group_ratio_analysis/group_ratio_item.md
+      - Ratio Item Adj: usecases/group_ratio_analysis/ratio_item_adj.md
 
 theme:
   # Language of the documentation (en: English)
