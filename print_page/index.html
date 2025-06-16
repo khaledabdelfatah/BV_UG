@@ -378,6 +378,8 @@
       
         
       
+        
+      
     
     
     
@@ -762,6 +764,48 @@
   <a href="#usecases-ratio_analysis_ksa-shared_ratio_visualization" class="md-nav__link">
     <span class="md-ellipsis">
       2.5.5 Shared Ratio Visualization
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-2-6" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.6 Group Ratio Analysis
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.6 Group Ratio Analysis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#usecases-group_ratio_analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.6.1 Group Ratio Analysis
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usecases-group_ratio_analysis-group_ratio_item" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.6.2 Group Ration Item
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usecases-group_ratio_analysis-ratio_item_adj" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.6.3 Ratio Item Adj
     </span>
   </a>
   
@@ -2823,7 +2867,339 @@ After running the calculation, use the Calculated Ratio Table (2) to confirm the
 <ul>
 <li>Line Chart that offers granular, month-by-month insights into ratio fluctuations throughout the year.</li>
 </ul>
-<p>Use these visualizations to gain actionable insights and make informed decisions based on your organization’s financial data.</p></section></section></section></div><style>.print-site-enumerate-headings #section-1 > h1:before { content: '1 ' }
+<p>Use these visualizations to gain actionable insights and make informed decisions based on your organization’s financial data.</p></section></section>
+                    <section class='print-page md-section' id='section-2-6' heading-number='2.6'>
+                        <h1>Group Ratio Analysis<a class='headerlink' href='#section-2-6' title='Permanent link'></a>
+                        </h1>
+                    <section class="print-page" id="usecases-group_ratio_analysis" heading-number="2.6.1"><h1 id="usecases-group_ratio_analysis-group-ratio-analysis"><strong>Group Ratio Analysis</strong></h1>
+<h2 id="usecases-group_ratio_analysis-overview"><strong>Overview</strong></h2>
+<p>The <strong>Group Ratio Analysis Dashboard</strong> enables users to analyze financial ratios across multiple groups within an organization. This dashboard delivers actionable insights into the financial health and performance of various entities, supporting informed decision-making through comparative analysis.</p>
+<h3 id="usecases-group_ratio_analysis-data-sources"><strong>Data Sources</strong></h3>
+<ul>
+<li><strong>KSA Ratio Analysis Dashboard:</strong> The dashboard incorporates items shared by users from the KSA Ratio Analysis Dashboard. Only the items explicitly shared by the user from this dashboard will be displayed in the Group Ratio Analysis Dashboard.</li>
+<li><strong>Hyperion Financial Management (HFM):</strong> Users can also access data from HFM, including group accounts, subsidiary accounts, and related financial information.</li>
+</ul>
+<p>By integrating data from these sources, the dashboard provides a comprehensive view of group and subsidiary performance, facilitating robust financial analysis.</p></section><section class="print-page" id="usecases-group_ratio_analysis-group_ratio_item" heading-number="2.6.2"><h1 id="usecases-group_ratio_analysis-group_ratio_item-group-ratio-item"><strong>Group Ratio Item</strong></h1>
+<h2 id="usecases-group_ratio_analysis-group_ratio_item-overview"><strong>Overview</strong></h2>
+<p>The <strong>Group Ratio Item</strong> tab enables users to define and manage ratio items for correlation, profitability, and performance analysis across group entities and regions (such as KSA and subsidiaries). Key actions include:</p>
+<ul>
+<li>Creating new ratio items</li>
+<li>Updating existing entries</li>
+<li>Setting and adjusting reporting periods</li>
+</ul>
+<div class="admonition example">
+<p class="admonition-title">Ratio Item Tab</p>
+<p><iframe frameborder="0" style="width:100%;height:491px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Group%20Ratio%20Analysis%20-%20Ratio%20Item.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1ViQwJ7Ct2HkwjA43M8LpeCm888kdrd0S%26export%3Ddownload"></iframe></p>
+</div>
+<p>This tab supports robust data governance by linking ratio logic to structured source systems (e.g., HFM, external files).</p>
+<hr />
+<h2 id="usecases-group_ratio_analysis-group_ratio_item-view-options"><strong>View Options</strong></h2>
+<p>You can customize the visible columns using the "User Input Ratio HFM Selection" dropdown at the top of the tab. This allows you to focus on relevant data for your current task:</p>
+<div class="admonition example">
+<p class="admonition-title">View Options</p>
+<p><iframe frameborder="0" style="width:100%;height:683px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Group%20Ratio%20Analysis%20-%20Ratio%20Item.drawio&page-id=Y3O3BH7MlOs8ioVthGBp&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1ViQwJ7Ct2HkwjA43M8LpeCm888kdrd0S%26export%3Ddownload"></iframe></p>
+</div>
+<table>
+<thead>
+<tr>
+<th><strong>View</strong></th>
+<th><strong>Purpose / Shown Columns</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Default</strong></td>
+<td>Displays all available columns.</td>
+</tr>
+<tr>
+<td><strong>External File</strong></td>
+<td>Shows columns sourced from external files:<br> <code>Ratio Item</code>, <code>KPI Type</code>, <code>Measure Type</code>, <code>Subtype</code>, <code>Period Type</code>, <code>Negate</code>, <code>Exclude</code>, <code>Subsidiary</code>, <code>Balance Type</code></td>
+</tr>
+<tr>
+<td><strong>Profitability</strong></td>
+<td>Highlights PL-related columns:<br> <code>Ratio Item</code>, <code>PL1</code>, <code>PL2</code>, <code>PL3</code>, <code>BU</code></td>
+</tr>
+<tr>
+<td><strong>Group and KSA</strong></td>
+<td>Focuses on Group and KSA metadata:<br> <code>Ratio Item</code>, <code>Numeric</code>, <code>Period Type</code>, <code>Min</code>, <code>Max</code>, <code>Negate</code>, <code>Exclude</code>, <code>KSA Ratio Item</code>, <code>Group Account</code>, <code>Subsidiary</code>, <code>Subsidiary Account</code>, <code>Balance Type</code></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="usecases-group_ratio_analysis-group_ratio_item-table-columns"><strong>Table Columns</strong></h2>
+<table>
+<thead>
+<tr>
+<th><strong>Column</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Serial Number</strong></td>
+<td>Unique identifier for each ratio item.</td>
+</tr>
+<tr>
+<td><strong>Ratio Item</strong></td>
+<td>Name of the ratio being defined or calculated.</td>
+</tr>
+<tr>
+<td><strong>KPI Type</strong></td>
+<td>Category of Key Performance Indicator.</td>
+</tr>
+<tr>
+<td><strong>Measure Type</strong></td>
+<td>Specifies the measurement logic (e.g., ratio, value).</td>
+</tr>
+<tr>
+<td><strong>Subtype</strong></td>
+<td>Further classification, often sourced from external files.</td>
+</tr>
+<tr>
+<td><strong>Numeric</strong></td>
+<td>Indicates if the item contains numeric data.</td>
+</tr>
+<tr>
+<td><strong>Period Type</strong></td>
+<td>Reporting frequency:<br>• <strong>Periodic</strong>: Regular intervals (default for KSA source)<br>• <strong>QTD</strong>: Quarter to Date<br>• <strong>YTD</strong>: Year to Date (default for HFM source)</td>
+</tr>
+<tr>
+<td><strong>Min / Max</strong></td>
+<td>Thresholds for filtering or validating the item’s value.</td>
+</tr>
+<tr>
+<td><strong>Negate</strong></td>
+<td>If "Yes", the value is mathematically negated (multiplied by -1).</td>
+</tr>
+<tr>
+<td><strong>Exclude</strong></td>
+<td>If "Yes", the item is excluded from ratio calculations.</td>
+</tr>
+<tr>
+<td><strong>KSA Ratio Item</strong></td>
+<td>Reference to a KSA-specific ratio line item from their dashboard.</td>
+</tr>
+<tr>
+<td><strong>Group Account</strong></td>
+<td>Financial account used at the group consolidation level.</td>
+</tr>
+<tr>
+<td><strong>Subsidiary</strong></td>
+<td>Name or code of the local entity or subsidiary.</td>
+</tr>
+<tr>
+<td><strong>Subsidiary Account</strong></td>
+<td>Specific account code used by the subsidiary.</td>
+</tr>
+<tr>
+<td><strong>Balance Type</strong></td>
+<td>Specifies the type of value reported for the ratio item:<br><br>• <strong>Balance</strong>: Value at the end of the reporting period, representing a point-in-time snapshot.<br>• <strong>Opening Balance</strong>: Value at the start of the reporting period, useful for tracking changes from period start.<br>• <strong>Average Balance</strong>: Mean value calculated over the reporting period, smoothing fluctuations.<br>• <strong>Annualized Balance</strong>: Value projected to represent a full year, enabling comparability across periods.<br>• <strong>Balance PY</strong>: Value from the same period in the previous year, supporting year-over-year analysis.<br>• <strong>Balance PP</strong>: Value from the immediately preceding period, enabling period-over-period comparisons.</td>
+</tr>
+<tr>
+<td><strong>PL1 / PL2 / PL3</strong></td>
+<td>Business Line defined by the profitability team</td>
+</tr>
+<tr>
+<td><strong>BU</strong></td>
+<td>Business Unit (e.g., <strong>CBU</strong>, <strong>NMU</strong>, etc.)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="usecases-group_ratio_analysis-group_ratio_item-balance-type-need-omar-to-share-them-with-me">???????????????????// BALANCE TYPE NEED OMAR TO SHARE THEM WITH ME.</h2>
+<h2 id="usecases-group_ratio_analysis-group_ratio_item-how-to-use-the-tab"><strong>How to Use the Tab</strong></h2>
+<h3 id="usecases-group_ratio_analysis-group_ratio_item-creating-a-new-ratio-item">Creating a New Ratio Item</h3>
+<ol>
+<li>Scroll to the last row of the table.</li>
+<li>Enter the required values in the relevant columns.</li>
+<li>Click <strong>Create</strong> (top-right) to save the new entry.</li>
+</ol>
+<h3 id="usecases-group_ratio_analysis-group_ratio_item-updating-existing-items">Updating Existing Items</h3>
+<ol>
+<li>Locate the row(s) you want to update.</li>
+<li>Edit the fields directly.</li>
+<li>Click <strong>Update All</strong> (top-right) to apply your changes.</li>
+</ol>
+<blockquote>
+<p><strong>Tip:</strong> You can update multiple rows in one action.</p>
+</blockquote>
+<h3 id="usecases-group_ratio_analysis-group_ratio_item-updating-the-reporting-period">Updating the Reporting Period</h3>
+<ol>
+<li>Click <strong>Update Period</strong> (top-right).</li>
+<li>In the popup, insert the <strong>Year</strong> and <strong>Month</strong>.</li>
+<li>Click <strong>OK</strong> to apply changes.</li>
+</ol>
+<blockquote>
+<p><strong>Note:</strong> When you update the period, existing data is kept. This lets you track time series data across months or years.</p>
+</blockquote>
+<hr />
+<h3 id="usecases-group_ratio_analysis-group_ratio_item-best-practices"><strong>Best Practices</strong></h3>
+<ul>
+<li>Use the <strong>Exclude</strong> option with caution. If you select "Yes," the item will be removed from dashboards and calculations.</li>
+<li>Set <strong>Min</strong> and <strong>Max</strong> thresholds to enforce data validation and prevent incorrect values.</li>
+<li>Follow naming conventions. For example, start PL-related ratio names with <code>PR-</code> to make them easy to identify.</li>
+<li>Make sure the <strong>Group Account</strong> and <strong>Subsidiary Account</strong> fields are consistent. Inconsistencies can cause reporting errors.</li>
+</ul></section><section class="print-page" id="usecases-group_ratio_analysis-ratio_item_adj" heading-number="2.6.3"><h1 id="usecases-group_ratio_analysis-ratio_item_adj-ratio-item-adjustment-tab"><strong>Ratio Item Adjustment Tab</strong></h1>
+<p>The <strong>Ratio Item Adjustment</strong> tab is the primary interface for entering and adjusting raw financial data used in Group Ratio Analysis. It enables users to input or modify values for each financial line item across legal entities, business units, or cost centers. All group items created for STC subsidiaries are displayed here, allowing users to add or adjust values as needed.</p>
+<div class="admonition example">
+<p class="admonition-title">Ratio Item Adjustment Tab</p>
+<p><iframe frameborder="0" style="width:100%;height:472px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Group%20Ratio%20Analysis%20-%20Ratio%20Item.drawio&page-id=cKHE-YoPmvJpchyAIUJD&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1ViQwJ7Ct2HkwjA43M8LpeCm888kdrd0S%26export%3Ddownload"></iframe></p>
+</div>
+<p>This tab supports manual input, validation, and override of financial data (e.g., revenue, net income, total assets) for a specific year, month, and scenario. The entered data is used in subsequent ratio calculations and analytics dashboards.</p>
+<hr />
+<h2 id="usecases-group_ratio_analysis-ratio_item_adj-changing-the-view"><strong>Changing the View</strong></h2>
+<ul>
+<li><strong>PRA:</strong> By default, all PRA items are displayed. You can toggle the view between <code>None</code> and <code>PRA</code>.</li>
+<li><strong>Year:</strong> Select the desired year to view or input data. The system displays financial line items for the selected year.</li>
+<li><strong>Ratio M:</strong> (Description needed.) !!!OMAR, please provide details for this field.</li>
+<li><strong>Ratio Item Version:</strong> Choose between <code>Adjusted</code> and <code>As is</code> versions:<ul>
+<li><strong>As is:</strong> Displays original data from the database without adjustments.</li>
+<li><strong>Adjusted:</strong> Allows users to modify data for analysis or reporting. You can replace, add, or subtract values.</li>
+</ul>
+</li>
+<li><strong>Scenario:</strong> Select a scenario such as Actual, Budget, Forecast, or quarterly forecasts (Q1, Q2, Q3) to analyze different financial situations.</li>
+<li><strong>Month:</strong> Select the month to view or input data for that period.</li>
+</ul>
+<div class="admonition example">
+<p class="admonition-title">View Options</p>
+<p><iframe frameborder="0" style="width:100%;height:372px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Group%20Ratio%20Analysis%20-%20Ratio%20Item.drawio&page-id=a0szzbcLYjXwsZLPEPxL&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1ViQwJ7Ct2HkwjA43M8LpeCm888kdrd0S%26export%3Ddownload"></iframe></p>
+</div>
+<hr />
+<h2 id="usecases-group_ratio_analysis-ratio_item_adj-adjusting-a-value"><strong>Adjusting a Value</strong></h2>
+<p>To modify a value, ensure you are in the <strong>Adjusted</strong> view for the relevant year, month, scenario, and ratio item version.</p>
+<ol>
+<li>Locate the row for the financial line item you wish to adjust.</li>
+<li>
+<p>Right-click the value cell and select <strong>Spread Data</strong> (1) to open the data spread dialog.</p>
+<div class="admonition example">
+<p class="admonition-title">Spread Data Dialog</p>
+<p><iframe frameborder="0" style="width:100%;height:507px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Group%20Ration%20Analysis%20-%20Ratio%20Item%20Adj.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1TB0Rk055t4SSqPtFIBLl60QPynY9a03k%26export%3Ddownload"></iframe></p>
+</div>
+</li>
+<li>
+<p>Enter the new value in the cell (2).</p>
+</li>
+<li>
+<p>Set the update action (3):</p>
+<ul>
+<li><strong>Replace:</strong> Overwrite the existing value.</li>
+<li><strong>Add:</strong> Add the new value to the existing one.</li>
+<li><strong>Subtract:</strong> Subtract the new value from the existing one.</li>
+</ul>
+</li>
+<li>
+<p>Click <strong>Apply</strong> button (4) to save your changes.</p>
+</li>
+</ol>
+<div class="admonition example">
+<p class="admonition-title">Adjusting a Value</p>
+<p><iframe frameborder="0" style="width:100%;height:612px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Group%20Ration%20Analysis%20-%20Ratio%20Item%20Adj.drawio&page-id=gYylk7N3Rd66M5e88_0l&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1TB0Rk055t4SSqPtFIBLl60QPynY9a03k%26export%3Ddownload"></iframe></p>
+</div>
+<h3 id="usecases-group_ratio_analysis-ratio_item_adj-adding-a-comment"><strong>Adding a Comment</strong></h3>
+<p>To provide context for your adjustment, you can add a comment:</p>
+<ol>
+<li>Right-click the value cell again after applying your changes.</li>
+<li>
+<p>Select <strong>Comments</strong> and then <strong>Add Comment</strong>.</p>
+<div class="admonition example">
+<p class="admonition-title">Add Comment Dialog</p>
+<p><iframe frameborder="0" style="width:100%;height:482px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Group%20Ration%20Analysis%20-%20Ratio%20Item%20Adj.drawio&page-id=AQkz6OFUj-USg6ggjFVc&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1TB0Rk055t4SSqPtFIBLl60QPynY9a03k%26export%3Ddownload"></iframe></p>
+</div>
+</li>
+<li>
+<p>Enter your explanation (2) (e.g., "Adjusted by adding 3,232,843 because of new data").</p>
+</li>
+<li>
+<p>Click <strong>Post</strong> (3) to save the comment.</p>
+<div class="admonition example">
+<p class="admonition-title">Post a Comment</p>
+<p><iframe frameborder="0" style="width:100%;height:551px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Group%20Ration%20Analysis%20-%20Ratio%20Item%20Adj.drawio&page-id=LVhRgq5bMvCgMhBWl0TJ&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1TB0Rk055t4SSqPtFIBLl60QPynY9a03k%26export%3Ddownload"></iframe></p>
+</div>
+</li>
+</ol>
+<p>The cell will display a comment icon, indicating that a note is associated with the value.</p>
+<hr />
+<h2 id="usecases-group_ratio_analysis-ratio_item_adj-deleting-a-ratio-item"><strong>Deleting a Ratio Item</strong></h2>
+<p>To delete a ratio item:</p>
+<ol>
+<li>
+<p>Click the <strong>Delete Item</strong> button at the top right of the table.</p>
+<div class="admonition example">
+<p class="admonition-title">Delete Item Button</p>
+<p><iframe frameborder="0" style="width:100%;height:613px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Group%20Ratio%20Item%20-%20Ratio%20Calculation.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1P2qWGyVw6flOV0dL2pWaF6VTQkrv2LLd%26export%3Ddownload"></iframe></p>
+</div>
+</li>
+<li>
+<p>In the "Review Parameters for Ratio Item HFM Delete" popup, enter the exact name of the ratio item to delete.</p>
+<div class="admonition example">
+<p class="admonition-title">Delete Popup</p>
+<p><iframe frameborder="0" style="width:100%;height:531px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Group%20Ratio%20Item%20-%20Ratio%20Calculation.drawio&page-id=hwnFHGNrB7advioPn1ID&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1P2qWGyVw6flOV0dL2pWaF6VTQkrv2LLd%26export%3Ddownload"></iframe></p>
+</div>
+</li>
+<li>
+<p>Click <strong>OK</strong> to confirm.</p>
+</li>
+</ol>
+<p>The system will remove the specified ratio item and all associated data from the table.</p>
+<hr />
+<h2 id="usecases-group_ratio_analysis-ratio_item_adj-updating-the-view"><strong>Updating the View</strong></h2>
+<p>The <strong>Review Parameters for Ratio Update Adj</strong> dialog allows targeted updates to ratio data, improving performance and precision by refreshing only selected portions of the analysis table.</p>
+<p>To update the view:</p>
+<ol>
+<li>
+<p>Ensure you are in the <strong>Adjusted</strong> view for the relevant year, month, scenario, and ratio item version.</p>
+</li>
+<li>
+<p>Click the <strong>Update View</strong> button at the top right of the table.</p>
+<div class="admonition example">
+<p class="admonition-title">Update View Button</p>
+<p><iframe frameborder="0" style="width:100%;height:613px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Group%20Ratio%20Item%20-%20Ratio%20Calculation.drawio&page-id=GsITu-8c83xJevJzetaA&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1P2qWGyVw6flOV0dL2pWaF6VTQkrv2LLd%26export%3Ddownload"></iframe></p>
+</div>
+</li>
+<li>
+<p>In the <strong>Review Parameters for Ratio Update Adj</strong> popup, specify the parameters to control the update scope.</p>
+</li>
+<li>Click <strong>OK</strong> to apply the changes.</li>
+</ol>
+<p><strong>Update Scope Controls:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Purpose</th>
+<th>Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Month</td>
+<td>Limit updates to a specific month</td>
+<td>Enter the target month to refresh only that period's data</td>
+</tr>
+<tr>
+<td>Year</td>
+<td>Restrict updates to a particular year</td>
+<td>Specify the year to update annual or period-specific data</td>
+</tr>
+<tr>
+<td>Ratio Item</td>
+<td>Update only the selected ratio metric</td>
+<td>Choose a specific ratio to refresh its calculations</td>
+</tr>
+<tr>
+<td>Subsidiary</td>
+<td>Target updates for a specific entity</td>
+<td>Select the subsidiary to update only that entity's data</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition example">
+<p class="admonition-title">Update View Dialog</p>
+<p><iframe frameborder="0" style="width:100%;height:460px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Group%20Ratio%20Item%20-%20Ratio%20Calculation.drawio&page-id=3SHzlC_xs2Iz24hsb9zb&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1P2qWGyVw6flOV0dL2pWaF6VTQkrv2LLd%26export%3Ddownload"></iframe></p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">You must specify at least one parameter to update the data. You can also combine parameters to further narrow the update scope.</p>
+</div></section></section></section></div><style>.print-site-enumerate-headings #section-1 > h1:before { content: '1 ' }
 .print-site-enumerate-headings #index > h1:before { content: '1.1 ' }
 
                 .print-site-enumerate-headings #index h2:before { content: '1.1.' counter(counter-index-2) ' ' }
@@ -2891,6 +3267,13 @@ After running the calculation, use the Calculated Ratio Table (2) to confirm the
 .print-site-enumerate-headings #usecases-ratio_analysis_ksa-personal_ratio_visualization > h1:before { content: '2.5.4 ' }
 
 .print-site-enumerate-headings #usecases-ratio_analysis_ksa-shared_ratio_visualization > h1:before { content: '2.5.5 ' }
+
+.print-site-enumerate-headings #section-2-6 > h1:before { content: '2.6 ' }
+.print-site-enumerate-headings #usecases-group_ratio_analysis > h1:before { content: '2.6.1 ' }
+
+.print-site-enumerate-headings #usecases-group_ratio_analysis-group_ratio_item > h1:before { content: '2.6.2 ' }
+
+.print-site-enumerate-headings #usecases-group_ratio_analysis-ratio_item_adj > h1:before { content: '2.6.3 ' }
 </style>
 
 
