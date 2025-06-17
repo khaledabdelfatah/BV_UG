@@ -60,3 +60,25 @@ The selected ratio item will be permanently removed from the list. Ensure you ha
     <iframe frameborder="0" style="width:100%;height:587px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Group%20Ratio%20Item%20-%20Ratio%20Calc%202.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1WReLLIYy7MLvlJlM6MRdUmbBLn-QE6Q1%26export%3Ddownload"></iframe>
 
 ---
+
+### **Updating the Calculation Period**
+
+You can update the period for which ratio calculations are performed. This feature is useful when a new financial period begins or when you need to analyze ratios for a different time frame.
+
+To update the calculation period:
+
+1. Click the **Update Period** button (1). A popup window will appear.
+
+    !!! example "Updating Period Button"
+        <iframe frameborder="0" style="width:100%;height:585px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Group%20Ratio%20Item%20-%20Ratio%20Calc%202.drawio&page-id=h9uM2jm38l9sUlsa5G3l&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1WReLLIYy7MLvlJlM6MRdUmbBLn-QE6Q1%26export%3Ddownload"></iframe>
+
+2. In the popup, specify the desired **Month** (1) and **Year** (2) in the respective fields.
+3. Click the **OK** button (3) to confirm your selection.
+
+    !!! example "Updating Period Options"
+        <iframe frameborder="0" style="width:100%;height:472px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Group%20Ratio%20Item%20-%20Ratio%20Calc%202.drawio&page-id=Le0y7nbimeUygbWVkLb_&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1WReLLIYy7MLvlJlM6MRdUmbBLn-QE6Q1%26export%3Ddownload"></iframe>
+
+The ratio calculations will automatically refresh to reflect the newly selected period.
+
+
+
