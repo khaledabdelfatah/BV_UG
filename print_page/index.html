@@ -820,6 +820,15 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#usecases-group_ratio_analysis-group_ratio_visualization" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.6.5 Group Ratio Visualization
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -3290,7 +3299,129 @@ After running the calculation, use the Calculated Ratio Table (2) to confirm the
 </div>
 </li>
 </ol>
-<p>The ratio calculations will automatically refresh to reflect the newly selected period.</p></section></section></section></div><style>.print-site-enumerate-headings #section-1 > h1:before { content: '1 ' }
+<p>The ratio calculations will automatically refresh to reflect the newly selected period.</p></section><section class="print-page" id="usecases-group_ratio_analysis-group_ratio_visualization" heading-number="2.6.5"><h1 id="usecases-group_ratio_analysis-group_ratio_visualization-group-ratio-visualization"><strong>Group Ratio Visualization</strong></h1>
+<h2 id="usecases-group_ratio_analysis-group_ratio_visualization-overview"><strong>Overview</strong></h2>
+<p>The <strong>Ratio Visualization</strong> tab displays financial ratio data through interactive dashboard tiles. This interface transforms calculated ratios into visual indicators that show performance trends, budget comparisons, and subsidiary analysis.</p>
+<div class="admonition example">
+<p class="admonition-title">Ratio Visualization Dashboard</p>
+<p><iframe frameborder="0" style="width:100%;height:298px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=group%20ratio%20analysis%20-%20ratio%20visualization.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1IsdFMMi1Nj0tMGcql-YG6O85UMHfNxL2%26export%3Ddownload"></iframe></p>
+</div>
+<hr />
+<h2 id="usecases-group_ratio_analysis-group_ratio_visualization-dashboard-filters"><strong>Dashboard Filters</strong></h2>
+<table>
+<thead>
+<tr>
+<th><strong>Filter</strong></th>
+<th><strong>Function</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Subsidiaries Hgroup</strong></td>
+<td>Select specific subsidiary groups</td>
+</tr>
+<tr>
+<td><strong>PRA</strong></td>
+<td>Filter by Profit and Risk Analysis categories</td>
+</tr>
+<tr>
+<td><strong>Ratio Item Version</strong></td>
+<td>Choose calculation versions (Adjusted/Standard)</td>
+</tr>
+<tr>
+<td><strong>Ratio Calculated HFM</strong></td>
+<td>Select revenue calculation methodology</td>
+</tr>
+<tr>
+<td><strong>Quarter</strong></td>
+<td>Select quarterly periods</td>
+</tr>
+<tr>
+<td><strong>Year</strong></td>
+<td>Select annual periods</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="usecases-group_ratio_analysis-group_ratio_visualization-dashboard-tiles"><strong>Dashboard Tiles</strong></h2>
+<h3 id="usecases-group_ratio_analysis-group_ratio_visualization-primary-performance-tiles"><strong>Primary Performance Tiles</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Tile</strong></th>
+<th><strong>Purpose</strong></th>
+<th><strong>Calculation</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Ratio Growth</strong></td>
+<td>Shows absolute growth value</td>
+<td>Current period minus previous period</td>
+</tr>
+<tr>
+<td><strong>Ratio Growth %</strong></td>
+<td>Shows percentage growth rate</td>
+<td>Growth value divided by base period</td>
+</tr>
+<tr>
+<td><strong>vs Budget</strong></td>
+<td>Shows variance from budget</td>
+<td>Actual performance minus budget</td>
+</tr>
+<tr>
+<td><strong>vs Budget %</strong></td>
+<td>Shows percentage budget variance</td>
+<td>Variance divided by budget amount</td>
+</tr>
+</tbody>
+</table>
+<h3 id="usecases-group_ratio_analysis-group_ratio_visualization-tile-color-indicators"><strong>Tile Color Indicators</strong></h3>
+<ul>
+<li><strong>Purple Gradient</strong>: Primary metrics display</li>
+<li><strong>Green Values</strong>: Positive performance indicators</li>
+<li><strong>Red Values</strong>: Negative performance requiring attention</li>
+<li><strong>Gray Values</strong>: Neutral or stable metrics</li>
+</ul>
+<hr />
+<h2 id="usecases-group_ratio_analysis-group_ratio_visualization-chart-tiles"><strong>Chart Tiles</strong></h2>
+<h3 id="usecases-group_ratio_analysis-group_ratio_visualization-growth-by-year"><strong>Growth by Year</strong></h3>
+<p>Shows multi-year performance trends with:</p>
+<ul>
+<li>Annual data points with trend lines</li>
+<li>Year-over-year growth patterns</li>
+<li>Historical performance comparison</li>
+</ul>
+<h3 id="usecases-group_ratio_analysis-group_ratio_visualization-ratio-by-quarter"><strong>Ratio by Quarter</strong></h3>
+<p>Displays quarterly performance with:</p>
+<ul>
+<li>Seasonal performance patterns</li>
+<li>Quarter-over-quarter comparisons</li>
+<li>Current year focus</li>
+</ul>
+<h3 id="usecases-group_ratio_analysis-group_ratio_visualization-ratios-by-subsidiary"><strong>Ratios by Subsidiary</strong></h3>
+<p>Bar chart showing:</p>
+<ul>
+<li>Individual subsidiary performance</li>
+<li>Comparative entity ranking</li>
+<li>Revenue distribution across units</li>
+</ul>
+<hr />
+<h2 id="usecases-group_ratio_analysis-group_ratio_visualization-data-table-tiles"><strong>Data Table Tiles</strong></h2>
+<h3 id="usecases-group_ratio_analysis-group_ratio_visualization-ratios-by-month"><strong>Ratios by Month</strong></h3>
+<p>Monthly breakdown table with:</p>
+<ul>
+<li>Complete monthly data view</li>
+<li>Month-over-month variance indicators</li>
+<li>Filter controls for data refinement</li>
+</ul>
+<h3 id="usecases-group_ratio_analysis-group_ratio_visualization-ratios-by-quarter"><strong>Ratios by Quarter</strong></h3>
+<p>Quarterly summary table with:</p>
+<ul>
+<li>Q1, Q2, Q3, Q4 breakdown</li>
+<li>Quarter-over-quarter growth indicators</li>
+<li>Annual consolidated figures</li>
+</ul></section></section></section></div><style>.print-site-enumerate-headings #section-1 > h1:before { content: '1 ' }
 .print-site-enumerate-headings #index > h1:before { content: '1.1 ' }
 
                 .print-site-enumerate-headings #index h2:before { content: '1.1.' counter(counter-index-2) ' ' }
@@ -3367,6 +3498,8 @@ After running the calculation, use the Calculated Ratio Table (2) to confirm the
 .print-site-enumerate-headings #usecases-group_ratio_analysis-ratio_item_adj > h1:before { content: '2.6.3 ' }
 
 .print-site-enumerate-headings #usecases-group_ratio_analysis-group_ratio_calculation > h1:before { content: '2.6.4 ' }
+
+.print-site-enumerate-headings #usecases-group_ratio_analysis-group_ratio_visualization > h1:before { content: '2.6.5 ' }
 </style>
 
 
