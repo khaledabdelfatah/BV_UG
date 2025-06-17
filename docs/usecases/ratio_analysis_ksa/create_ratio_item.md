@@ -1,8 +1,5 @@
 # **Creating Ratio Item**
 
-
-## Use Case: Creating a Ratio Item
-
 This table describes all available columns when configuring a ratio item in the Ratio Analysis module.
 
 | **Column Name**         | **Description** |
@@ -32,8 +29,11 @@ This table describes all available columns when configuring a ratio item in the 
 
 
 ## Creating a New Ratio Item
+
 To create a new ratio item, follow these steps:
-Insert the serial number in the **Serial Number** field.  This is a unique identifier for the ratio item.
+
+1. Insert the serial number in the **Serial Number** field.  This is a unique identifier for the ratio item.
+
 2. Enter the ratio item name in the **Ratio Item** field.  This is the name of the financial ratio you want to create.
 3. Fill in the remaining fields as needed to define the ratio item fully.
 4. Click on the "Create Ratio Item" button (1) to add a new row for the ratio item with the name you entered. Once you click on the button, the ration item will be created in the table , this might take 1-2 minutes to be created. once created and you can use it in the calculation of the ratio item.

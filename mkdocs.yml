@@ -37,7 +37,7 @@ nav:
       - Group Ratio Analysis: usecases/group_ratio_analysis/index.md
       - Group Ration Item: usecases/group_ratio_analysis/group_ratio_item.md
       - Ratio Item Adj: usecases/group_ratio_analysis/ratio_item_adj.md
-
+      - Group Ratio Calculation: usecases/group_ratio_analysis/group_ratio_calculation.md
 theme:
   # Language of the documentation (en: English)
   language: en
