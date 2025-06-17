@@ -847,6 +847,15 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#usecases-group_ratio_analysis-push_to_clarity" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.6.8 Push to Clarity
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -3633,8 +3642,11 @@ After running the calculation, use the Calculated Ratio Table (2) to confirm the
 <li><strong>Subsidiary Breakdown</strong>: Individual entity contributions</li>
 </ul>
 <hr /></section><section class="print-page" id="usecases-group_ratio_analysis-ratio_external" heading-number="2.6.7"><h1 id="usecases-group_ratio_analysis-ratio_external-ratio-external"><strong>Ratio External</strong></h1>
-<h2 id="usecases-group_ratio_analysis-ratio_external-external-file-template"><strong>External File Template</strong></h2>
-<p>Below is a detailed description of each column required in the external data file. Use this table as a reference to ensure correct formatting and data consistency.</p>
+<p>The Ratio External tab enables you to view financial ratios calculated from external data sources, supporting the integration of financial measures from subsidiaries or business units for comprehensive, cross-entity analysis. The dashboard presents this external financial data through interactive tiles that offer clear visualization and robust analysis capabilities.</p>
+<h2 id="usecases-group_ratio_analysis-ratio_external-how-data-is-loaded"><strong>How Data is Loaded</strong></h2>
+<p>Data is loaded into the Ratio External dashboard through a structured process that ensures accuracy and consistency. The system pulls data from designated external excel files, which must adhere to specific templates for proper integration. The data is then processed and displayed in various tiles for easy analysis.</p>
+<h3 id="usecases-group_ratio_analysis-ratio_external-external-file-template"><strong>External File Template</strong></h3>
+<p>Below is a table describing each column required in the external data file. Use this as a reference for correct formatting and data consistency.</p>
 <table>
 <thead>
 <tr>
@@ -3680,44 +3692,9 @@ After running the calculation, use the Calculated Ratio Table (2) to confirm the
 <td>e.g., <code>Mobile</code>, <code>Fixed</code></td>
 </tr>
 <tr>
-<td><code>sub_type2</code></td>
-<td>Second-level subtype (optional).</td>
-<td>Leave empty if not applicable</td>
-</tr>
-<tr>
-<td><code>sub_type3</code></td>
-<td>Third-level subtype (optional).</td>
-<td>Leave empty if not applicable</td>
-</tr>
-<tr>
-<td><code>sub_type4</code></td>
-<td>Fourth-level subtype (optional).</td>
-<td>Leave empty if not applicable</td>
-</tr>
-<tr>
-<td><code>sub_type5</code></td>
-<td>Fifth-level subtype (optional).</td>
-<td>Leave empty if not applicable</td>
-</tr>
-<tr>
-<td><code>sub_type6</code></td>
-<td>Sixth-level subtype (optional).</td>
-<td>Leave empty if not applicable</td>
-</tr>
-<tr>
-<td><code>sub_type7</code></td>
-<td>Seventh-level subtype (optional).</td>
-<td>Leave empty if not applicable</td>
-</tr>
-<tr>
-<td><code>sub_type8</code></td>
-<td>Eighth-level subtype (optional).</td>
-<td>Leave empty if not applicable</td>
-</tr>
-<tr>
-<td><code>sub_type9</code></td>
-<td>Ninth-level subtype (optional).</td>
-<td>Leave empty if not applicable</td>
+<td><code>sub_type2</code> - <code>sub_type9</code></td>
+<td>Additional subtypes (optional). Leave empty if not applicable.</td>
+<td></td>
 </tr>
 <tr>
 <td><code>value</code></td>
@@ -3726,9 +3703,91 @@ After running the calculation, use the Calculated Ratio Table (2) to confirm the
 </tr>
 </tbody>
 </table>
-<p><strong>Notes:</strong>
-- All subtype columns (<code>sub_type2</code> to <code>sub_type9</code>) are optional and can be left empty if not required for your analysis.
-- Ensure all codes and values are consistent with those used in the system for accurate data integration.</p></section></section></section></div><style>.print-site-enumerate-headings #section-1 > h1:before { content: '1 ' }
+<div class="admonition info">
+<p class="admonition-title">Important Notes</p>
+<ul>
+<li>All subtype columns (<code>sub_type2</code> to <code>sub_type9</code>) are optional and can be left empty if not required for your analysis.</li>
+<li>Ensure all codes and values are consistent with those used in the system for accurate data integration.</li>
+</ul>
+</div>
+<h3 id="usecases-group_ratio_analysis-ratio_external-budget-template"><strong>Budget Template</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Column Name</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Example / Notes</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>period</code></td>
+<td>Budget period (3-char month abbreviation)</td>
+<td><code>Jan</code>, <code>Feb</code>, <code>Mar</code>, etc.</td>
+</tr>
+<tr>
+<td><code>year</code></td>
+<td>Year for which the budget is applicable</td>
+<td><code>2023</code>, <code>2024</code></td>
+</tr>
+<tr>
+<td><code>entity_code</code></td>
+<td>Unique code for the subsidiary or business unit</td>
+<td><code>202000</code>, <code>101000</code></td>
+</tr>
+<tr>
+<td><code>account_code</code></td>
+<td>Code for the financial account or measure</td>
+<td></td>
+</tr>
+<tr>
+<td><code>value_SAR</code></td>
+<td>Budgeted value in Saudi Riyals (SAR)</td>
+<td>Numeric value, e.g., <code>1500000</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="usecases-group_ratio_analysis-ratio_external-dashboard-filters"><strong>Dashboard Filters</strong></h2>
+<table>
+<thead>
+<tr>
+<th><strong>Filter</strong></th>
+<th><strong>Function</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>KPI Type</strong></td>
+<td>Select performance indicator categories (Non-Core, Revenue, EBITDA)</td>
+</tr>
+<tr>
+<td><strong>Measure Type</strong></td>
+<td>Choose financial measures (Revenue, Cost, Profit)</td>
+</tr>
+<tr>
+<td><strong>Value Type</strong></td>
+<td>Select data perspective (Actual, Budget, Forecast)</td>
+</tr>
+<tr>
+<td><strong>Year</strong></td>
+<td>Define annual reporting period</td>
+</tr>
+<tr>
+<td><strong>Month</strong></td>
+<td>Select quarterly periods (Q1, Q2, Q3, Q4)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="usecases-group_ratio_analysis-ratio_external-dashboard-tiles"><strong>Dashboard Tiles</strong></h2>
+<h3 id="usecases-group_ratio_analysis-ratio_external-measures-by-subsidiary-tile"><strong>Measures by Subsidiary Tile</strong></h3>
+<p>This tile displays subsidiary performance in a horizontal bar chart format (sorted by performance).</p>
+<h3 id="usecases-group_ratio_analysis-ratio_external-subtype-details-tile"><strong>Subtype Details Tile</strong></h3>
+<p>This tile breaks down performance by service categories.</p>
+<h3 id="usecases-group_ratio_analysis-ratio_external-exploration-and-consolidation-tile"><strong>Exploration and Consolidation Tile</strong></h3>
+<p>This tile provides detailed tabular data for comprehensive analysis.</p>
+<h3 id="usecases-group_ratio_analysis-ratio_external-actual-vs-budget-tile"><strong>Actual vs Budget Tile</strong></h3>
+<p>This tile compares actual performance against budget targets.</p></section><section class="print-page" id="usecases-group_ratio_analysis-push_to_clarity" heading-number="2.6.8"><h1 id="usecases-group_ratio_analysis-push_to_clarity-push-to-clarity"><strong>Push to Clarity</strong></h1></section></section></section></div><style>.print-site-enumerate-headings #section-1 > h1:before { content: '1 ' }
 .print-site-enumerate-headings #index > h1:before { content: '1.1 ' }
 
                 .print-site-enumerate-headings #index h2:before { content: '1.1.' counter(counter-index-2) ' ' }
@@ -3811,6 +3870,8 @@ After running the calculation, use the Calculated Ratio Table (2) to confirm the
 .print-site-enumerate-headings #usecases-group_ratio_analysis-executive_summary > h1:before { content: '2.6.6 ' }
 
 .print-site-enumerate-headings #usecases-group_ratio_analysis-ratio_external > h1:before { content: '2.6.7 ' }
+
+.print-site-enumerate-headings #usecases-group_ratio_analysis-push_to_clarity > h1:before { content: '2.6.8 ' }
 </style>
 
 
