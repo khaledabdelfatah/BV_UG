@@ -811,6 +811,15 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#usecases-group_ratio_analysis-group_ratio_calculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.6.4 Group Ratio Calculation
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -2618,7 +2627,6 @@ It offers a detailed analysis of various financial ratios, enabling users to mak
 - Calculate a ratio
 - Personal Ratio Visualization
 - Share Ratio Visualization</p></section><section class="print-page" id="usecases-ratio_analysis_ksa-create_ratio_item" heading-number="2.5.2"><h1 id="usecases-ratio_analysis_ksa-create_ratio_item-creating-ratio-item"><strong>Creating Ratio Item</strong></h1>
-<h2 id="usecases-ratio_analysis_ksa-create_ratio_item-use-case-creating-a-ratio-item">Use Case: Creating a Ratio Item</h2>
 <p>This table describes all available columns when configuring a ratio item in the Ratio Analysis module.</p>
 <table>
 <thead>
@@ -2719,11 +2727,17 @@ It offers a detailed analysis of various financial ratios, enabling users to mak
 </tbody>
 </table>
 <h2 id="usecases-ratio_analysis_ksa-create_ratio_item-creating-a-new-ratio-item">Creating a New Ratio Item</h2>
-<p>To create a new ratio item, follow these steps:
-Insert the serial number in the <strong>Serial Number</strong> field.  This is a unique identifier for the ratio item.
-2. Enter the ratio item name in the <strong>Ratio Item</strong> field.  This is the name of the financial ratio you want to create.
-3. Fill in the remaining fields as needed to define the ratio item fully.
-4. Click on the "Create Ratio Item" button (1) to add a new row for the ratio item with the name you entered. Once you click on the button, the ration item will be created in the table , this might take 1-2 minutes to be created. once created and you can use it in the calculation of the ratio item.</p>
+<p>To create a new ratio item, follow these steps:</p>
+<ol>
+<li>
+<p>Insert the serial number in the <strong>Serial Number</strong> field.  This is a unique identifier for the ratio item.</p>
+</li>
+<li>
+<p>Enter the ratio item name in the <strong>Ratio Item</strong> field.  This is the name of the financial ratio you want to create.</p>
+</li>
+<li>Fill in the remaining fields as needed to define the ratio item fully.</li>
+<li>Click on the "Create Ratio Item" button (1) to add a new row for the ratio item with the name you entered. Once you click on the button, the ration item will be created in the table , this might take 1-2 minutes to be created. once created and you can use it in the calculation of the ratio item.</li>
+</ol>
 <div class="admonition example">
 <p class="admonition-title">Create Ratio Item Button</p>
 <p><iframe frameborder="0" style="width:100%;height:357px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=ratio_analysis_ksa.drawio&page-id=pryP_8vYTykO-8-kc3v9&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1hKgOcEDgKFqvXKH_T1YuvhA6f-4lwTjP%26export%3Ddownload"></iframe></p>
@@ -3199,7 +3213,61 @@ After running the calculation, use the Calculated Ratio Table (2) to confirm the
 </div>
 <div class="admonition info">
 <p class="admonition-title">You must specify at least one parameter to update the data. You can also combine parameters to further narrow the update scope.</p>
-</div></section></section></section></div><style>.print-site-enumerate-headings #section-1 > h1:before { content: '1 ' }
+</div></section><section class="print-page" id="usecases-group_ratio_analysis-group_ratio_calculation" heading-number="2.6.4"><h1 id="usecases-group_ratio_analysis-group_ratio_calculation-group-ratio-calculation"><strong>Group Ratio Calculation</strong></h1>
+<h2 id="usecases-group_ratio_analysis-group_ratio_calculation-overview"><strong>Overview</strong></h2>
+<p>The Ratio Calculations tab provides a comprehensive matrix view for defining and managing financial ratio computations. This interface enables users to establish relationships between different financial metrics by specifying numerator and denominator components across multiple ratio columns.</p>
+<p>tab allows users to define and compute custom financial ratios in real time. Users can select existing ratio items, combine them using arithmetic operators, and instantly view the results. This interface supports building, validating, and analyzing complex ratio formulas interactively.</p>
+<div class="admonition example">
+<p class="admonition-title">Ratio Calculations Tab</p>
+<p><iframe frameborder="0" style="width:100%;height:417px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Group%20Ratio%20Item%20-%20Ratio%20Calculation.drawio&page-id=F25shPN7KkCJNbU1ErCE&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1P2qWGyVw6flOV0dL2pWaF6VTQkrv2LLd%26export%3Ddownload"></iframe></p>
+</div>
+<h2 id="usecases-group_ratio_analysis-group_ratio_calculation-purpose">Purpose</h2>
+<ul>
+<li>Create and customize financial ratios by combining multiple items.</li>
+<li>Define arithmetic operations between ratio items.</li>
+<li>Preview and validate ratio formulas before calculation.</li>
+<li>Analyze financial performance across different time periods.</li>
+</ul>
+<hr />
+<h2 id="usecases-group_ratio_analysis-group_ratio_calculation-available-actions"><strong>Available Actions</strong></h2>
+<h3 id="usecases-group_ratio_analysis-group_ratio_calculation-creating-a-new-ratio-item">Creating a New Ratio Item</h3>
+<p>To create a new ratio item:</p>
+<ol>
+<li>Enter the desired ratio item name in the <strong>Ratio Item</strong> field (1).</li>
+<li>Click the <strong>Insert New Ratio</strong> button (2). This action adds a new row to the table below, allowing you to define the financial ratio equation for the new item.</li>
+</ol>
+<div class="admonition example">
+<p class="admonition-title">Creating a New Ratio Item Button</p>
+<p><iframe frameborder="0" style="width:100%;height:587px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Group%20Ratio%20Item%20-%20Ratio%20Calc%202.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1WReLLIYy7MLvlJlM6MRdUmbBLn-QE6Q1%26export%3Ddownload"></iframe></p>
+</div>
+<h3 id="usecases-group_ratio_analysis-group_ratio_calculation-defining-the-ratio-equation">Defining the Ratio Equation</h3>
+<ol>
+<li><strong>Ratio Item</strong>: Select the ratio item from the dropdown list to include in your equation. You can select up to five ratio items per equation.</li>
+<li><strong>Operation</strong>: Choose the arithmetic operation from the dropdown list. Supported operations include:</li>
+<li><strong>Addition (+)</strong></li>
+<li><strong>Subtraction (-)</strong></li>
+<li><strong>Multiplication (*)</strong></li>
+<li><strong>Division (/)</strong></li>
+<li><strong>(</strong>, <strong>+(</strong>, <strong>-(</strong>, <strong><em>(</em>*, </strong>/(** (for grouping and advanced expressions)</li>
+</ol>
+<p>You can combine multiple operations to construct complex equations.</p>
+<p>After defining the equation, click the <strong>Calculate</strong> button (3) to compute the ratio. The resulting equation will be displayed in the ratio equation field.</p>
+<div class="admonition example">
+<p class="admonition-title">Calculate Button</p>
+<p><iframe frameborder="0" style="width:100%;height:587px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Group%20Ratio%20Item%20-%20Ratio%20Calc%202.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1WReLLIYy7MLvlJlM6MRdUmbBLn-QE6Q1%26export%3Ddownload"></iframe></p>
+</div>
+<h3 id="usecases-group_ratio_analysis-group_ratio_calculation-deleting-a-ratio-item"><strong>Deleting a Ratio Item</strong></h3>
+<p>To delete a ratio item:</p>
+<ol>
+<li>Enter the name of the ratio item you want to remove in the <strong>Ratio Item</strong> field (1).</li>
+<li>Click the <strong>Delete</strong> button (2).</li>
+</ol>
+<p>The selected ratio item will be permanently removed from the list. Ensure you have selected the correct item, as this action cannot be undone.</p>
+<div class="admonition example">
+<p class="admonition-title">Deleting a Ratio Item</p>
+<p><iframe frameborder="0" style="width:100%;height:587px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Group%20Ratio%20Item%20-%20Ratio%20Calc%202.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1WReLLIYy7MLvlJlM6MRdUmbBLn-QE6Q1%26export%3Ddownload"></iframe></p>
+</div>
+<hr /></section></section></section></div><style>.print-site-enumerate-headings #section-1 > h1:before { content: '1 ' }
 .print-site-enumerate-headings #index > h1:before { content: '1.1 ' }
 
                 .print-site-enumerate-headings #index h2:before { content: '1.1.' counter(counter-index-2) ' ' }
@@ -3274,6 +3342,8 @@ After running the calculation, use the Calculated Ratio Table (2) to confirm the
 .print-site-enumerate-headings #usecases-group_ratio_analysis-group_ratio_item > h1:before { content: '2.6.2 ' }
 
 .print-site-enumerate-headings #usecases-group_ratio_analysis-ratio_item_adj > h1:before { content: '2.6.3 ' }
+
+.print-site-enumerate-headings #usecases-group_ratio_analysis-group_ratio_calculation > h1:before { content: '2.6.4 ' }
 </style>
 
 
