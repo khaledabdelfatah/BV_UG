@@ -41,6 +41,7 @@ nav:
       - Group Ratio Visualization: usecases/group_ratio_analysis/group_ratio_visualization.md
       - Executive Summary: usecases/group_ratio_analysis/executive_summary.md
       - Ratio External: usecases/group_ratio_analysis/ratio_external.md
+      - Push to Clarity: usecases/group_ratio_analysis/push_to_clarity.md
 theme:
   # Language of the documentation (en: English)
   language: en
