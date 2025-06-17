@@ -384,6 +384,8 @@
       
         
       
+        
+      
     
     
     
@@ -972,30 +974,6 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="How Data is Loaded">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#external-file-template" class="md-nav__link">
-    <span class="md-ellipsis">
-      External File Template
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#budget-template" class="md-nav__link">
-    <span class="md-ellipsis">
-      Budget Template
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
         <li class="md-nav__item">
@@ -1098,6 +1076,59 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../file_tracking_panel/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    File Tracking Panel
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -1137,30 +1168,6 @@
       How Data is Loaded
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="How Data is Loaded">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#external-file-template" class="md-nav__link">
-    <span class="md-ellipsis">
-      External File Template
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#budget-template" class="md-nav__link">
-    <span class="md-ellipsis">
-      Budget Template
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -1252,108 +1259,6 @@
 <p>The Ratio External tab enables you to view financial ratios calculated from external data sources, supporting the integration of financial measures from subsidiaries or business units for comprehensive, cross-entity analysis. The dashboard presents this external financial data through interactive tiles that offer clear visualization and robust analysis capabilities.</p>
 <h2 id="how-data-is-loaded"><strong>How Data is Loaded</strong></h2>
 <p>Data is loaded into the Ratio External dashboard through a structured process that ensures accuracy and consistency. The system pulls data from designated external excel files, which must adhere to specific templates for proper integration. The data is then processed and displayed in various tiles for easy analysis.</p>
-<h3 id="external-file-template"><strong>External File Template</strong></h3>
-<p>Below is a table describing each column required in the external data file. Use this as a reference for correct formatting and data consistency.</p>
-<table>
-<thead>
-<tr>
-<th><strong>Column Name</strong></th>
-<th><strong>Description</strong></th>
-<th><strong>Example / Notes</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>entity_code</code></td>
-<td>Unique code for the subsidiary or business unit. Must match the code used in the system.</td>
-<td><code>STC_BHR</code>, <code>CHANNELS</code></td>
-</tr>
-<tr>
-<td><code>measure_type</code></td>
-<td>Type of financial measure being analyzed.</td>
-<td><code>Revenue</code>, <code>EBITDA</code>, <code>WAC</code></td>
-</tr>
-<tr>
-<td><code>value_type</code></td>
-<td>Perspective of the value.</td>
-<td><code>Actual</code>, <code>Budget</code>, <code>Forecast</code></td>
-</tr>
-<tr>
-<td><code>KPI_type</code></td>
-<td>Key performance indicator category.</td>
-<td><code>Non-Core</code>, <code>Device</code>, <code>EBITDA</code></td>
-</tr>
-<tr>
-<td><code>month</code></td>
-<td>Reporting period. Use <code>3m</code> (Q1), <code>6m</code> (H1), <code>9m</code> (Q3), <code>12m</code> (Full Year).</td>
-<td><code>3m</code>, <code>6m</code>, <code>9m</code>, <code>12m</code></td>
-</tr>
-<tr>
-<td><code>year</code></td>
-<td>Year of the financial data.</td>
-<td><code>2023</code>, <code>2024</code></td>
-</tr>
-<tr>
-<td><code>sub_type</code></td>
-<td>Specific subtype of the financial measure.</td>
-<td>e.g., <code>Mobile</code>, <code>Fixed</code></td>
-</tr>
-<tr>
-<td><code>sub_type2</code> - <code>sub_type9</code></td>
-<td>Additional subtypes (optional). Leave empty if not applicable.</td>
-<td></td>
-</tr>
-<tr>
-<td><code>value</code></td>
-<td>Actual value of the financial measure.</td>
-<td>Numeric value, e.g., <code>1500000</code></td>
-</tr>
-</tbody>
-</table>
-<div class="admonition info">
-<p class="admonition-title">Important Notes</p>
-<ul>
-<li>All subtype columns (<code>sub_type2</code> to <code>sub_type9</code>) are optional and can be left empty if not required for your analysis.</li>
-<li>Ensure all codes and values are consistent with those used in the system for accurate data integration.</li>
-</ul>
-</div>
-<h3 id="budget-template"><strong>Budget Template</strong></h3>
-<table>
-<thead>
-<tr>
-<th><strong>Column Name</strong></th>
-<th><strong>Description</strong></th>
-<th><strong>Example / Notes</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>period</code></td>
-<td>Budget period (3-char month abbreviation)</td>
-<td><code>Jan</code>, <code>Feb</code>, <code>Mar</code>, etc.</td>
-</tr>
-<tr>
-<td><code>year</code></td>
-<td>Year for which the budget is applicable</td>
-<td><code>2023</code>, <code>2024</code></td>
-</tr>
-<tr>
-<td><code>entity_code</code></td>
-<td>Unique code for the subsidiary or business unit</td>
-<td><code>202000</code>, <code>101000</code></td>
-</tr>
-<tr>
-<td><code>account_code</code></td>
-<td>Code for the financial account or measure</td>
-<td></td>
-</tr>
-<tr>
-<td><code>value_SAR</code></td>
-<td>Budgeted value in Saudi Riyals (SAR)</td>
-<td>Numeric value, e.g., <code>1500000</code></td>
-</tr>
-</tbody>
-</table>
 <h2 id="dashboard-filters"><strong>Dashboard Filters</strong></h2>
 <table>
 <thead>

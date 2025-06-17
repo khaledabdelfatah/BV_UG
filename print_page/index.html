@@ -380,6 +380,8 @@
       
         
       
+        
+      
     
     
     
@@ -851,6 +853,30 @@
   <a href="#usecases-group_ratio_analysis-push_to_clarity" class="md-nav__link">
     <span class="md-ellipsis">
       2.6.8 Push to Clarity
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-2-7" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.7 File Tracking Panel
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.7 File Tracking Panel">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#usecases-file_tracking_panel" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.7.1 File Tracking Panel
     </span>
   </a>
   
@@ -3645,108 +3671,6 @@ After running the calculation, use the Calculated Ratio Table (2) to confirm the
 <p>The Ratio External tab enables you to view financial ratios calculated from external data sources, supporting the integration of financial measures from subsidiaries or business units for comprehensive, cross-entity analysis. The dashboard presents this external financial data through interactive tiles that offer clear visualization and robust analysis capabilities.</p>
 <h2 id="usecases-group_ratio_analysis-ratio_external-how-data-is-loaded"><strong>How Data is Loaded</strong></h2>
 <p>Data is loaded into the Ratio External dashboard through a structured process that ensures accuracy and consistency. The system pulls data from designated external excel files, which must adhere to specific templates for proper integration. The data is then processed and displayed in various tiles for easy analysis.</p>
-<h3 id="usecases-group_ratio_analysis-ratio_external-external-file-template"><strong>External File Template</strong></h3>
-<p>Below is a table describing each column required in the external data file. Use this as a reference for correct formatting and data consistency.</p>
-<table>
-<thead>
-<tr>
-<th><strong>Column Name</strong></th>
-<th><strong>Description</strong></th>
-<th><strong>Example / Notes</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>entity_code</code></td>
-<td>Unique code for the subsidiary or business unit. Must match the code used in the system.</td>
-<td><code>STC_BHR</code>, <code>CHANNELS</code></td>
-</tr>
-<tr>
-<td><code>measure_type</code></td>
-<td>Type of financial measure being analyzed.</td>
-<td><code>Revenue</code>, <code>EBITDA</code>, <code>WAC</code></td>
-</tr>
-<tr>
-<td><code>value_type</code></td>
-<td>Perspective of the value.</td>
-<td><code>Actual</code>, <code>Budget</code>, <code>Forecast</code></td>
-</tr>
-<tr>
-<td><code>KPI_type</code></td>
-<td>Key performance indicator category.</td>
-<td><code>Non-Core</code>, <code>Device</code>, <code>EBITDA</code></td>
-</tr>
-<tr>
-<td><code>month</code></td>
-<td>Reporting period. Use <code>3m</code> (Q1), <code>6m</code> (H1), <code>9m</code> (Q3), <code>12m</code> (Full Year).</td>
-<td><code>3m</code>, <code>6m</code>, <code>9m</code>, <code>12m</code></td>
-</tr>
-<tr>
-<td><code>year</code></td>
-<td>Year of the financial data.</td>
-<td><code>2023</code>, <code>2024</code></td>
-</tr>
-<tr>
-<td><code>sub_type</code></td>
-<td>Specific subtype of the financial measure.</td>
-<td>e.g., <code>Mobile</code>, <code>Fixed</code></td>
-</tr>
-<tr>
-<td><code>sub_type2</code> - <code>sub_type9</code></td>
-<td>Additional subtypes (optional). Leave empty if not applicable.</td>
-<td></td>
-</tr>
-<tr>
-<td><code>value</code></td>
-<td>Actual value of the financial measure.</td>
-<td>Numeric value, e.g., <code>1500000</code></td>
-</tr>
-</tbody>
-</table>
-<div class="admonition info">
-<p class="admonition-title">Important Notes</p>
-<ul>
-<li>All subtype columns (<code>sub_type2</code> to <code>sub_type9</code>) are optional and can be left empty if not required for your analysis.</li>
-<li>Ensure all codes and values are consistent with those used in the system for accurate data integration.</li>
-</ul>
-</div>
-<h3 id="usecases-group_ratio_analysis-ratio_external-budget-template"><strong>Budget Template</strong></h3>
-<table>
-<thead>
-<tr>
-<th><strong>Column Name</strong></th>
-<th><strong>Description</strong></th>
-<th><strong>Example / Notes</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>period</code></td>
-<td>Budget period (3-char month abbreviation)</td>
-<td><code>Jan</code>, <code>Feb</code>, <code>Mar</code>, etc.</td>
-</tr>
-<tr>
-<td><code>year</code></td>
-<td>Year for which the budget is applicable</td>
-<td><code>2023</code>, <code>2024</code></td>
-</tr>
-<tr>
-<td><code>entity_code</code></td>
-<td>Unique code for the subsidiary or business unit</td>
-<td><code>202000</code>, <code>101000</code></td>
-</tr>
-<tr>
-<td><code>account_code</code></td>
-<td>Code for the financial account or measure</td>
-<td></td>
-</tr>
-<tr>
-<td><code>value_SAR</code></td>
-<td>Budgeted value in Saudi Riyals (SAR)</td>
-<td>Numeric value, e.g., <code>1500000</code></td>
-</tr>
-</tbody>
-</table>
 <h2 id="usecases-group_ratio_analysis-ratio_external-dashboard-filters"><strong>Dashboard Filters</strong></h2>
 <table>
 <thead>
@@ -3914,7 +3838,219 @@ These parameters define the reporting period for the KPIs being pushed.</li>
 <div class="admonition example">
 <p class="admonition-title">Push Confirmation Dialog</p>
 <p><iframe frameborder="0" style="width:100%;height:548px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=push%20to%20clarity.drawio&page-id=fCpr4Jovp_hBXR8VWqIV&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1Bc5iK7JS9it5Dpf8F_qeU0Q5Msdq2yle%26export%3Ddownload"></iframe></p>
-</div></section></section></section></div><style>.print-site-enumerate-headings #section-1 > h1:before { content: '1 ' }
+</div></section></section>
+                    <section class='print-page md-section' id='section-2-7' heading-number='2.7'>
+                        <h1>File Tracking Panel<a class='headerlink' href='#section-2-7' title='Permanent link'></a>
+                        </h1>
+                    <section class="print-page" id="usecases-file_tracking_panel" heading-number="2.7.1"><h1 id="usecases-file_tracking_panel-file-tracking-panel"><strong>File Tracking Panel</strong></h1>
+<h2 id="usecases-file_tracking_panel-overview"><strong>Overview</strong></h2>
+<p>The File Tracking Panel is a centralized dashboard designed to monitor and validate the latest data uploads for financial reporting. It allows users and administrators to track the most recent activity related to three core file types:</p>
+<ul>
+<li>General External Files</li>
+<li>Budget Files</li>
+<li>Forecast Files</li>
+</ul>
+<p>Each file type corresponds to a tab in the system's backend, with uploads reflected in near real-time.</p>
+<p>The panel ensures transparency and traceability for all data loads into the system by showing timestamps, inserted row counts, and the user responsible for each upload.</p>
+<h2 id="usecases-file_tracking_panel-file-source-paths"><strong>File Source Paths</strong></h2>
+<p>Each button on the dashboard (General, Budget, Forecast) retrieves the last uploaded files from a specific folder path configured on the backend. These paths are predefined and shared by the team. The panel does not allow file uploads directly, but rather reflects what has already been dropped in these backend folders.</p>
+<hr />
+<h2 id="usecases-file_tracking_panel-panel-overview"><strong>Panel Overview</strong></h2>
+<p>The interface is divided into three main views, each accessible via buttons at the top right:</p>
+<ul>
+<li><strong>General</strong></li>
+<li><strong>Budget</strong></li>
+<li><strong>Forecast</strong></li>
+</ul>
+<p>Each view displays the <strong>last 10 updates</strong> related to its corresponding file type, including important details like timestamps, inserted rows, and the user who performed the action.</p>
+<hr />
+<h2 id="usecases-file_tracking_panel-components-and-layout"><strong>Components and Layout</strong></h2>
+<p>Each data view (General, Budget, Forecast) includes a data table with the following columns:</p>
+<table>
+<thead>
+<tr>
+<th><strong>Column Name</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Start Date / Time</strong></td>
+<td>The timestamp when the upload process began.</td>
+</tr>
+<tr>
+<td><strong>End Date / Time</strong></td>
+<td>The timestamp when the upload process was completed.</td>
+</tr>
+<tr>
+<td><strong>Inserted Rows</strong></td>
+<td>The number of rows successfully inserted into the system.</td>
+</tr>
+<tr>
+<td><strong>User</strong></td>
+<td>The system user or administrator who performed the upload.</td>
+</tr>
+<tr>
+<td><strong>Last Updated ID</strong></td>
+<td>A unique system-generated identifier for the upload instance.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="usecases-file_tracking_panel-how-to-use-the-panel"><strong>How to Use the Panel</strong></h2>
+<ol>
+<li>
+<p><strong>Navigate to the appropriate view</strong>:</p>
+<ul>
+<li>Click <strong>General</strong> to retrieve General External File from the designated path.</li>
+<li>Click <strong>Budget</strong> to retrieve Budget File from the designated path.</li>
+<li>Click <strong>Forecast</strong> to retrieve Forecast File from the designated path.</li>
+</ul>
+</li>
+<li>
+<p><strong>Review the upload logs</strong>:</p>
+<ul>
+<li>Check the <strong>date/time</strong> to verify when the last update occurred.</li>
+<li>Look at the <strong>Inserted Rows</strong> to confirm if the file was populated and processed correctly.</li>
+<li>Use the <strong>User</strong> column to trace responsibility for the upload.</li>
+<li>Track by <strong>Last Updated ID</strong> in case you need to escalate an issue or reference logs.</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h2 id="usecases-file_tracking_panel-templates-reference"><strong>Templates Reference</strong></h2>
+<p>When uploading files, ensure they adhere to the following templates for each file type. These templates define the required columns and data formats to ensure successful integration into the system.</p>
+<h3 id="usecases-file_tracking_panel-general-external-file-template"><strong>General External File Template</strong></h3>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>entity_code</code></td>
+<td>Business unit code (must match system).</td>
+<td><code>STC_BHR</code>, <code>CHANNELS</code></td>
+</tr>
+<tr>
+<td><code>measure_type</code></td>
+<td>Financial metric type.</td>
+<td><code>Revenue</code>, <code>EBITDA</code></td>
+</tr>
+<tr>
+<td><code>value_type</code></td>
+<td>Type of value (Actual, Budget, Forecast).</td>
+<td><code>Actual</code></td>
+</tr>
+<tr>
+<td><code>KPI_type</code></td>
+<td>KPI category.</td>
+<td><code>Non-Core</code>, <code>EBITDA</code></td>
+</tr>
+<tr>
+<td><code>month</code></td>
+<td>Reporting period: <code>3m</code>, <code>6m</code>, <code>9m</code>, <code>12m</code>.</td>
+<td><code>3m</code></td>
+</tr>
+<tr>
+<td><code>year</code></td>
+<td>4-digit year.</td>
+<td><code>2024</code></td>
+</tr>
+<tr>
+<td><code>sub_type</code></td>
+<td>Sub-category of financial data.</td>
+<td><code>Mobile</code>, <code>Fixed</code></td>
+</tr>
+<tr>
+<td><code>sub_type2</code> – <code>sub_type9</code></td>
+<td>Optional further classifications.</td>
+<td><em>(Optional)</em></td>
+</tr>
+<tr>
+<td><code>value</code></td>
+<td>The numeric value to upload.</td>
+<td><code>1500000</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="usecases-file_tracking_panel-budget-file-template"><strong>Budget File Template</strong></h3>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>period</code></td>
+<td>3-letter month abbreviation</td>
+<td><code>Jan</code>, <code>Feb</code></td>
+</tr>
+<tr>
+<td><code>year</code></td>
+<td>4-digit year</td>
+<td><code>2024</code></td>
+</tr>
+<tr>
+<td><code>entity_code</code></td>
+<td>Business unit code</td>
+<td><code>202000</code></td>
+</tr>
+<tr>
+<td><code>account_code</code></td>
+<td>Financial account affected</td>
+<td><em>(System code)</em></td>
+</tr>
+<tr>
+<td><code>value_SAR</code></td>
+<td>Budgeted value in SAR</td>
+<td><code>1500000</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="usecases-file_tracking_panel-forecast-file-template"><strong>Forecast File Template</strong></h3>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>year</code></td>
+<td>4-digit year</td>
+<td><code>2024</code></td>
+</tr>
+<tr>
+<td><code>as_of_quarter</code></td>
+<td>Quarter abbreviation</td>
+<td><code>Q1</code>, <code>Q2</code></td>
+</tr>
+<tr>
+<td><code>account_code</code></td>
+<td>Financial account affected</td>
+<td><em>(System code)</em></td>
+</tr>
+<tr>
+<td><code>entity_code</code></td>
+<td>Business unit code</td>
+<td><code>101000</code></td>
+</tr>
+<tr>
+<td><code>value_SAR</code></td>
+<td>Forecasted value in SAR</td>
+<td><code>1500000</code></td>
+</tr>
+</tbody>
+</table></section></section></section></div><style>.print-site-enumerate-headings #section-1 > h1:before { content: '1 ' }
 .print-site-enumerate-headings #index > h1:before { content: '1.1 ' }
 
                 .print-site-enumerate-headings #index h2:before { content: '1.1.' counter(counter-index-2) ' ' }
@@ -3999,6 +4135,9 @@ These parameters define the reporting period for the KPIs being pushed.</li>
 .print-site-enumerate-headings #usecases-group_ratio_analysis-ratio_external > h1:before { content: '2.6.7 ' }
 
 .print-site-enumerate-headings #usecases-group_ratio_analysis-push_to_clarity > h1:before { content: '2.6.8 ' }
+
+.print-site-enumerate-headings #section-2-7 > h1:before { content: '2.7 ' }
+.print-site-enumerate-headings #usecases-file_tracking_panel > h1:before { content: '2.7.1 ' }
 </style>
 
 
