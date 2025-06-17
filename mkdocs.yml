@@ -39,6 +39,8 @@ nav:
       - Ratio Item Adj: usecases/group_ratio_analysis/ratio_item_adj.md
       - Group Ratio Calculation: usecases/group_ratio_analysis/group_ratio_calculation.md
       - Group Ratio Visualization: usecases/group_ratio_analysis/group_ratio_visualization.md
+      - Executive Summary: usecases/group_ratio_analysis/executive_summary.md
+
 theme:
   # Language of the documentation (en: English)
   language: en
