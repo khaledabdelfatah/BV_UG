@@ -838,6 +838,15 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#usecases-group_ratio_analysis-ratio_external" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.6.7 Ratio External
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -3623,37 +3632,103 @@ After running the calculation, use the Calculated Ratio Table (2) to confirm the
 <li><strong>EBITDA Values</strong>: Operational profitability indicators</li>
 <li><strong>Subsidiary Breakdown</strong>: Individual entity contributions</li>
 </ul>
-<hr />
-<h2 id="usecases-group_ratio_analysis-executive_summary-performance-matrix-layout"><strong>Performance Matrix Layout</strong></h2>
-<h3 id="usecases-group_ratio_analysis-executive_summary-data-structure"><strong>Data Structure</strong></h3>
-<p>Each section follows a consistent matrix format:</p>
+<hr /></section><section class="print-page" id="usecases-group_ratio_analysis-ratio_external" heading-number="2.6.7"><h1 id="usecases-group_ratio_analysis-ratio_external-ratio-external"><strong>Ratio External</strong></h1>
+<h2 id="usecases-group_ratio_analysis-ratio_external-external-file-template"><strong>External File Template</strong></h2>
+<p>Below is a detailed description of each column required in the external data file. Use this table as a reference to ensure correct formatting and data consistency.</p>
 <table>
 <thead>
 <tr>
-<th><strong>Component</strong></th>
+<th><strong>Column Name</strong></th>
 <th><strong>Description</strong></th>
+<th><strong>Example / Notes</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>Row Headers</strong></td>
-<td>Revenue and EBITDA metrics</td>
+<td><code>entity_code</code></td>
+<td>Unique code for the subsidiary or business unit. Must match the code used in the system.</td>
+<td><code>STC_BHR</code>, <code>CHANNELS</code></td>
 </tr>
 <tr>
-<td><strong>Column Headers</strong></td>
-<td>Business entities and subsidiaries</td>
+<td><code>measure_type</code></td>
+<td>Type of financial measure being analyzed.</td>
+<td><code>Revenue</code>, <code>EBITDA</code>, <code>WAC</code></td>
 </tr>
 <tr>
-<td><strong>Data Cells</strong></td>
-<td>Performance values with color coding</td>
+<td><code>value_type</code></td>
+<td>Perspective of the value.</td>
+<td><code>Actual</code>, <code>Budget</code>, <code>Forecast</code></td>
 </tr>
 <tr>
-<td><strong>Percentage Values</strong></td>
-<td>Growth or variance indicators</td>
+<td><code>KPI_type</code></td>
+<td>Key performance indicator category.</td>
+<td><code>Non-Core</code>, <code>Device</code>, <code>EBITDA</code></td>
+</tr>
+<tr>
+<td><code>month</code></td>
+<td>Reporting period. Use <code>3m</code> (Q1), <code>6m</code> (H1), <code>9m</code> (Q3), <code>12m</code> (Full Year).</td>
+<td><code>3m</code>, <code>6m</code>, <code>9m</code>, <code>12m</code></td>
+</tr>
+<tr>
+<td><code>year</code></td>
+<td>Year of the financial data.</td>
+<td><code>2023</code>, <code>2024</code></td>
+</tr>
+<tr>
+<td><code>sub_type</code></td>
+<td>Specific subtype of the financial measure.</td>
+<td>e.g., <code>Mobile</code>, <code>Fixed</code></td>
+</tr>
+<tr>
+<td><code>sub_type2</code></td>
+<td>Second-level subtype (optional).</td>
+<td>Leave empty if not applicable</td>
+</tr>
+<tr>
+<td><code>sub_type3</code></td>
+<td>Third-level subtype (optional).</td>
+<td>Leave empty if not applicable</td>
+</tr>
+<tr>
+<td><code>sub_type4</code></td>
+<td>Fourth-level subtype (optional).</td>
+<td>Leave empty if not applicable</td>
+</tr>
+<tr>
+<td><code>sub_type5</code></td>
+<td>Fifth-level subtype (optional).</td>
+<td>Leave empty if not applicable</td>
+</tr>
+<tr>
+<td><code>sub_type6</code></td>
+<td>Sixth-level subtype (optional).</td>
+<td>Leave empty if not applicable</td>
+</tr>
+<tr>
+<td><code>sub_type7</code></td>
+<td>Seventh-level subtype (optional).</td>
+<td>Leave empty if not applicable</td>
+</tr>
+<tr>
+<td><code>sub_type8</code></td>
+<td>Eighth-level subtype (optional).</td>
+<td>Leave empty if not applicable</td>
+</tr>
+<tr>
+<td><code>sub_type9</code></td>
+<td>Ninth-level subtype (optional).</td>
+<td>Leave empty if not applicable</td>
+</tr>
+<tr>
+<td><code>value</code></td>
+<td>Actual value of the financial measure.</td>
+<td>Numeric value, e.g., <code>1500000</code></td>
 </tr>
 </tbody>
 </table>
-<hr /></section></section></section></div><style>.print-site-enumerate-headings #section-1 > h1:before { content: '1 ' }
+<p><strong>Notes:</strong>
+- All subtype columns (<code>sub_type2</code> to <code>sub_type9</code>) are optional and can be left empty if not required for your analysis.
+- Ensure all codes and values are consistent with those used in the system for accurate data integration.</p></section></section></section></div><style>.print-site-enumerate-headings #section-1 > h1:before { content: '1 ' }
 .print-site-enumerate-headings #index > h1:before { content: '1.1 ' }
 
                 .print-site-enumerate-headings #index h2:before { content: '1.1.' counter(counter-index-2) ' ' }
@@ -3734,6 +3809,8 @@ After running the calculation, use the Calculated Ratio Table (2) to confirm the
 .print-site-enumerate-headings #usecases-group_ratio_analysis-group_ratio_visualization > h1:before { content: '2.6.5 ' }
 
 .print-site-enumerate-headings #usecases-group_ratio_analysis-executive_summary > h1:before { content: '2.6.6 ' }
+
+.print-site-enumerate-headings #usecases-group_ratio_analysis-ratio_external > h1:before { content: '2.6.7 ' }
 </style>
 
 
