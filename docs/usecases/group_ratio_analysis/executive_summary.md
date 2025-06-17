@@ -145,18 +145,4 @@ The Actual section displays absolute performance figures without comparison metr
 
 ---
 
-## **Performance Matrix Layout**
-
-### **Data Structure**
-
-Each section follows a consistent matrix format:
-
-| **Component** | **Description** |
-|---------------|-----------------|
-| **Row Headers** | Revenue and EBITDA metrics |
-| **Column Headers** | Business entities and subsidiaries |
-| **Data Cells** | Performance values with color coding |
-| **Percentage Values** | Growth or variance indicators |
-
-
----
+ 
