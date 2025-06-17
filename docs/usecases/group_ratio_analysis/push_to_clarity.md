@@ -14,6 +14,7 @@ To allow finance teams to push validated ratio results (like EBITDA, revenue %, 
 
 
 ---
+
 ## **Interface Layout**
 
 The **Push to Clarity** tab is divided into two main panels: the **Left Panel** for KPI and subsidiary selection, and the **Right Panel** for previewing Clarity submissions.

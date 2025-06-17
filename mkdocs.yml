@@ -42,6 +42,9 @@ nav:
       - Executive Summary: usecases/group_ratio_analysis/executive_summary.md
       - Ratio External: usecases/group_ratio_analysis/ratio_external.md
       - Push to Clarity: usecases/group_ratio_analysis/push_to_clarity.md
+    - File Tracking Panel:
+      - File Tracking Panel: usecases/file_tracking_panel/index.md
+
 theme:
   # Language of the documentation (en: English)
   language: en
