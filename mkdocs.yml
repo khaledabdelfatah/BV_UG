@@ -44,6 +44,9 @@ nav:
       - Push to Clarity: usecases/group_ratio_analysis/push_to_clarity.md
     - File Tracking Panel:
       - File Tracking Panel: usecases/file_tracking_panel/index.md
+    - Variance Analysis:
+      - Variance Analysis: usecases/variance_analysis/index.md
+      - Income Statement Variance: usecases/variance_analysis/income_statement_variance.md
 
 theme:
   # Language of the documentation (en: English)
