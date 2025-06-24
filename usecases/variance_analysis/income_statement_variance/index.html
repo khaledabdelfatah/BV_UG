@@ -14,6 +14,8 @@
         <link rel="prev" href="../">
       
       
+        <link rel="next" href="../balance_sheet_variance/">
+      
       
       <link rel="icon" href="../../../assets/logo.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
@@ -859,6 +861,12 @@
       
         
       
+        
+      
+        
+      
+        
+      
     
     
     
@@ -967,6 +975,45 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Filter Controls">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#changing-threshold-values" class="md-nav__link">
+    <span class="md-ellipsis">
+      Changing Threshold Values
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Changing Threshold Values">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#applying-thresholds" class="md-nav__link">
+    <span class="md-ellipsis">
+      Applying Thresholds
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -997,6 +1044,75 @@
   
 </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../balance_sheet_variance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Balance Sheet Variance
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../variance_analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Variance Analysis
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../balance_over_months/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Balance over Months
+    
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -1050,6 +1166,45 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Filter Controls">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#changing-threshold-values" class="md-nav__link">
+    <span class="md-ellipsis">
+      Changing Threshold Values
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Changing Threshold Values">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#applying-thresholds" class="md-nav__link">
+    <span class="md-ellipsis">
+      Applying Thresholds
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -1102,6 +1257,10 @@
 
 <h1 id="income-statement-variance-analysis"><strong>Income Statement Variance Analysis</strong></h1>
 <p>The Income Statement – Variance Analysis tab provides a detailed financial comparison across time periods to support performance monitoring and business analysis. This view is designed to help users quickly identify fluctuations in key metrics such as Net Profit, Operating Profit, Revenue, and Expenses using both Month-over-Month (MoM) and Year-over-Year (YoY) comparisons.</p>
+<div class="admonition example">
+<p class="admonition-title">Income Statement Variance Analysis Tab</p>
+<p><iframe frameborder="0" style="width:100%;height:502px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=variance%20analysis.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1boAfeICqUWMp7-mrhR322AkArNduqgbW%26export%3Ddownload"></iframe></p>
+</div>
 <h2 id="filter-controls"><strong>Filter Controls</strong></h2>
 <p>The dashboard provides several filtering options for data refinement:</p>
 <ul>
@@ -1115,6 +1274,48 @@
 <p><strong>Dim Account Type</strong>: Filter by account categories such as Revenue, Expenses, Assets, Liabilities, and Equity. By default, all account types are included.</p>
 </li>
 </ul>
+<h3 id="changing-threshold-values"><strong>Changing Threshold Values</strong></h3>
+<p>The top control panel includes configurable threshold fields to customize variance highlighting:</p>
+<ul>
+<li>
+<p><strong>Income Value</strong><br />
+    Enter an absolute amount (e.g., <code>1,000 SAR</code>). Variances equal to or greater than this value will be considered for highlighting.</p>
+</li>
+<li>
+<p><strong>Income Percentage</strong><br />
+    Specify a percentage (e.g., <code>10%</code>). Variances equal to or greater than this percentage of the previous period’s value will be considered.</p>
+</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Highlighting Criteria</p>
+<p>Both conditions must be met for a variance to be highlighted:
+- The variance is <strong>greater than or equal to</strong> the specified <strong>Income Value</strong>.
+- The variance is <strong>greater than or equal to</strong> the specified <strong>Income Percentage</strong> of the previous period's value.</p>
+</div>
+<h4 id="example"><strong>Example</strong></h4>
+<p>Suppose the previous period value is <code>5,000 SAR</code> and you set:</p>
+<ul>
+<li><strong>Income Value</strong> = <code>1,000 SAR</code></li>
+<li><strong>Income Percentage</strong> = <code>10%</code></li>
+</ul>
+<p>Then:</p>
+<ul>
+<li>The minimum absolute variance is <code>1,000 SAR</code>.</li>
+<li>The minimum percentage-based variance is <code>500 SAR</code> (<code>10% of 5,000 SAR</code>).</li>
+</ul>
+<p>A variance must exceed <strong>both</strong> <code>1,000 SAR</code> and <code>500 SAR</code> to be highlighted.</p>
+<hr />
+<ul>
+<li><strong>Income Value 2</strong><br />
+    An additional field for an alternative absolute threshold (e.g., <code>2,000 SAR</code>). This can be used independently or for advanced filtering scenarios.</li>
+</ul>
+<hr />
+<h4 id="applying-thresholds"><strong>Applying Thresholds</strong></h4>
+<ol>
+<li>Configure the desired threshold values.</li>
+<li>Click the <strong>Update</strong> button (highlighted in pink).</li>
+<li>The dashboard will refresh, and variances meeting the criteria will be highlighted using conditional formatting (e.g., red fill for large negative swings).</li>
+</ol>
 <h2 id="table-structure-and-columns"><strong>Table Structure and Columns</strong></h2>
 <p>The data table displays financial performance across three dimensions:</p>
 <ul>
@@ -1234,6 +1435,22 @@
             </div>
           </a>
         
+        
+          
+          <a href="../balance_sheet_variance/" class="md-footer__link md-footer__link--next" aria-label="Next: Balance Sheet Variance">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Balance Sheet Variance
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
         
       </nav>
     
