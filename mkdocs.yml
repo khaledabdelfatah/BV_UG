@@ -47,7 +47,9 @@ nav:
     - Variance Analysis:
       - Variance Analysis: usecases/variance_analysis/index.md
       - Income Statement Variance: usecases/variance_analysis/income_statement_variance.md
-
+      - Balance Sheet Variance: usecases/variance_analysis/balance_sheet_variance.md
+      - Variance Analysis: usecases/variance_analysis/variance_analysis.md
+      - Balance over Months: usecases/variance_analysis/balance_over_months.md
 theme:
   # Language of the documentation (en: English)
   language: en

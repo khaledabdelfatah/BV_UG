@@ -2,6 +2,9 @@
 
 The Income Statement – Variance Analysis tab provides a detailed financial comparison across time periods to support performance monitoring and business analysis. This view is designed to help users quickly identify fluctuations in key metrics such as Net Profit, Operating Profit, Revenue, and Expenses using both Month-over-Month (MoM) and Year-over-Year (YoY) comparisons.
 
+!!! example "Income Statement Variance Analysis Tab"
+    <iframe frameborder="0" style="width:100%;height:502px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=variance%20analysis.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1boAfeICqUWMp7-mrhR322AkArNduqgbW%26export%3Ddownload"></iframe>
+
 ## **Filter Controls**
 
 The dashboard provides several filtering options for data refinement:
@@ -11,7 +14,50 @@ The dashboard provides several filtering options for data refinement:
 - **Month**: Choose a specific month to analyze (e.g., April).
 
 - **Dim Account Type**: Filter by account categories such as Revenue, Expenses, Assets, Liabilities, and Equity. By default, all account types are included.
- 
+
+### **Changing Threshold Values**
+
+The top control panel includes configurable threshold fields to customize variance highlighting:
+
+- **Income Value**  
+    Enter an absolute amount (e.g., `1,000 SAR`). Variances equal to or greater than this value will be considered for highlighting.
+
+- **Income Percentage**  
+    Specify a percentage (e.g., `10%`). Variances equal to or greater than this percentage of the previous period’s value will be considered.
+
+!!! info "Highlighting Criteria"
+    Both conditions must be met for a variance to be highlighted:
+    - The variance is **greater than or equal to** the specified **Income Value**.
+    - The variance is **greater than or equal to** the specified **Income Percentage** of the previous period's value.
+
+#### **Example**
+
+Suppose the previous period value is `5,000 SAR` and you set:
+
+- **Income Value** = `1,000 SAR`
+- **Income Percentage** = `10%`
+
+Then:
+
+- The minimum absolute variance is `1,000 SAR`.
+- The minimum percentage-based variance is `500 SAR` (`10% of 5,000 SAR`).
+
+A variance must exceed **both** `1,000 SAR` and `500 SAR` to be highlighted.
+
+---
+
+- **Income Value 2**  
+    An additional field for an alternative absolute threshold (e.g., `2,000 SAR`). This can be used independently or for advanced filtering scenarios.
+
+---
+
+#### **Applying Thresholds**
+
+1. Configure the desired threshold values.
+2. Click the **Update** button (highlighted in pink).
+3. The dashboard will refresh, and variances meeting the criteria will be highlighted using conditional formatting (e.g., red fill for large negative swings).
+
+
 ## **Table Structure and Columns**
 
 The data table displays financial performance across three dimensions:
