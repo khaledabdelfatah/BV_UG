@@ -322,6 +322,8 @@
       
         
       
+        
+      
     
     
     
@@ -674,6 +676,8 @@
       
         
           
+        
+      
         
       
         
@@ -1039,23 +1043,23 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#changing-threshold-values" class="md-nav__link">
+  <a href="#customizing-variance-highlight-thresholds" class="md-nav__link">
     <span class="md-ellipsis">
-      Changing Threshold Values
+      Customizing Variance Highlight Thresholds
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Changing Threshold Values">
+    <nav class="md-nav" aria-label="Customizing Variance Highlight Thresholds">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#threshold-types" class="md-nav__link">
+  <a href="#threshold-options" class="md-nav__link">
     <span class="md-ellipsis">
-      Threshold Types
+      Threshold Options
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Threshold Types">
+    <nav class="md-nav" aria-label="Threshold Options">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1073,9 +1077,18 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#additional-threshold" class="md-nav__link">
+  <a href="#advanced-option-second-variance-threshold" class="md-nav__link">
     <span class="md-ellipsis">
-      Additional Threshold
+      Advanced Option: Second Variance Threshold
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-adjust-thresholds" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to Adjust Thresholds
     </span>
   </a>
   
@@ -1193,23 +1206,23 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#changing-threshold-values" class="md-nav__link">
+  <a href="#customizing-variance-highlight-thresholds" class="md-nav__link">
     <span class="md-ellipsis">
-      Changing Threshold Values
+      Customizing Variance Highlight Thresholds
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Changing Threshold Values">
+    <nav class="md-nav" aria-label="Customizing Variance Highlight Thresholds">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#threshold-types" class="md-nav__link">
+  <a href="#threshold-options" class="md-nav__link">
     <span class="md-ellipsis">
-      Threshold Types
+      Threshold Options
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Threshold Types">
+    <nav class="md-nav" aria-label="Threshold Options">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1227,9 +1240,18 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#additional-threshold" class="md-nav__link">
+  <a href="#advanced-option-second-variance-threshold" class="md-nav__link">
     <span class="md-ellipsis">
-      Additional Threshold
+      Advanced Option: Second Variance Threshold
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-adjust-thresholds" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to Adjust Thresholds
     </span>
   </a>
   
@@ -1293,22 +1315,18 @@
 </ul>
 <h3 id="filter-table-data"><strong>Filter Table Data</strong></h3>
 <p>You can also filter the table data by clicking on the filter name in the table header and selecting the desired values from the dropdown menu. This allows for quick adjustments to the displayed data.</p>
-<h2 id="changing-threshold-values"><strong>Changing Threshold Values</strong></h2>
-<p>You can customize the thresholds that determine when a variance is considered significant. This allows you to highlight only the variances that matter most to your analysis.</p>
-<h3 id="threshold-types"><strong>Threshold Types</strong></h3>
+<h2 id="customizing-variance-highlight-thresholds"><strong>Customizing Variance Highlight Thresholds</strong></h2>
+<p>You can control which variances are highlighted in the table by setting threshold values. This helps you focus on the most significant changes for your analysis.</p>
+<h3 id="threshold-options"><strong>Threshold Options</strong></h3>
+<p>There are two main types of thresholds you can set:</p>
 <ul>
-<li><strong>Variance Value:</strong> Set a minimum absolute difference (e.g., <code>1,000 SAR</code>).  </li>
-<li><strong>Percentage Value:</strong> Set a minimum percentage change (e.g., <code>10%</code> of the previous period's value).</li>
+<li><strong>Variance Value:</strong> The minimum absolute difference (e.g., <code>1,000 SAR</code>) between periods required to highlight a variance.</li>
+<li><strong>Percentage Value:</strong> The minimum percentage change (e.g., <code>10%</code>) from the previous period required to highlight a variance.</li>
 </ul>
-<p>Both thresholds must be exceeded for a variance to be highlighted. For example, if the previous period value is <code>5,000 SAR</code> and you set:</p>
+<p>By default, <strong>both</strong> thresholds must be exceeded for a variance to be highlighted. In other words, a variance will only be highlighted if:</p>
 <ul>
-<li><strong>Variance Value:</strong> <code>1,000 SAR</code></li>
-<li><strong>Percentage Value:</strong> <code>10%</code></li>
-</ul>
-<p>A variance will be highlighted only if:</p>
-<ul>
-<li>The absolute difference is greater than <code>1,000 SAR</code>, <strong>and</strong></li>
-<li>The percentage change is greater than <code>10%</code></li>
+<li>The absolute difference is greater than the Variance Value <strong>and</strong></li>
+<li>The percentage change is greater than the Percentage Value</li>
 </ul>
 <h4 id="example"><strong>Example</strong></h4>
 <table>
@@ -1341,13 +1359,14 @@
 </tr>
 </tbody>
 </table>
-<h3 id="additional-threshold"><strong>Additional Threshold</strong></h3>
+<h3 id="advanced-option-second-variance-threshold"><strong>Advanced Option: Second Variance Threshold</strong></h3>
 <ul>
-<li><strong>Variance Value 2:</strong> Optionally, set a second absolute threshold (e.g., <code>2,000 SAR</code>) for advanced filtering or alternative highlighting scenarios.</li>
+<li><strong>Variance Value 2:</strong> You can also set a second absolute threshold (e.g., <code>2,000 SAR</code>) for more advanced filtering or to apply alternative highlighting rules.</li>
 </ul>
+<h3 id="how-to-adjust-thresholds"><strong>How to Adjust Thresholds</strong></h3>
 <div class="admonition tip">
 <p class="admonition-title">Adjusting Thresholds</p>
-<p>Use the dashboard controls to set or update these thresholds at any time. This helps you focus on the most relevant variances for your analysis.</p>
+<p>Use the dashboard controls to set or update these thresholds at any time. This allows you to quickly refine which variances are highlighted, ensuring you see only the most relevant changes for your analysis.</p>
 </div>
 <h2 id="column-definitions"><strong>Column Definitions</strong></h2>
 <table>
@@ -1404,6 +1423,10 @@
 </tr>
 </tbody>
 </table>
+<div class="admonition info">
+<p class="admonition-title">Default Column Hierarchy</p>
+<p>By default, the columns are organized in the following hierarchy: <strong>GS Group</strong> (parent), <strong>FS Group</strong> (child of GS Group), and <strong>Account</strong> (child of FS Group). This structure allows you to expand each GS Group to view its related FS Groups, and further expand FS Groups to see individual Accounts. You can customize the column order at any time by dragging and dropping columns to suit your analysis needs.</p>
+</div>
 <div class="admonition tip">
 <p class="admonition-title">Changing Column Order</p>
 <p>You can rearrange the columns by dragging and dropping them to customize your view. This allows you to prioritize the most relevant data for your analysis.</p>

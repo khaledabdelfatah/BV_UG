@@ -320,6 +320,8 @@
       
         
       
+        
+      
     
     
     
@@ -494,6 +496,15 @@
   <a href="#dashboard_toolbar" class="md-nav__link">
     <span class="md-ellipsis">
       1.4 Dashboard Toolbar
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dealing_with_tables" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.5 Dealing with Tables
     </span>
   </a>
   
@@ -756,9 +767,18 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#usecases-ratio_analysis_ksa-publishing_ratio" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.5.4 Publishing Ratio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#usecases-ratio_analysis_ksa-personal_ratio_visualization" class="md-nav__link">
     <span class="md-ellipsis">
-      2.5.4 Personal Ratio Visualization
+      2.5.5 Personal Ratio Visualization
     </span>
   </a>
   
@@ -767,7 +787,7 @@
           <li class="md-nav__item">
   <a href="#usecases-ratio_analysis_ksa-shared_ratio_visualization" class="md-nav__link">
     <span class="md-ellipsis">
-      2.5.5 Shared Ratio Visualization
+      2.5.6 Shared Ratio Visualization
     </span>
   </a>
   
@@ -1512,7 +1532,172 @@
     To return to the standard view, press the <strong>ESC</strong> key on your keyboard or click the <strong>Exit Full Screen</strong> button, which appears in the top-right corner of the screen during full-screen mode.</p>
 </li>
 </ol>
-<p>This functionality is particularly useful for reviewing large datasets or presenting data in meetings, ensuring clarity and focus.</p></section></section>
+<p>This functionality is particularly useful for reviewing large datasets or presenting data in meetings, ensuring clarity and focus.</p></section><section class="print-page" id="dealing_with_tables" heading-number="1.5"><h1 id="dealing_with_tables-dealing-with-tables"><strong>Dealing with Tables</strong></h1>
+<p>Learn how to efficiently work with tables in the dashboard, including key features, context menu actions, formatting, and advanced analysis options.</p>
+<hr />
+<h2 id="dealing_with_tables-overview"><strong>Overview</strong></h2>
+<p>Tables in the dashboard offer powerful tools for managing and analyzing your data. This section covers:</p>
+<ul>
+<li>Table context menu features</li>
+<li>Sorting, filtering, and formatting options</li>
+<li>Conditional formatting</li>
+<li>Drill-down and drill-through capabilities</li>
+</ul>
+<div class="admonition example">
+<p class="admonition-title">Table Features Overview</p>
+<p><iframe frameborder="0" style="width:100%;height:722px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Dealing%20with%20Tables.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D18gn9ckPKX6A9oGvO_Rr3ao0iJ0vJMWeD%26export%3Ddownload"></iframe></p>
+</div>
+<hr />
+<h2 id="dealing_with_tables-table-context-menu"><strong>Table Context Menu</strong></h2>
+<p>Right-clicking on a table row or column opens a context menu with several options:</p>
+<h3 id="dealing_with_tables-row-and-column-actions"><strong>Row and Column Actions</strong></h3>
+<ul>
+<li><strong>Keep</strong>: Display only the selected row for focused analysis.</li>
+<li><strong>Hide</strong>: Temporarily remove the selected row to declutter the table.</li>
+<li><strong>Unhide All</strong>: Restore all hidden rows to show the complete dataset.</li>
+<li><strong>Undo</strong>: Revert the last action, such as restoring a recently hidden row.</li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Quickly Restore Hidden Rows</p>
+<p>Use the undo button to bring back the last hidden row, or select 'Unhide All' to restore all hidden rows.</p>
+</div>
+<h3 id="dealing_with_tables-sorting-options"><strong>Sorting Options</strong></h3>
+<ul>
+<li><strong>Sort Ascending</strong>: Arrange rows in ascending order based on the selected column (e.g., lowest values or earliest dates).</li>
+<li><strong>Sort Descending</strong>: Arrange rows in descending order (e.g., highest values or latest dates).</li>
+<li><strong>Clear Sort</strong>: Remove all sorting and return to the original order.</li>
+<li><strong>Sort Hierarchy</strong>: Sort by multiple columns in a prioritized manner for advanced ordering.</li>
+</ul>
+<h3 id="dealing_with_tables-filtering-and-formatting"><strong>Filtering and Formatting</strong></h3>
+<ul>
+<li><strong>Top/Bottom Filter</strong>: Show only the top or bottom entries based on a column (e.g., top 10 or bottom 5).</li>
+<li><strong>Format Value</strong>: Change the display format of values in the selected column for improved readability.</li>
+</ul>
+<hr />
+<h2 id="dealing_with_tables-formatting-options"><strong>Formatting Options</strong></h2>
+<p>Apply various formats to your data for clarity and consistency:</p>
+<table>
+<thead>
+<tr>
+<th><strong>Format</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Example</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>General</td>
+<td>Default format without styling.</td>
+<td><code>12345.67</code></td>
+</tr>
+<tr>
+<td>Fixed</td>
+<td>Number with two decimal places.</td>
+<td><code>12345.67</code></td>
+</tr>
+<tr>
+<td>Comma</td>
+<td>Adds thousands separator.</td>
+<td><code>12,345.67</code></td>
+</tr>
+<tr>
+<td>Rounded</td>
+<td>Rounds to the nearest whole number.</td>
+<td><code>12,346</code></td>
+</tr>
+<tr>
+<td>Percentage</td>
+<td>Converts number to a percentage.</td>
+<td><code>12,345.67%</code></td>
+</tr>
+<tr>
+<td>Scientific</td>
+<td>Scientific notation format.</td>
+<td><code>1.234567E+4</code></td>
+</tr>
+<tr>
+<td>Accounting</td>
+<td>Currency with accounting alignment.</td>
+<td><code>$12,345.67</code></td>
+</tr>
+<tr>
+<td>Currency</td>
+<td>Standard currency format.</td>
+<td><code>$12,345.67</code></td>
+</tr>
+<tr>
+<td>Currency (Rounded)</td>
+<td>Currency rounded to whole numbers.</td>
+<td><code>$12,346.00</code></td>
+</tr>
+<tr>
+<td>Thousands (K)</td>
+<td>Shortens numbers in thousands.</td>
+<td><code>12.3K</code></td>
+</tr>
+<tr>
+<td>Millions (M)</td>
+<td>Shortens numbers in millions.</td>
+<td><code>12.3M</code></td>
+</tr>
+<tr>
+<td>Short Abbreviation</td>
+<td>Auto-shortens numbers using K/M/B.</td>
+<td><code>12.3K</code></td>
+</tr>
+<tr>
+<td>Date</td>
+<td>Formats as date.</td>
+<td><code>4/28/25</code></td>
+</tr>
+<tr>
+<td>Time</td>
+<td>Formats as time.</td>
+<td><code>4:04:00 PM</code></td>
+</tr>
+<tr>
+<td>Custom Format</td>
+<td>Enter your own format code in the popup and click Apply.</td>
+<td>Custom input</td>
+</tr>
+<tr>
+<td>Negative with Minus Sign</td>
+<td>Shows negative values with a minus sign.</td>
+<td><code>-12345.67</code></td>
+</tr>
+<tr>
+<td>Use Database Format</td>
+<td>Retains the original database format.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="dealing_with_tables-conditional-formatting"><strong>Conditional Formatting</strong></h2>
+<p>Highlight values in a column based on specific criteria (e.g., values above a threshold or within a range). For each condition, you can specify formatting styles such as text color to emphasize important data.</p>
+<hr />
+<h2 id="dealing_with_tables-drill-options"><strong>Drill Options</strong></h2>
+<p>Explore related data directly from the table:</p>
+<ul>
+<li><strong>Drill Down</strong>: Click a row to view more detailed information, such as transactions or components of a larger figure. Useful for financial data analysis.</li>
+<li><strong>Drill Up</strong>: Return to the summary view after drilling down to see the broader context.</li>
+<li>
+<p><strong>Drill Through</strong>: Access detailed reports or related datasets directly from the table for deeper analysis.</p>
+<ul>
+<li><strong>Balance Drill Through</strong>: View journal entries that make up the balance for an account. Analyze anomalies, GL code entries, effective dates, credits, debits, and other details.</li>
+<li><strong>Journal Entries Drill Through</strong>: View sub-ledger details, including transaction dates, amounts, and descriptions. Note: Loading large datasets may take additional time.</li>
+<li><strong>Balance Previous Period Drill Through</strong>: View journal entries for an account in the previous period to gain historical insights.</li>
+<li><strong>Variance Previous Period Drill Through</strong>: Identify root causes of variances in the previous period, including account analysis and impact percentages.</li>
+<li><strong>Current Balance Drill Through</strong>: View FAH Data for the current balance of an account.</li>
+</ul>
+</li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Root Cause Analysis via Drill Through</p>
+<p>To identify the root cause for an account, select the desired account in the table, right-click on the "Variance Previous Period" column, and choose <strong>Drill Through &gt; Root Cause</strong>.<br />
+For non-account fields, right-click on the "% of Change Previous Period" column and select <strong>Drill Through &gt; Root Cause</strong> to analyze the underlying factors driving the change.</p>
+</div>
+<hr /></section></section>
                     <section class='print-page md-section' id='section-2' heading-number='2'>
                         <h1>Dashboard<a class='headerlink' href='#section-2' title='Permanent link'></a>
                         </h1>
@@ -2844,10 +3029,6 @@ It offers a detailed analysis of various financial ratios, enabling users to mak
 <td><strong>Balance Type</strong></td>
 <td>Defines how the balance is calculated or interpreted for the ratio item. Available options: <br><br> - <strong>Average Balance</strong>: Calculates the average between the opening and closing balances over a period.<br> - <strong>Opening Balance</strong>: Uses the starting balance at the beginning of the reporting period.<br> - <strong>Movement</strong>: Net change within the period (debits minus credits).<br> - <strong>YTD Balance</strong>: Aggregated balance from the start of the fiscal year up to the current period.</td>
 </tr>
-<tr>
-<td><strong>Used In Group Ratio</strong></td>
-<td>Indicates whether the ratio item is shared with other groups. Select <strong>Yes</strong> to enable sharing or <strong>No</strong> to keep it local.</td>
-</tr>
 </tbody>
 </table>
 <h2 id="usecases-ratio_analysis_ksa-create_ratio_item-creating-a-new-ratio-item">Creating a New Ratio Item</h2>
@@ -2867,7 +3048,7 @@ It offers a detailed analysis of various financial ratios, enabling users to mak
 <p><iframe frameborder="0" style="width:100%;height:357px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=ratio_analysis_ksa.drawio&page-id=pryP_8vYTykO-8-kc3v9&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1hKgOcEDgKFqvXKH_T1YuvhA6f-4lwTjP%26export%3Ddownload"></iframe></p>
 </div></section><section class="print-page" id="usecases-ratio_analysis_ksa-calculating_ratio" heading-number="2.5.3"><h1 id="usecases-ratio_analysis_ksa-calculating_ratio-calculating-a-ratio"><strong>Calculating a Ratio</strong></h1>
 <p>The <strong>Calculate a Ratio</strong> tab allows users to define and compute custom financial ratios in real time. Users can select existing ratio items, combine them using arithmetic operators, and instantly view the results. This interface supports building, validating, and analyzing complex ratio formulas interactively.</p>
-<h2 id="usecases-ratio_analysis_ksa-calculating_ratio-purpose">Purpose</h2>
+<h2 id="usecases-ratio_analysis_ksa-calculating_ratio-purpose"><strong>Purpose</strong></h2>
 <ul>
 <li>Create and customize financial ratios by combining multiple items.</li>
 <li>Define arithmetic operations between ratio items.</li>
@@ -2876,7 +3057,7 @@ It offers a detailed analysis of various financial ratios, enabling users to mak
 </ul>
 <hr />
 <h2 id="usecases-ratio_analysis_ksa-calculating_ratio-available-actions"><strong>Available Actions</strong></h2>
-<h3 id="usecases-ratio_analysis_ksa-calculating_ratio-creating-a-new-ratio-item">Creating a New Ratio Item</h3>
+<h3 id="usecases-ratio_analysis_ksa-calculating_ratio-creating-a-new-ratio-item"><strong>Creating a New Ratio Item</strong></h3>
 <p>To create a new ratio item:</p>
 <ol>
 <li>Enter the desired ratio item name in the <strong>Ratio Item</strong> field (1).</li>
@@ -2886,17 +3067,23 @@ It offers a detailed analysis of various financial ratios, enabling users to mak
 <p class="admonition-title">Creating a New Ratio Item</p>
 <p><iframe frameborder="0" style="width:100%;height:773px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=ratio_analysis_ksa.drawio&page-id=-m8zmtbr_6qzTahKUsii&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1hKgOcEDgKFqvXKH_T1YuvhA6f-4lwTjP%26export%3Ddownload"></iframe></p>
 </div>
-<h3 id="usecases-ratio_analysis_ksa-calculating_ratio-defining-the-ratio-equation">Defining the Ratio Equation</h3>
+<h3 id="usecases-ratio_analysis_ksa-calculating_ratio-defining-the-ratio-equation"><strong>Defining the Ratio Equation</strong></h3>
 <ol>
 <li><strong>Ratio Item</strong>: Select the ratio item from the dropdown list to include in your equation. You can select up to five ratio items per equation.</li>
-<li><strong>Operation</strong>: Choose the arithmetic operation from the dropdown list. Supported operations include:</li>
+<li>
+<p><strong>Operation</strong>: Choose the arithmetic operation from the dropdown list. Supported operations include:</p>
+<ul>
 <li><strong>Addition (+)</strong></li>
 <li><strong>Subtraction (-)</strong></li>
 <li><strong>Multiplication (*)</strong></li>
 <li><strong>Division (/)</strong></li>
 <li><strong>(</strong>, <strong>+(</strong>, <strong>-(</strong>, <strong><em>(</em>*, </strong>/(** (for grouping and advanced expressions)</li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">You can combine multiple operations to construct complex equations.</p>
+</div>
+</li>
 </ol>
-<p>You can combine multiple operations to construct complex equations.</p>
 <p>After defining the equation, click the <strong>Calculate</strong> button (3) to compute the ratio. The resulting equation will be displayed in the ratio equation field.</p>
 <div class="admonition example">
 <p class="admonition-title">Calculate Button</p>
@@ -2913,19 +3100,6 @@ It offers a detailed analysis of various financial ratios, enabling users to mak
 <p class="admonition-title">Deleting a Ratio Item</p>
 <p><iframe frameborder="0" style="width:100%;height:979px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=ratio_analysis_ksa.drawio&page-id=zHkImCiCzPTUo3z-WZo0&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1hKgOcEDgKFqvXKH_T1YuvhA6f-4lwTjP%26export%3Ddownload" allowtransparency="true"></iframe></p>
 </div>
-<h3 id="usecases-ratio_analysis_ksa-calculating_ratio-publishing-the-ratio"><strong>Publishing the Ratio</strong></h3>
-<p>Only Admin users can publish a calculated ratio. Publishing makes the ratio available to all users across the organization and enables its use in the Shared Ratio Visualization tab.</p>
-<p>To publish a ratio:</p>
-<ol>
-<li>In the Publish column (1) next to the calculated ratio, click the dropdown:</li>
-<li>Select Publish to make the ratio available for all users.</li>
-<li>Select None if you do not want the ratio to be published.</li>
-<li>Click the Publish button (2) to finalize the process.</li>
-</ol>
-<div class="admonition example">
-<p class="admonition-title">Publishing the Ratio</p>
-<p><iframe frameborder="0" style="width:100%;height:686px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=ratio_analysis_ksa.drawio&page-id=HxmOd92xwddiCB2fCV1s&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1hKgOcEDgKFqvXKH_T1YuvhA6f-4lwTjP%26export%3Ddownload" allowtransparency="true"></iframe></p>
-</div>
 <hr />
 <h2 id="usecases-ratio_analysis_ksa-calculating_ratio-validating-numbers"><strong>Validating Numbers</strong></h2>
 <p>Before and after calculating a ratio, it’s important to validate the underlying data to ensure accuracy and reliability.</p>
@@ -2934,19 +3108,67 @@ It offers a detailed analysis of various financial ratios, enabling users to mak
 <p><iframe frameborder="0" style="width:100%;height:1071px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=ratio_analysis_ksa.drawio&page-id=x4FzhmaESt6CFqvuNsAR&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1hKgOcEDgKFqvXKH_T1YuvhA6f-4lwTjP%26export%3Ddownload" allowtransparency="true"></iframe></p>
 </div>
 <ol>
-<li>Pre-Calculation Validation
-Use the Balance Table (1) to verify the raw financial figures used in the ratio formula:</li>
+<li>
+<p><strong>Pre-Calculation Validation</strong></p>
+<ul>
+<li>Use the Balance Table (1) to verify the raw financial figures used in the ratio formula</li>
+<li>Review each Ratio Item (e.g., CURRENT ASSETS, ERP) and its corresponding Balance.</li>
+<li>Ensure the data aligns with your expectations and source records.</li>
+</ul>
+</li>
+<li>
+<p><strong>Post-Calculation Validation</strong></p>
+<ul>
+<li>After running the calculation, use the Calculated Ratio Table (2) to confirm the output</li>
+<li>View the final Ratio results for the selected period.</li>
+<li>Ensure the logic and results reflect the intended formula and input values.</li>
+</ul>
+</li>
 </ol>
-<p>Review each Ratio Item (e.g., CURRENT ASSETS, ERP) and its corresponding Balance.</p>
-<p>Ensure the data aligns with your expectations and source records.</p>
-<p>This step helps catch anomalies or incorrect data before calculation.</p>
+<p>This two-step validation process helps maintain confidence in your ratio analysis and ensures the results are trustworthy for decision-making.</p>
+<h2 id="usecases-ratio_analysis_ksa-calculating_ratio-sharing-ratio-with-group"><strong>Sharing Ratio with Group</strong></h2>
+<p>To share a ratio with other groups, follow these steps:</p>
 <ol>
-<li>Post-Calculation Validation
-After running the calculation, use the Calculated Ratio Table (2) to confirm the output:</li>
+<li>
+<p>Change the <strong>Used In Group Ratio</strong> option (1) for the desired ratio item.</p>
+</li>
+<li>
+<p>Click the <strong>Group Ratio</strong> button (2) to apply and share the changes with other groups.</p>
+</li>
 </ol>
-<p>View the final Ratio results for the selected period.</p>
-<p>Ensure the logic and results reflect the intended formula and input values.</p>
-<p>This two-step validation process helps maintain confidence in your ratio analysis and ensures the results are trustworthy for decision-making.</p></section><section class="print-page" id="usecases-ratio_analysis_ksa-personal_ratio_visualization" heading-number="2.5.4"><h1 id="usecases-ratio_analysis_ksa-personal_ratio_visualization-personal-ratio-visualization"><strong>Personal Ratio Visualization</strong></h1>
+<p>Once shared, the ratio will be available for use in the Group Ratio Analysis tab, allowing other users to leverage the shared financial insights.</p>
+<div class="admonition warning">
+<p class="admonition-title">This option is available only for Admin users of the GL team.</p>
+</div>
+<div class="admonition example">
+<p class="admonition-title">Sharing Ratio with Group</p>
+<p><iframe frameborder="0" style="width:100%;height:716px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Ratio%20Analysis%20KSA-%20Publish.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1-jIDd63Q2qnFbct2BaahJ3sVXySajAYK%26export%3Ddownload"></iframe></p>
+</div></section><section class="print-page" id="usecases-ratio_analysis_ksa-publishing_ratio" heading-number="2.5.4"><h1 id="usecases-ratio_analysis_ksa-publishing_ratio-publishing-the-ratio"><strong>Publishing the Ratio</strong></h1>
+<p>The <strong>Publish</strong> tab enables Admin users to make calculated ratios accessible to all users within the organization. Once published, these ratios appear in the <strong>Shared Ratio Visualization</strong> tab, supporting broader analysis and collaboration.</p>
+<hr />
+<h2 id="usecases-ratio_analysis_ksa-publishing_ratio-steps-to-publish-a-ratio"><strong>Steps to Publish a Ratio</strong></h2>
+<h3 id="usecases-ratio_analysis_ksa-publishing_ratio-1-navigate-to-the-publish-tab"><strong>1. Navigate to the Publish Tab</strong></h3>
+<ul>
+<li>Click the <strong>Publish</strong> tab in the top navigation bar.</li>
+</ul>
+<h3 id="usecases-ratio_analysis_ksa-publishing_ratio-2-select-a-ratio"><strong>2. Select a Ratio</strong></h3>
+<ul>
+<li>In the left-hand panel, choose the ratio you wish to publish (e.g., <em>Return on Sales</em>, <em>Current Ratio</em>).</li>
+</ul>
+<h3 id="usecases-ratio_analysis_ksa-publishing_ratio-3-assign-roles"><strong>3. Assign Roles</strong></h3>
+<ul>
+<li>Use the drop-down menus under each column (e.g., <strong>GL_Admin</strong>, <strong>AR Users</strong>, <strong>HFM User</strong>) to specify which user roles can access the ratio.</li>
+<li>Select roles based on their responsibilities and required access.</li>
+</ul>
+<h3 id="usecases-ratio_analysis_ksa-publishing_ratio-4-publish-the-ratio"><strong>4. Publish the Ratio</strong></h3>
+<ul>
+<li>Click the <strong>Publish</strong> button <sup>(1)</sup> (blue) at the top of the screen to confirm and publish the selected ratio.</li>
+<li>Optionally, use the <strong>Update Shared Ratios</strong> button <sup>(2)</sup> to refresh and sync ratio visibility for all users.</li>
+</ul>
+<div class="admonition example">
+<p class="admonition-title">Publishing the Ratio</p>
+<p><iframe frameborder="0" style="width:100%;height:569px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Ratio%20Analysis%20KSA-%20Publish.drawio&page-id=qKi2mIaXJAwnPz-8YjtV&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1-jIDd63Q2qnFbct2BaahJ3sVXySajAYK%26export%3Ddownload"></iframe></p>
+</div></section><section class="print-page" id="usecases-ratio_analysis_ksa-personal_ratio_visualization" heading-number="2.5.5"><h1 id="usecases-ratio_analysis_ksa-personal_ratio_visualization-personal-ratio-visualization"><strong>Personal Ratio Visualization</strong></h1>
 <p>The <strong>Personal Ratio Visualization</strong> tab enables you to graphically explore the financial ratios you have defined in the <strong>Calculate a Ratio</strong> tab. This feature provides interactive visualizations to help you analyze, interpret, and communicate the significance of your custom ratios for your organization.</p>
 <p>With this tab, you can:</p>
 <ul>
@@ -2979,7 +3201,7 @@ After running the calculation, use the Calculated Ratio Table (2) to confirm the
 <ul>
 <li>Line Chart that offers granular, month-by-month insights into ratio fluctuations throughout the year.</li>
 </ul>
-<p>Use these visualizations to gain actionable insights and make informed decisions based on your organization’s financial data.</p></section><section class="print-page" id="usecases-ratio_analysis_ksa-shared_ratio_visualization" heading-number="2.5.5"><h1 id="usecases-ratio_analysis_ksa-shared_ratio_visualization-shared-ratio-visualization">Shared Ratio Visualization</h1>
+<p>Use these visualizations to gain actionable insights and make informed decisions based on your organization’s financial data.</p></section><section class="print-page" id="usecases-ratio_analysis_ksa-shared_ratio_visualization" heading-number="2.5.6"><h1 id="usecases-ratio_analysis_ksa-shared_ratio_visualization-shared-ratio-visualization">Shared Ratio Visualization</h1>
 <p>The <strong>Shared Ratio Visualization</strong> tab allows you to view and analyze financial ratios that have been shared with you by admins. Group admins can share specific ratios with users, enabling collaborative analysis and insights across the organization.</p>
 <div class="admonition example">
 <p class="admonition-title">Shared Ratio Visualization Tab</p>
@@ -4273,22 +4495,18 @@ These parameters define the reporting period for the KPIs being pushed.</li>
 </ul>
 <h3 id="usecases-variance_analysis-variance_analysis-filter-table-data"><strong>Filter Table Data</strong></h3>
 <p>You can also filter the table data by clicking on the filter name in the table header and selecting the desired values from the dropdown menu. This allows for quick adjustments to the displayed data.</p>
-<h2 id="usecases-variance_analysis-variance_analysis-changing-threshold-values"><strong>Changing Threshold Values</strong></h2>
-<p>You can customize the thresholds that determine when a variance is considered significant. This allows you to highlight only the variances that matter most to your analysis.</p>
-<h3 id="usecases-variance_analysis-variance_analysis-threshold-types"><strong>Threshold Types</strong></h3>
+<h2 id="usecases-variance_analysis-variance_analysis-customizing-variance-highlight-thresholds"><strong>Customizing Variance Highlight Thresholds</strong></h2>
+<p>You can control which variances are highlighted in the table by setting threshold values. This helps you focus on the most significant changes for your analysis.</p>
+<h3 id="usecases-variance_analysis-variance_analysis-threshold-options"><strong>Threshold Options</strong></h3>
+<p>There are two main types of thresholds you can set:</p>
 <ul>
-<li><strong>Variance Value:</strong> Set a minimum absolute difference (e.g., <code>1,000 SAR</code>).  </li>
-<li><strong>Percentage Value:</strong> Set a minimum percentage change (e.g., <code>10%</code> of the previous period's value).</li>
+<li><strong>Variance Value:</strong> The minimum absolute difference (e.g., <code>1,000 SAR</code>) between periods required to highlight a variance.</li>
+<li><strong>Percentage Value:</strong> The minimum percentage change (e.g., <code>10%</code>) from the previous period required to highlight a variance.</li>
 </ul>
-<p>Both thresholds must be exceeded for a variance to be highlighted. For example, if the previous period value is <code>5,000 SAR</code> and you set:</p>
+<p>By default, <strong>both</strong> thresholds must be exceeded for a variance to be highlighted. In other words, a variance will only be highlighted if:</p>
 <ul>
-<li><strong>Variance Value:</strong> <code>1,000 SAR</code></li>
-<li><strong>Percentage Value:</strong> <code>10%</code></li>
-</ul>
-<p>A variance will be highlighted only if:</p>
-<ul>
-<li>The absolute difference is greater than <code>1,000 SAR</code>, <strong>and</strong></li>
-<li>The percentage change is greater than <code>10%</code></li>
+<li>The absolute difference is greater than the Variance Value <strong>and</strong></li>
+<li>The percentage change is greater than the Percentage Value</li>
 </ul>
 <h4 id="usecases-variance_analysis-variance_analysis-example"><strong>Example</strong></h4>
 <table>
@@ -4321,13 +4539,14 @@ These parameters define the reporting period for the KPIs being pushed.</li>
 </tr>
 </tbody>
 </table>
-<h3 id="usecases-variance_analysis-variance_analysis-additional-threshold"><strong>Additional Threshold</strong></h3>
+<h3 id="usecases-variance_analysis-variance_analysis-advanced-option-second-variance-threshold"><strong>Advanced Option: Second Variance Threshold</strong></h3>
 <ul>
-<li><strong>Variance Value 2:</strong> Optionally, set a second absolute threshold (e.g., <code>2,000 SAR</code>) for advanced filtering or alternative highlighting scenarios.</li>
+<li><strong>Variance Value 2:</strong> You can also set a second absolute threshold (e.g., <code>2,000 SAR</code>) for more advanced filtering or to apply alternative highlighting rules.</li>
 </ul>
+<h3 id="usecases-variance_analysis-variance_analysis-how-to-adjust-thresholds"><strong>How to Adjust Thresholds</strong></h3>
 <div class="admonition tip">
 <p class="admonition-title">Adjusting Thresholds</p>
-<p>Use the dashboard controls to set or update these thresholds at any time. This helps you focus on the most relevant variances for your analysis.</p>
+<p>Use the dashboard controls to set or update these thresholds at any time. This allows you to quickly refine which variances are highlighted, ensuring you see only the most relevant changes for your analysis.</p>
 </div>
 <h2 id="usecases-variance_analysis-variance_analysis-column-definitions"><strong>Column Definitions</strong></h2>
 <table>
@@ -4384,6 +4603,10 @@ These parameters define the reporting period for the KPIs being pushed.</li>
 </tr>
 </tbody>
 </table>
+<div class="admonition info">
+<p class="admonition-title">Default Column Hierarchy</p>
+<p>By default, the columns are organized in the following hierarchy: <strong>GS Group</strong> (parent), <strong>FS Group</strong> (child of GS Group), and <strong>Account</strong> (child of FS Group). This structure allows you to expand each GS Group to view its related FS Groups, and further expand FS Groups to see individual Accounts. You can customize the column order at any time by dragging and dropping columns to suit your analysis needs.</p>
+</div>
 <div class="admonition tip">
 <p class="admonition-title">Changing Column Order</p>
 <p>You can rearrange the columns by dragging and dropping them to customize your view. This allows you to prioritize the most relevant data for your analysis.</p>
@@ -4407,6 +4630,11 @@ These parameters define the reporting period for the KPIs being pushed.</li>
 
                 .print-site-enumerate-headings #dashboard_toolbar h2:before { content: '1.4.' counter(counter-dashboard_toolbar-2) ' ' }
                 .print-site-enumerate-headings #dashboard_toolbar h2 {  counter-increment: counter-dashboard_toolbar-2 }
+            
+.print-site-enumerate-headings #dealing_with_tables > h1:before { content: '1.5 ' }
+
+                .print-site-enumerate-headings #dealing_with_tables h2:before { content: '1.5.' counter(counter-dealing_with_tables-2) ' ' }
+                .print-site-enumerate-headings #dealing_with_tables h2 {  counter-increment: counter-dealing_with_tables-2 }
             
 .print-site-enumerate-headings #section-2 > h1:before { content: '2 ' }
 .print-site-enumerate-headings #section-2-1 > h1:before { content: '2.1 ' }
@@ -4452,9 +4680,11 @@ These parameters define the reporting period for the KPIs being pushed.</li>
 
 .print-site-enumerate-headings #usecases-ratio_analysis_ksa-calculating_ratio > h1:before { content: '2.5.3 ' }
 
-.print-site-enumerate-headings #usecases-ratio_analysis_ksa-personal_ratio_visualization > h1:before { content: '2.5.4 ' }
+.print-site-enumerate-headings #usecases-ratio_analysis_ksa-publishing_ratio > h1:before { content: '2.5.4 ' }
 
-.print-site-enumerate-headings #usecases-ratio_analysis_ksa-shared_ratio_visualization > h1:before { content: '2.5.5 ' }
+.print-site-enumerate-headings #usecases-ratio_analysis_ksa-personal_ratio_visualization > h1:before { content: '2.5.5 ' }
+
+.print-site-enumerate-headings #usecases-ratio_analysis_ksa-shared_ratio_visualization > h1:before { content: '2.5.6 ' }
 
 .print-site-enumerate-headings #section-2-6 > h1:before { content: '2.6 ' }
 .print-site-enumerate-headings #usecases-group_ratio_analysis > h1:before { content: '2.6.1 ' }
