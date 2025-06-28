@@ -6,6 +6,7 @@ nav:
     - Getting Started: ./getting_started.md
     - Navigating the Dashboard: ./navigating_dashboard.md
     - Dashboard Toolbar: ./dashboard_toolbar.md
+    - Dealing with Tables: ./dealing_with_tables.md
   - Dashboard:
     - JE Anomalies: 
       - JE Anomalies: usecases/je_anomalies/index.md
@@ -31,6 +32,7 @@ nav:
       - Ratio Analysis (KSA): usecases/ratio_analysis_ksa/index.md
       - Creating Ratio Item: usecases/ratio_analysis_ksa/create_ratio_item.md
       - Calculating Ratio: usecases/ratio_analysis_ksa/calculating_ratio.md
+      - Publishing Ratio: usecases/ratio_analysis_ksa/publishing_ratio.md
       - Personal Ratio Visualization: usecases/ratio_analysis_ksa/personal_ratio_visualization.md
       - Shared Ratio Visualization: usecases/ratio_analysis_ksa/shared_ratio_visualization.md
     - Group Ratio Analysis:

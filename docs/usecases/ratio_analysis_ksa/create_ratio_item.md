@@ -25,7 +25,7 @@ This table describes all available columns when configuring a ratio item in the 
 | **Account Group**       | Groups similar accounts together for consolidated reporting. |
 | **Product Group**       | Groups related products for more streamlined ratio reporting. |
 | **Balance Type**        | Defines how the balance is calculated or interpreted for the ratio item. Available options: <br><br> - **Average Balance**: Calculates the average between the opening and closing balances over a period.<br> - **Opening Balance**: Uses the starting balance at the beginning of the reporting period.<br> - **Movement**: Net change within the period (debits minus credits).<br> - **YTD Balance**: Aggregated balance from the start of the fiscal year up to the current period.|
-| **Used In Group Ratio** | Indicates whether the ratio item is shared with other groups. Select **Yes** to enable sharing or **No** to keep it local. |
+
 
 
 ## Creating a New Ratio Item

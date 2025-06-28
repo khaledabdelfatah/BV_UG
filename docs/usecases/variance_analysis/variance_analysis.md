@@ -19,24 +19,21 @@ At the top of the dashboard, users can apply filters to narrow the scope of anal
 
 You can also filter the table data by clicking on the filter name in the table header and selecting the desired values from the dropdown menu. This allows for quick adjustments to the displayed data.
 
-## **Changing Threshold Values**
+## **Customizing Variance Highlight Thresholds**
 
-You can customize the thresholds that determine when a variance is considered significant. This allows you to highlight only the variances that matter most to your analysis.
+You can control which variances are highlighted in the table by setting threshold values. This helps you focus on the most significant changes for your analysis.
 
-### **Threshold Types**
+### **Threshold Options**
 
-- **Variance Value:** Set a minimum absolute difference (e.g., `1,000 SAR`).  
-- **Percentage Value:** Set a minimum percentage change (e.g., `10%` of the previous period's value).
+There are two main types of thresholds you can set:
 
-Both thresholds must be exceeded for a variance to be highlighted. For example, if the previous period value is `5,000 SAR` and you set:
+- **Variance Value:** The minimum absolute difference (e.g., `1,000 SAR`) between periods required to highlight a variance.
+- **Percentage Value:** The minimum percentage change (e.g., `10%`) from the previous period required to highlight a variance.
 
-- **Variance Value:** `1,000 SAR`
-- **Percentage Value:** `10%`
+By default, **both** thresholds must be exceeded for a variance to be highlighted. In other words, a variance will only be highlighted if:
 
-A variance will be highlighted only if:
-
-- The absolute difference is greater than `1,000 SAR`, **and**
-- The percentage change is greater than `10%`
+- The absolute difference is greater than the Variance Value **and**
+- The percentage change is greater than the Percentage Value
 
 #### **Example**
 
@@ -46,12 +43,14 @@ A variance will be highlighted only if:
 | 5,000 SAR            | 900 SAR       | 18%             | ❌           |
 | 5,000 SAR            | 1,200 SAR     | 8%              | ❌           |
 
-### **Additional Threshold**
+### **Advanced Option: Second Variance Threshold**
 
-- **Variance Value 2:** Optionally, set a second absolute threshold (e.g., `2,000 SAR`) for advanced filtering or alternative highlighting scenarios.
+- **Variance Value 2:** You can also set a second absolute threshold (e.g., `2,000 SAR`) for more advanced filtering or to apply alternative highlighting rules.
+
+### **How to Adjust Thresholds**
 
 !!! tip "Adjusting Thresholds"
-    Use the dashboard controls to set or update these thresholds at any time. This helps you focus on the most relevant variances for your analysis.
+    Use the dashboard controls to set or update these thresholds at any time. This allows you to quickly refine which variances are highlighted, ensuring you see only the most relevant changes for your analysis.
 
 ## **Column Definitions**
 
@@ -68,6 +67,9 @@ A variance will be highlighted only if:
 | **Balance PY**<br>*Previous Year* | The value for the same account in the same month of the previous year (e.g., April 2024). Used for Year-over-Year (YoY) comparison to track annual changes.                                         |
 | **Variance PY**      | The difference between the current balance and last year’s balance: `Balance - Balance PY`. A positive variance generally indicates improved performance over the year.                                                         |
 | **% of Change PY**   | The percentage change from the previous year: `(Variance PY / Balance PY) × 100`. This metric highlights long-term trends.                                                                |
+
+!!! info "Default Column Hierarchy"
+    By default, the columns are organized in the following hierarchy: **GS Group** (parent), **FS Group** (child of GS Group), and **Account** (child of FS Group). This structure allows you to expand each GS Group to view its related FS Groups, and further expand FS Groups to see individual Accounts. You can customize the column order at any time by dragging and dropping columns to suit your analysis needs.
 
 !!! tip "Changing Column Order"
     You can rearrange the columns by dragging and dropping them to customize your view. This allows you to prioritize the most relevant data for your analysis.

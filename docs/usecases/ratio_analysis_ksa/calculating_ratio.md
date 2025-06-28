@@ -2,7 +2,7 @@
 
 The **Calculate a Ratio** tab allows users to define and compute custom financial ratios in real time. Users can select existing ratio items, combine them using arithmetic operators, and instantly view the results. This interface supports building, validating, and analyzing complex ratio formulas interactively.
 
-## Purpose
+## **Purpose**
 
 - Create and customize financial ratios by combining multiple items.
 - Define arithmetic operations between ratio items.
@@ -13,7 +13,7 @@ The **Calculate a Ratio** tab allows users to define and compute custom financia
 
 ## **Available Actions**
 
-### Creating a New Ratio Item
+### **Creating a New Ratio Item**
 
 To create a new ratio item:
 
@@ -23,17 +23,18 @@ To create a new ratio item:
 !!! example "Creating a New Ratio Item"
     <iframe frameborder="0" style="width:100%;height:773px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=ratio_analysis_ksa.drawio&page-id=-m8zmtbr_6qzTahKUsii&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1hKgOcEDgKFqvXKH_T1YuvhA6f-4lwTjP%26export%3Ddownload"></iframe>
 
-### Defining the Ratio Equation
+### **Defining the Ratio Equation**
 
 1. **Ratio Item**: Select the ratio item from the dropdown list to include in your equation. You can select up to five ratio items per equation.
 2. **Operation**: Choose the arithmetic operation from the dropdown list. Supported operations include:
-   - **Addition (+)**
-   - **Subtraction (-)**
-   - **Multiplication (*)**
-   - **Division (/)**
-   - **(**, **+(**, **-(**, ***(**, **/(** (for grouping and advanced expressions)
+    - **Addition (+)**
+    - **Subtraction (-)**
+    - **Multiplication (*)**
+    - **Division (/)**
+    - **(**, **+(**, **-(**, ***(**, **/(** (for grouping and advanced expressions)
+   
+    !!! tip "You can combine multiple operations to construct complex equations."
 
-You can combine multiple operations to construct complex equations.
 
 After defining the equation, click the **Calculate** button (3) to compute the ratio. The resulting equation will be displayed in the ratio equation field.
 
@@ -52,20 +53,6 @@ The selected ratio item will be permanently removed from the list. Ensure you ha
 !!! example "Deleting a Ratio Item"
     <iframe frameborder="0" style="width:100%;height:979px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=ratio_analysis_ksa.drawio&page-id=zHkImCiCzPTUo3z-WZo0&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1hKgOcEDgKFqvXKH_T1YuvhA6f-4lwTjP%26export%3Ddownload" allowtransparency="true"></iframe>
 
-### **Publishing the Ratio**
-
-Only Admin users can publish a calculated ratio. Publishing makes the ratio available to all users across the organization and enables its use in the Shared Ratio Visualization tab.
-
-To publish a ratio:
-
-1. In the Publish column (1) next to the calculated ratio, click the dropdown:
-   - Select Publish to make the ratio available for all users.
-   - Select None if you do not want the ratio to be published.
-2. Click the Publish button (2) to finalize the process.
-
-!!! example "Publishing the Ratio"
-    <iframe frameborder="0" style="width:100%;height:686px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=ratio_analysis_ksa.drawio&page-id=HxmOd92xwddiCB2fCV1s&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1hKgOcEDgKFqvXKH_T1YuvhA6f-4lwTjP%26export%3Ddownload" allowtransparency="true"></iframe>
-
 ---
 
 ## **Validating Numbers**
@@ -75,22 +62,34 @@ Before and after calculating a ratio, it’s important to validate the underlyin
 !!! example "Validating Numbers"
     <iframe frameborder="0" style="width:100%;height:1071px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=ratio_analysis_ksa.drawio&page-id=x4FzhmaESt6CFqvuNsAR&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1hKgOcEDgKFqvXKH_T1YuvhA6f-4lwTjP%26export%3Ddownload" allowtransparency="true"></iframe>
 
-1. Pre-Calculation Validation
-Use the Balance Table (1) to verify the raw financial figures used in the ratio formula:
 
-Review each Ratio Item (e.g., CURRENT ASSETS, ERP) and its corresponding Balance.
+1. **Pre-Calculation Validation**
 
-Ensure the data aligns with your expectations and source records.
+    - Use the Balance Table (1) to verify the raw financial figures used in the ratio formula
+    - Review each Ratio Item (e.g., CURRENT ASSETS, ERP) and its corresponding Balance.
+    - Ensure the data aligns with your expectations and source records.
 
-This step helps catch anomalies or incorrect data before calculation.
+2. **Post-Calculation Validation**
 
-2. Post-Calculation Validation
-After running the calculation, use the Calculated Ratio Table (2) to confirm the output:
-
-View the final Ratio results for the selected period.
-
-Ensure the logic and results reflect the intended formula and input values.
+    - After running the calculation, use the Calculated Ratio Table (2) to confirm the output
+    - View the final Ratio results for the selected period.
+    - Ensure the logic and results reflect the intended formula and input values.
 
 This two-step validation process helps maintain confidence in your ratio analysis and ensures the results are trustworthy for decision-making.
 
 
+## **Sharing Ratio with Group**
+
+To share a ratio with other groups, follow these steps:
+
+1. Change the **Used In Group Ratio** option (1) for the desired ratio item.
+
+2. Click the **Group Ratio** button (2) to apply and share the changes with other groups.
+
+Once shared, the ratio will be available for use in the Group Ratio Analysis tab, allowing other users to leverage the shared financial insights.
+
+!!! warning "This option is available only for Admin users of the GL team."
+
+
+!!! example "Sharing Ratio with Group"
+    <iframe frameborder="0" style="width:100%;height:716px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Ratio%20Analysis%20KSA-%20Publish.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1-jIDd63Q2qnFbct2BaahJ3sVXySajAYK%26export%3Ddownload"></iframe>
