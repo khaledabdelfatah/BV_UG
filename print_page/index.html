@@ -4475,7 +4475,161 @@ These parameters define the reporting period for the KPIs being pushed.</li>
 <li>Month-over-Month (MoM): Compares financial performance of the current month against the previous month (e.g., April 2025 vs. March 2025). Useful for short-term trend analysis and operational monitoring.</li>
 <li>Year-over-Year (YoY): Compares the current month’s data against the same month in the prior year (e.g., April 2025 vs. April 2024). Useful for seasonal trend tracking and longer-term performance evaluation.</li>
 </ul>
-</div></section><section class="print-page" id="usecases-variance_analysis-balance_sheet_variance" heading-number="2.8.3"><h1 id="usecases-variance_analysis-balance_sheet_variance-balance-sheet-variance"><strong>Balance Sheet Variance</strong></h1></section><section class="print-page" id="usecases-variance_analysis-variance_analysis" heading-number="2.8.4"><h1 id="usecases-variance_analysis-variance_analysis-variance-analysis"><strong>Variance Analysis</strong></h1>
+</div></section><section class="print-page" id="usecases-variance_analysis-balance_sheet_variance" heading-number="2.8.3"><h1 id="usecases-variance_analysis-balance_sheet_variance-balance-sheet">Balance Sheet</h1>
+<h2 id="usecases-variance_analysis-balance_sheet_variance-overview"><strong>Overview</strong></h2>
+<p>The <strong>Balance Sheet</strong> dashboard enables users to compare asset balances across three time periods, providing clear insights into month-over-month and year-over-year changes. This view is designed for:</p>
+<ul>
+<li><strong>Finance teams</strong> monitoring account trends</li>
+<li><strong>Auditors</strong> validating data consistency</li>
+<li><strong>Managers</strong> identifying significant or unusual changes</li>
+</ul>
+<hr />
+<h2 id="usecases-variance_analysis-balance_sheet_variance-screen-elements"><strong>Screen Elements</strong></h2>
+<h3 id="usecases-variance_analysis-balance_sheet_variance-time-selection-controls"><strong>Time Selection Controls</strong></h3>
+<p>At the top center, use the <strong>Year</strong> and <strong>Month</strong> selectors to define the reporting period. For example, selecting <em>April 2025</em> displays:</p>
+<ul>
+<li><strong>Current Balance:</strong> April 2025</li>
+<li><strong>Previous Period:</strong> March 2025</li>
+<li><strong>Previous Year:</strong> April 2024</li>
+</ul>
+<hr />
+<h3 id="usecases-variance_analysis-balance_sheet_variance-balance-comparison-table"><strong>Balance Comparison Table</strong></h3>
+<p>Each account row displays the following columns:</p>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Balance</strong></td>
+<td>Balance for the selected month (e.g., April 2025)</td>
+</tr>
+<tr>
+<td><strong>Balance pp</strong></td>
+<td>Balance from the previous month (March 2025)</td>
+</tr>
+<tr>
+<td><strong>Variance pp</strong></td>
+<td>Difference between current and previous month</td>
+</tr>
+<tr>
+<td><strong>% of Change</strong></td>
+<td>Percentage change from previous period</td>
+</tr>
+<tr>
+<td><strong>Current Balance</strong></td>
+<td>Same as "Balance" (may appear again depending on layout)</td>
+</tr>
+<tr>
+<td><strong>Balance py</strong></td>
+<td>Balance from the same month last year (April 2024)</td>
+</tr>
+<tr>
+<td><strong>Variance py</strong></td>
+<td>Difference between current and previous year</td>
+</tr>
+<tr>
+<td><strong>% of Change</strong></td>
+<td>Year-over-year percentage change</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="usecases-variance_analysis-balance_sheet_variance-filter-panel">Filter Panel</h3>
+<p>Use the filter panel to refine your view by:</p>
+<ul>
+<li><strong>Function</strong></li>
+<li><strong>Company</strong></li>
+<li><strong>Network</strong></li>
+<li><strong>Customer</strong></li>
+<li><strong>Account</strong></li>
+<li><strong>Project</strong></li>
+<li><strong>Product</strong></li>
+</ul>
+<p>You can also set threshold limits:</p>
+<ul>
+<li><strong>Sheet Value:</strong> Show only changes above a specified amount (e.g., &gt; $10M)</li>
+<li><strong>Sheet Percentage:</strong> Show only changes above a specified percentage (e.g., &gt; 10%)</li>
+</ul>
+<p>These filters help you focus on high-impact variances.</p>
+<hr />
+<h2 id="usecases-variance_analysis-balance_sheet_variance-using-the-dashboard">Using the Dashboard</h2>
+<ol>
+<li><strong>Select the Month and Year</strong> to analyze.</li>
+<li><strong>Apply filters</strong> to focus on specific teams, projects, or products.</li>
+<li><strong>Review variance columns:</strong><ul>
+<li>Identify large negative values (typically highlighted in red).</li>
+<li>Compare both percentage and absolute value changes.</li>
+</ul>
+</li>
+<li><strong>Drill down</strong> into accounts with unusual or unexpected variances.</li>
+</ol>
+<hr />
+<h2 id="usecases-variance_analysis-balance_sheet_variance-data-refresh">Data Refresh</h2>
+<p>Data is refreshed regularly. Check the <strong>timestamp</strong> in the top right corner (e.g., <em>19-JUN-2025 06:43</em>) to ensure you are viewing the latest data.</p>
+<hr />
+<h2 id="usecases-variance_analysis-balance_sheet_variance-customizing-balance-highlight-thresholds">Customizing Balance Highlight Thresholds</h2>
+<p>You can control which variances are highlighted by setting threshold values, allowing you to focus on the most significant changes.</p>
+<h3 id="usecases-variance_analysis-balance_sheet_variance-threshold-options">Threshold Options</h3>
+<p>There are two main threshold types:</p>
+<ul>
+<li><strong>Sheet Value:</strong> Minimum absolute difference (e.g., <code>1,000 SAR</code>) required to highlight a record.</li>
+<li><strong>Sheet Percentage:</strong> Minimum percentage change (e.g., <code>10%</code>) required to highlight a record.</li>
+</ul>
+<p>By default, <strong>both</strong> thresholds must be exceeded for a value to be highlighted:</p>
+<ul>
+<li>The absolute difference is greater than the Sheet Value <strong>and</strong></li>
+<li>The percentage change is greater than the Sheet Percentage</li>
+</ul>
+<h4 id="usecases-variance_analysis-balance_sheet_variance-example">Example</h4>
+<table>
+<thead>
+<tr>
+<th>Previous Period Value</th>
+<th>Variance Value</th>
+<th>Percentage Value</th>
+<th>Highlighted?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5,000 SAR</td>
+<td>1,200 SAR</td>
+<td>12%</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>5,000 SAR</td>
+<td>900 SAR</td>
+<td>18%</td>
+<td>❌</td>
+</tr>
+<tr>
+<td>5,000 SAR</td>
+<td>1,200 SAR</td>
+<td>8%</td>
+<td>❌</td>
+</tr>
+</tbody>
+</table>
+<h3 id="usecases-variance_analysis-balance_sheet_variance-advanced-second-variance-threshold">Advanced: Second Variance Threshold</h3>
+<ul>
+<li><strong>Sheet Value 2:</strong> Optionally, set a second absolute threshold (e.g., <code>2,000 SAR</code>) for advanced filtering or alternative highlighting rules.</li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Adjusting Thresholds</p>
+<p>Use the dashboard controls to set or update thresholds at any time. This helps you quickly refine which values are highlighted, ensuring you see only the most relevant changes.</p>
+</div>
+<hr />
+<h2 id="usecases-variance_analysis-balance_sheet_variance-benefits">Benefits</h2>
+<ul>
+<li>Highlights only the most important changes, saving time.</li>
+<li>Automates period-to-period comparisons, reducing manual effort.</li>
+<li>Supports financial consistency and accountability.</li>
+</ul></section><section class="print-page" id="usecases-variance_analysis-variance_analysis" heading-number="2.8.4"><h1 id="usecases-variance_analysis-variance_analysis-variance-analysis"><strong>Variance Analysis</strong></h1>
 <p>This dashboard provides a comprehensive view of variance analysis, allowing users to compare current and previous periods, analyze variances, and visualize trends over time.</p>
 <h2 id="usecases-variance_analysis-variance_analysis-filter-controls"><strong>Filter Controls</strong></h2>
 <p>At the top of the dashboard, users can apply filters to narrow the scope of analysis:</p>
