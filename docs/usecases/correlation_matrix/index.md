@@ -66,3 +66,29 @@ When working with a large number of accounts, use the filter to narrow down the 
 
 1. Select the heatmap (1), then click on **Fields** (2) in the top-right corner to adjust the accounts shown.
 
+   !!! example "Fields Filter"
+       <iframe frameborder="0" style="width:100%;height:632px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Correlation%20Matrix.drawio&page-id=USqh03oqaenYsNgm5tcM&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1LkCCTe7vRbgLR58Dv9UhNTXtOvHhjLw1%26export%3Ddownload"></iframe>
+
+2. Once you click on "Fields", a new sidebar will appear on the right side of the screen, you can then configure the accounts you want to include in the heatmap in both the Rows (3) and Columns (4) sections.
+
+    !!! example "Configuring Fields"
+        <iframe frameborder="0" style="width:100%;height:652px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Correlation%20Matrix.drawio&page-id=8y-5HbPV5T08NN3ezFjh&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1LkCCTe7vRbgLR58Dv9UhNTXtOvHhjLw1%26export%3Ddownload"></iframe>
+
+3. Click on "Rows" or "Column" based on where you want to filter accounts then click on the edit icon (pencil) to open the filter options.
+
+    !!! example "Editing Rows/Columns"
+        <iframe frameborder="0" style="width:100%;height:396px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Correlation%20Matrix.drawio&page-id=dN3mE9X1821m-fTrqrIx&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1LkCCTe7vRbgLR58Dv9UhNTXtOvHhjLw1%26export%3Ddownload"></iframe>
+
+4. a new pop-up will appear with two panels: "Available Members" (left) and "Current Set" (right).
+    1. Use the "Available Members" Panel (Left):
+        1. Browse or search for source accounts you want to include.
+        2. Accounts are grouped hierarchically (e.g., 101000, 117000, 803000).
+        3. Use the arrow button to select desired accounts.
+
+    2. Add to the "Current Set" (Right Panel)
+        1. The accounts on the right side are the ones currently included in the matrix.
+        2. You can remove existing ones or add new ones from the left panel.
+
+    3. Apply the Changes:
+        1. Click “Apply and close” to update the matrix.
+        2. The heatmap will regenerate to reflect the selected account combinations.
