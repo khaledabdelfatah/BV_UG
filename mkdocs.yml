@@ -52,6 +52,14 @@ nav:
       - Balance Sheet Variance: usecases/variance_analysis/balance_sheet_variance.md
       - Variance Analysis: usecases/variance_analysis/variance_analysis.md
       - Balance over Months: usecases/variance_analysis/balance_over_months.md
+    - Group Variance Analysis:
+      - Group Variance Analysis: usecases/group_variance_analysis/index.md
+      - Group Variance Balance Sheet: usecases/group_variance_analysis/group_variance_balance_sheet.md
+      - Group Variance Profit & Loss: usecases/group_variance_analysis/group_variance_profit_loss.md
+      - Group Variance Source Accounts: usecases/group_variance_analysis/group_variance_source_accounts.md
+    - Correlation Matrix:
+      - Correlation Matrix: usecases/correlation_matrix/index.md
+      
 theme:
   # Language of the documentation (en: English)
   language: en
