@@ -14,7 +14,7 @@
       
       
       <link rel="icon" href="../assets/logo.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
     
     
       
@@ -369,6 +369,10 @@
   
     
     
+      
+        
+      
+        
       
         
       
@@ -959,6 +963,81 @@
   <a href="#usecases-variance_analysis-balance_over_months" class="md-nav__link">
     <span class="md-ellipsis">
       2.8.5 Balance over Months
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-2-9" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.9 Group Variance Analysis
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.9 Group Variance Analysis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#usecases-group_variance_analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.9.1 Group Variance Analysis
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usecases-group_variance_analysis-group_variance_balance_sheet" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.9.2 Group Variance Balance Sheet
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usecases-group_variance_analysis-group_variance_profit_loss" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.9.3 Group Variance Profit & Loss
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usecases-group_variance_analysis-group_variance_source_accounts" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.9.4 Group Variance Source Accounts
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-2-10" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.10 Correlation Matrix
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.10 Correlation Matrix">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#usecases-correlation_matrix" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.10.1 Correlation Matrix
     </span>
   </a>
   
@@ -4819,7 +4898,459 @@ These parameters define the reporting period for the KPIs being pushed.</li>
 <hr />
 <blockquote>
 <p><strong>Tip:</strong> Use the interactive filters and charts to quickly identify trends, outliers, or areas requiring further investigation.</p>
-</blockquote></section></section></section></div><style>.print-site-enumerate-headings #section-1 > h1:before { content: '1 ' }
+</blockquote></section></section>
+                    <section class='print-page md-section' id='section-2-9' heading-number='2.9'>
+                        <h1>Group Variance Analysis<a class='headerlink' href='#section-2-9' title='Permanent link'></a>
+                        </h1>
+                    <section class="print-page" id="usecases-group_variance_analysis" heading-number="2.9.1"><h1 id="usecases-group_variance_analysis-group-variance-analysis">Group Variance Analysis</h1>
+<p>The <strong>Group Variance Analysis Dashboard</strong> provides a detailed view of financial variances across multiple accounts, enabling users to identify and investigate changes in financial performance. This internal reporting tool sources its data from <strong>HFM (Hyperion Financial Management)</strong>, a financial consolidation and reporting platform.</p>
+<p>Designed for the STC Finance team, the dashboard allows comparison of financial data across different periods, accounts, and functions, helping uncover trends, anomalies, and potential root causes.</p>
+<h2 id="usecases-group_variance_analysis-dashboard-overview">Dashboard Overview</h2>
+<p>The dashboard consists of three main tabs:</p>
+<ul>
+<li><strong>Balance Sheet</strong></li>
+<li><strong>Profit and Loss</strong></li>
+<li><strong>Source Accounts</strong></li>
+</ul>
+<p>Each tab provides a different level of financial insight, from high-level summaries to granular account details.</p>
+<h2 id="usecases-group_variance_analysis-tab-breakdown">Tab Breakdown</h2>
+<table>
+<thead>
+<tr>
+<th>Tab Name</th>
+<th>Purpose</th>
+<th>Level of Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Balance Sheet</strong></td>
+<td>Compare changes in assets, liabilities, and equity over time. Useful for assessing shifts in the overall financial position.</td>
+<td>High-level (grouped account categories)</td>
+</tr>
+<tr>
+<td><strong>Profit &amp; Loss</strong></td>
+<td>Analyze variances in income and expenses, including gross profit, operating income, and net income.</td>
+<td>Medium-level (functional categories)</td>
+</tr>
+<tr>
+<td><strong>Source Accounts</strong></td>
+<td>Investigate the underlying leaf-level accounts contributing to significant changes. Supports deep dives and root-cause analysis.</td>
+<td>Very detailed (line-item view)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="usecases-group_variance_analysis-data-source">Data Source</h2>
+<ul>
+<li><strong>System:</strong> Hyperion Financial Management (HFM)</li>
+</ul>
+<p>The data is consolidated and aligned with STC’s internal reporting structure, ensuring consistency and reliability across financial reports.</p></section><section class="print-page" id="usecases-group_variance_analysis-group_variance_balance_sheet" heading-number="2.9.2"><h1 id="usecases-group_variance_analysis-group_variance_balance_sheet-balance-sheet-variance-analysis">Balance Sheet Variance Analysis</h1>
+<p>The <strong>Group Variance Analysis – Balance Sheet</strong> tab empowers finance teams to efficiently monitor and interpret changes in balance sheet accounts across the STC Group. This tool enhances financial oversight by enabling users to:</p>
+<ul>
+<li><strong>Audit</strong> internal financial records for accuracy and compliance</li>
+<li><strong>Explain</strong> significant movements in balance sheet line items</li>
+<li><strong>Support</strong> both month-end and year-end closing activities</li>
+<li><strong>Identify</strong> anomalies or potential accounting errors early</li>
+</ul>
+<div class="admonition example">
+<p class="admonition-title">Group Variance - Balance Sheet</p>
+<p><iframe frameborder="0" style="width:100%;height:608px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=group_variance_analysis.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1tykHKd6UvIqKrMuQW2qPkYfQKrK2jlD-%26export%3Ddownload"></iframe></p>
+</div>
+<hr />
+<h2 id="usecases-group_variance_analysis-group_variance_balance_sheet-setting-variance-thresholds">Setting Variance Thresholds</h2>
+<h3 id="usecases-group_variance_analysis-group_variance_balance_sheet-accessing-filter-controls">Accessing Filter Controls</h3>
+<p>At the top-right of the dashboard, you’ll find input fields for:</p>
+<ul>
+<li><strong>Variance Value</strong></li>
+<li><strong>% of Change Value</strong></li>
+<li><strong>Variance Value 2</strong></li>
+</ul>
+<p>These controls let you focus on accounts with material or unusual changes.</p>
+<hr />
+<h3 id="usecases-group_variance_analysis-group_variance_balance_sheet-how-filtering-works">How Filtering Works</h3>
+<p>You can filter accounts using two approaches:</p>
+<h4 id="usecases-group_variance_analysis-group_variance_balance_sheet-option-1-combine-variance-value-and-of-change-value"><strong>Option 1: Combine Variance Value AND % of Change Value</strong></h4>
+<ul>
+<li><strong>Logic:</strong> Both conditions must be satisfied (AND logic).</li>
+<li><strong>Display:</strong> An account appears only if:<ul>
+<li>The variance amount is <strong>greater than or equal to</strong> the <strong>Variance Value</strong></li>
+<li>The percentage change is <strong>greater than or equal to</strong> the <strong>% of Change Value</strong></li>
+</ul>
+</li>
+</ul>
+<p><strong>Example:</strong></p>
+<p><div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#usecases-group_variance_analysis-group_variance_balance_sheet-__codelineno-0-1"></a>Variance Value = 200,000,000
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#usecases-group_variance_analysis-group_variance_balance_sheet-__codelineno-0-2"></a>% of Change Value = 10%
+</span></code></pre></div>
+Only accounts with a <strong>variance of at least 200M</strong> <em>and</em> a <strong>change of at least 10%</strong> will be shown.</p>
+<hr />
+<h4 id="usecases-group_variance_analysis-group_variance_balance_sheet-option-2-use-variance-value-2-only"><strong>Option 2: Use Variance Value 2 Only</strong></h4>
+<ul>
+<li>Entering a value in <strong>Variance Value 2</strong> overrides the other two fields.</li>
+<li>Use this for filtering based solely on a specific variance threshold.</li>
+</ul>
+<p><strong>Example:</strong></p>
+<p><div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#usecases-group_variance_analysis-group_variance_balance_sheet-__codelineno-1-1"></a>Variance Value 2 = 5,000,000,000
+</span></code></pre></div>
+Only accounts with a <strong>variance above 5B</strong> will be displayed, regardless of percentage change.</p>
+<hr />
+<h3 id="usecases-group_variance_analysis-group_variance_balance_sheet-applying-filters">Applying Filters</h3>
+<p>The dashboard updates in real time to display only accounts that meet your criteria.</p>
+<hr />
+<h2 id="usecases-group_variance_analysis-group_variance_balance_sheet-understanding-the-balance-comparison-table">Understanding the Balance Comparison Table</h2>
+<p>Each account row includes the following columns:</p>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Balance</strong></td>
+<td>Balance for the selected month (e.g., April 2025)</td>
+</tr>
+<tr>
+<td><strong>Balance pp</strong></td>
+<td>Balance from the previous month (e.g., March 2025)</td>
+</tr>
+<tr>
+<td><strong>Variance pp</strong></td>
+<td>Difference between current and previous month</td>
+</tr>
+<tr>
+<td><strong>% of Change</strong></td>
+<td>Percentage change from previous period</td>
+</tr>
+<tr>
+<td><strong>Current Balance</strong></td>
+<td>Same as "Balance" (may appear again depending on layout)</td>
+</tr>
+<tr>
+<td><strong>Balance py</strong></td>
+<td>Balance from the same month last year (e.g., April 2024)</td>
+</tr>
+<tr>
+<td><strong>Variance py</strong></td>
+<td>Difference between current and previous year</td>
+</tr>
+<tr>
+<td><strong>% of Change</strong></td>
+<td>Year-over-year percentage change</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p>You can expand or collapse each account to view sub-accounts by clicking the plus icon next to the account name. Expanding an account reveals its sub-accounts, displaying their respective balances and variances for deeper analysis.</p></section><section class="print-page" id="usecases-group_variance_analysis-group_variance_profit_loss" heading-number="2.9.3"><h1 id="usecases-group_variance_analysis-group_variance_profit_loss-group-variance-analysis-profit-loss">Group Variance Analysis - Profit &amp; Loss</h1>
+<p>The <strong>Group Variance Analysis – Profit &amp; Loss</strong> tab provides a detailed view of income and expense performance across the STC Group. This dashboard enables finance teams to:</p>
+<ul>
+<li><strong>Audit</strong> internal financial records</li>
+<li><strong>Explain</strong> material changes in P&amp;L accounts</li>
+<li><strong>Support</strong> monthly and yearly financial close processes</li>
+<li><strong>Detect</strong> abnormal income or expense movements</li>
+<li><strong>Prepare</strong> for executive-level financial reporting</li>
+</ul>
+<p>This tab is essential for understanding shifts in key income statement metrics, such as revenue, operating income, and net income.</p>
+<div class="admonition example">
+<p class="admonition-title">Group Variance - Profit &amp; Loss</p>
+<p><iframe frameborder="0" style="width:100%;height:492px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=group_variance_analysis.drawio&page-id=1pmbm4ulQHd663ALxY0E&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1tykHKd6UvIqKrMuQW2qPkYfQKrK2jlD-%26export%3Ddownload"></iframe></p>
+</div>
+<h2 id="usecases-group_variance_analysis-group_variance_profit_loss-controlling-variance-thresholds">Controlling Variance Thresholds</h2>
+<h3 id="usecases-group_variance_analysis-group_variance_profit_loss-accessing-the-controls-panel">Accessing the Controls Panel</h3>
+<p>At the top-right corner of the dashboard, you will find three filter fields:</p>
+<ul>
+<li><strong>Variance Value</strong>: Minimum absolute difference between periods.</li>
+<li><strong>% of Change Value</strong>: Minimum percentage change between periods.</li>
+<li><strong>Variance Value 2</strong>: Alternative single-value filter for large variances.</li>
+</ul>
+<p>These controls help you quickly identify significant or unusual financial movements.</p>
+<hr />
+<h3 id="usecases-group_variance_analysis-group_variance_profit_loss-how-filtering-works">How Filtering Works</h3>
+<p>You can filter the data using two different approaches:</p>
+<h4 id="usecases-group_variance_analysis-group_variance_profit_loss-option-1-combine-variance-value-and-of-change-value"><strong>Option 1: Combine Variance Value AND % of Change Value</strong></h4>
+<ul>
+<li><strong>Logic:</strong> Both filters must be satisfied (AND logic).</li>
+<li><strong>Result:</strong> An account is displayed only if:<ul>
+<li>The variance amount is <strong>greater than or equal to</strong> the value in <strong>Variance Value</strong></li>
+<li>The percentage change is <strong>greater than or equal to</strong> the value in <strong>% of Change Value</strong></li>
+</ul>
+</li>
+</ul>
+<p><strong>Example:</strong></p>
+<p><div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#usecases-group_variance_analysis-group_variance_profit_loss-__codelineno-0-1"></a>Variance Value = 200,000,000
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#usecases-group_variance_analysis-group_variance_profit_loss-__codelineno-0-2"></a>% of Change Value = 10%
+</span></code></pre></div>
+Only accounts with a <strong>variance of at least 200M</strong> <em>and</em> a <strong>change of at least 10%</strong> will be shown.</p>
+<hr />
+<h4 id="usecases-group_variance_analysis-group_variance_profit_loss-option-2-use-variance-value-2-only"><strong>Option 2: Use Variance Value 2 Only</strong></h4>
+<ul>
+<li>Entering a value in <strong>Variance Value 2</strong> disables the other two filters.</li>
+<li>Use this when you want to focus on accounts with a single, high variance threshold.</li>
+</ul>
+<p><strong>Example:</strong></p>
+<p><div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#usecases-group_variance_analysis-group_variance_profit_loss-__codelineno-1-1"></a>Variance Value 2 = 5,000,000,000
+</span></code></pre></div>
+Only accounts with a <strong>variance above 5B</strong> will be displayed, regardless of percentage change.</p>
+<hr />
+<h3 id="usecases-group_variance_analysis-group_variance_profit_loss-applying-filters">Applying Filters</h3>
+<p>As you adjust the filter values, the dashboard updates in real time to show only accounts that meet your criteria.</p>
+<hr />
+<h2 id="usecases-group_variance_analysis-group_variance_profit_loss-understanding-the-balance-comparison-table">Understanding the Balance Comparison Table</h2>
+<p>Each row in the table represents a financial account and includes the following columns:</p>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Balance</strong></td>
+<td>Value for the selected month (e.g., April 2025)</td>
+</tr>
+<tr>
+<td><strong>Balance pp</strong></td>
+<td>Value from the previous month (e.g., March 2025)</td>
+</tr>
+<tr>
+<td><strong>Variance pp</strong></td>
+<td>Difference between current and previous month</td>
+</tr>
+<tr>
+<td><strong>% of Change</strong></td>
+<td>Percentage change from previous month</td>
+</tr>
+<tr>
+<td><strong>Current Balance</strong></td>
+<td>Same as "Balance" (may be repeated for layout reasons)</td>
+</tr>
+<tr>
+<td><strong>Balance py</strong></td>
+<td>Value from the same month last year (e.g., April 2024)</td>
+</tr>
+<tr>
+<td><strong>Variance py</strong></td>
+<td>Difference between current and previous year</td>
+</tr>
+<tr>
+<td><strong>% of Change</strong></td>
+<td>Year-over-year percentage change</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="usecases-group_variance_analysis-group_variance_profit_loss-navigating-and-sorting-accounts">Navigating and Sorting Accounts</h3>
+<ul>
+<li><strong>Expand/Collapse:</strong> Click the plus icon next to an account name to show or hide its sub-accounts. Sub-accounts will appear above the parent account by default.</li>
+<li><strong>Sorting and Totals:</strong> To change how sub-accounts and totals are displayed:<ol>
+<li>Select a column header.</li>
+<li>Right-click and choose one of the following:<ul>
+<li><strong>Show Totals Trailing:</strong> Sub-accounts appear below the parent account; the parent is listed first.</li>
+<li><strong>Show Totals Leading:</strong> Sub-accounts appear above the parent account; the parent is listed last.</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+<div class="admonition example">
+<p class="admonition-title">Show Totals Trailing/Leading</p>
+<p><iframe frameborder="0" style="width:100%;height:512px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=group_variance_analysis.drawio&page-id=tQzzZA9eqVGRa3rge-n7&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1tykHKd6UvIqKrMuQW2qPkYfQKrK2jlD-%26export%3Ddownload"></iframe></p>
+</div></section><section class="print-page" id="usecases-group_variance_analysis-group_variance_source_accounts" heading-number="2.9.4"><h1 id="usecases-group_variance_analysis-group_variance_source_accounts-group-variance-analysis-source-accounts">Group Variance Analysis – Source Accounts</h1>
+<p>The <strong>Source Accounts</strong> tab provides a detailed, account-level breakdown of movements and variances across the STC Group. This view is essential for financial analysts and auditors who need to perform drill-down investigations, reconciliations, and trace variances back to their originating accounts.</p>
+<p>All accounts displayed here are <strong>leaf-level accounts</strong>—the most granular accounts in the hierarchy. This tab helps users identify the root causes of group-level variances by linking them directly to their respective source accounts.</p>
+<div class="admonition example">
+<p class="admonition-title">Group Variance – Source Accounts</p>
+<p><iframe frameborder="0" style="width:100%;height:498px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=group_variance_analysis.drawio&page-id=soTpT0AmZtzUCZYpx9Oi&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1tykHKd6UvIqKrMuQW2qPkYfQKrK2jlD-%26export%3Ddownload"></iframe></p>
+</div>
+<h2 id="usecases-group_variance_analysis-group_variance_source_accounts-balance-comparison-table">Balance Comparison Table</h2>
+<p>Each row in the table represents a source account and includes the following columns:</p>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Balance</strong></td>
+<td>Balance for the selected month (e.g., April 2025)</td>
+</tr>
+<tr>
+<td><strong>Balance pp</strong></td>
+<td>Balance from the previous month (e.g., March 2025)</td>
+</tr>
+<tr>
+<td><strong>Variance pp</strong></td>
+<td>Difference between current and previous month</td>
+</tr>
+<tr>
+<td><strong>% of Change</strong></td>
+<td>Percentage change from previous period</td>
+</tr>
+<tr>
+<td><strong>Current Balance</strong></td>
+<td>Same as "Balance" (may appear again depending on layout)</td>
+</tr>
+<tr>
+<td><strong>Balance py</strong></td>
+<td>Balance from the same month last year (e.g., April 2024)</td>
+</tr>
+<tr>
+<td><strong>Variance py</strong></td>
+<td>Difference between current and previous year</td>
+</tr>
+<tr>
+<td><strong>% of Change</strong></td>
+<td>Year-over-year percentage change</td>
+</tr>
+</tbody>
+</table>
+<h3 id="usecases-group_variance_analysis-group_variance_source_accounts-threshold-filters">Threshold Filters</h3>
+<ul>
+<li>Use <strong>Variance Value</strong> and <strong>% of Change</strong> together to filter results.</li>
+<li>Alternatively, enter a <strong>Variance Value 2</strong> to apply a single, stricter filter.</li>
+</ul>
+<p>The purpose of the Source Accounts tab is to link group accounts with their subsidiary accounts, enabling users to pinpoint the source of variances at the group level.</p>
+<hr />
+<h2 id="usecases-group_variance_analysis-group_variance_source_accounts-drill-through-functionality">Drill-Through Functionality</h2>
+<p>For any <strong>KSA account</strong>, right-click and select <strong>Drill Through → DB KSA JE Transactions</strong> to view the detailed journal entries that contributed to the variance. This feature allows you to trace financial data back to its source, helping to explain discrepancies or unusual movements.</p>
+<p>To download the DB KSA JE Transactions data, click the <strong>Download CSV</strong> button. The data will be saved in CSV format for further analysis in Excel or any spreadsheet application.</p>
+<div class="admonition example">
+<p class="admonition-title">Drill Through DB KSA JE Transactions</p>
+<p><iframe frameborder="0" style="width:100%;height:538px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=group_variance_analysis.drawio&page-id=PBaoNtj3UZR1JrrFW4Xe&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1tykHKd6UvIqKrMuQW2qPkYfQKrK2jlD-%26export%3Ddownload"></iframe></p>
+</div>
+<hr />
+<h3 id="usecases-group_variance_analysis-group_variance_source_accounts-account-root-cause-analysis">Account Root Cause Analysis</h3>
+<p>To identify the root cause of a variance for a KSA account:</p>
+<ol>
+<li>Right-click the <strong>% of Change</strong> column for the desired account.</li>
+<li>Select <strong>Drill Through → Account Root Cause</strong>.</li>
+</ol>
+<p>This displays:
+- The top 3 companies contributing to the variance,
+- The top function,
+- The top product impacting the variance.</p>
+<blockquote>
+<p><strong>Note:</strong> This feature is available only for KSA accounts.</p>
+</blockquote>
+<div class="admonition example">
+<p class="admonition-title">Drill Through Account Root Cause</p>
+<p><iframe frameborder="0" style="width:100%;height:495px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Group%20Variance%20Analysis%20v2.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D11uIfu6aBCtmK_znVgfw3Np24ADaPW90e%26export%3Ddownload"></iframe></p>
+</div>
+<hr />
+<h3 id="usecases-group_variance_analysis-group_variance_source_accounts-group-account-variance-root-cause">Group Account Variance Root Cause</h3>
+<p>To analyze the variance root cause for a main group account:</p>
+<ol>
+<li>Right-click the group account.</li>
+<li>Select <strong>Drill Through → Variance Root Cause 1</strong>.</li>
+</ol>
+<p>You will see:
+- The top 3 subsidiary accounts contributing to the variance,
+- For each subsidiary, the top 3 sub-accounts,
+- The percentage impact of each subsidiary and sub-account.</p>
+<div class="admonition example">
+<p class="admonition-title">Drill Through Variance Root Cause 1</p>
+<p><iframe frameborder="0" style="width:100%;height:443px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Group%20Variance%20Analysis%20v2.drawio&page-id=PDhnAYqNNjWR8YlZQjnD&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D11uIfu6aBCtmK_znVgfw3Np24ADaPW90e%26export%3Ddownload"></iframe></p>
+</div>
+<hr />
+<h3 id="usecases-group_variance_analysis-group_variance_source_accounts-additional-drill-through-options">Additional Drill-Through Options</h3>
+<ul>
+<li><strong>Balance Column:</strong> Right-click a balance value, select <strong>Drill Through → DB KS JE Transactions</strong> to view related journal entries.</li>
+<li><strong>Current Balance Column:</strong> Right-click a current balance value, select <strong>Drill Through → KSA JE Transactions</strong> to see the journal entries contributing to the current balance.</li>
+</ul>
+<div class="admonition example">
+<p class="admonition-title">Drill Through KSA JE Transactions</p>
+<p><iframe frameborder="0" style="width:100%;height:577px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Group%20Variance%20Analysis%20v2.drawio&page-id=IeAZHWzYyCo6KKTABH9c&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D11uIfu6aBCtmK_znVgfw3Np24ADaPW90e%26export%3Ddownload"></iframe></p>
+</div>
+<hr />
+<p>By leveraging these features, users can efficiently trace, analyze, and explain variances at both the group and account levels, ensuring transparency and accuracy in financial reporting.</p></section></section>
+                    <section class='print-page md-section' id='section-2-10' heading-number='2.10'>
+                        <h1>Correlation Matrix<a class='headerlink' href='#section-2-10' title='Permanent link'></a>
+                        </h1>
+                    <section class="print-page" id="usecases-correlation_matrix" heading-number="2.10.1"><h1 id="usecases-correlation_matrix-correlation-matrix"><strong>Correlation Matrix</strong></h1>
+<p>The Correlation Matrix dashboard is a powerful analytical tool designed to help users uncover relationships between subsidiary accounts by visualizing how their values move together over time. By highlighting hidden dependencies, behavioral patterns, and potential anomalies, the dashboard supports data-driven decision-making across financial and operational datasets.</p>
+<h2 id="usecases-correlation_matrix-purpose">Purpose</h2>
+<p>The Correlation Matrix provides a visual analysis of relationships between source accounts within a selected subsidiary. Users can quickly identify which accounts move in tandem, which are independent, and which behave inversely. This insight aids in understanding business processes, ensuring data consistency, and detecting financial patterns.</p>
+<h2 id="usecases-correlation_matrix-key-features">Key Features</h2>
+<ul>
+<li><strong>Account-to-Account Heatmap:</strong> Visualizes correlations between source accounts using a color gradient. Darker shades indicate stronger correlations (positive or negative), while lighter shades represent weak or no correlation.</li>
+<li><strong>Hover Insight:</strong> Hovering over any cell displays the two source accounts being compared and their correlation coefficient (ranging from -1 to +1).</li>
+<li><strong>Entity Filter:</strong> A dropdown filter (top-right) allows users to focus on correlations within a specific CIF/subsidiary.</li>
+</ul>
+<h2 id="usecases-correlation_matrix-selecting-a-subsidiary">Selecting a Subsidiary</h2>
+<p>To analyze a specific subsidiary, use the dropdown filter in the top-right corner of the dashboard. The matrix will update to display correlations only for accounts within the selected entity.</p>
+<div class="admonition example">
+<p class="admonition-title">Correlation Matrix</p>
+<p><iframe frameborder="0" style="width:100%;height:518px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Correlation%20Matrix.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1LkCCTe7vRbgLR58Dv9UhNTXtOvHhjLw1%26export%3Ddownload"></iframe></p>
+</div>
+<h2 id="usecases-correlation_matrix-how-to-read-the-correlation-matrix">How to Read the Correlation Matrix</h2>
+<p>The matrix measures how similarly account values change over time. Each cell represents the correlation between two accounts.</p>
+<h3 id="usecases-correlation_matrix-1-color-intensity-strength-of-correlation">1. Color Intensity = Strength of Correlation</h3>
+<ul>
+<li><strong>Darker Purple:</strong> Strong correlation (positive or negative)</li>
+<li><strong>Lighter Purple / White:</strong> Weak or no correlation</li>
+</ul>
+<p>This visual cue allows you to quickly spot strong relationships.</p>
+<h3 id="usecases-correlation_matrix-2-hover-for-details">2. Hover for Details</h3>
+<p>Hovering over a cell reveals:
+- The two source account codes being compared
+- The correlation coefficient (between -1 and +1)</p>
+<p><strong>Example:</strong>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#usecases-correlation_matrix-__codelineno-0-1"></a>530209 | 120636-4
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#usecases-correlation_matrix-__codelineno-0-2"></a>Correlation Coefficient: -0.09
+</span></code></pre></div></p>
+<h3 id="usecases-correlation_matrix-3-interpreting-correlation-coefficients">3. Interpreting Correlation Coefficients</h3>
+<table>
+<thead>
+<tr>
+<th>Coefficient</th>
+<th>Interpretation</th>
+<th>Business Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>+1</td>
+<td>Perfect positive correlation</td>
+<td>Accounts move together exactly</td>
+</tr>
+<tr>
+<td>+0.5 to +0.99</td>
+<td>Strong positive correlation</td>
+<td>Often increase/decrease together</td>
+</tr>
+<tr>
+<td>0</td>
+<td>No correlation</td>
+<td>Accounts behave independently</td>
+</tr>
+<tr>
+<td>-0.5 to -0.99</td>
+<td>Strong negative correlation</td>
+<td>When one goes up, the other goes down</td>
+</tr>
+<tr>
+<td>-1</td>
+<td>Perfect negative correlation</td>
+<td>Always move in opposite directions</td>
+</tr>
+</tbody>
+</table>
+<h3 id="usecases-correlation_matrix-4-what-to-look-for">4. What to Look For</h3>
+<ul>
+<li><strong>Very High Positive Correlation (dark purple, close to +1):</strong> May indicate duplication, linked drivers, or shared activity.</li>
+<li><strong>Unexpected Negative Correlation (dark purple near -1):</strong> Could suggest conflicting transactions or errors.</li>
+<li><strong>No Correlation (white or pale):</strong> Accounts are independent, as expected for unrelated functions.</li>
+</ul>
+<hr />
+<h2 id="usecases-correlation_matrix-filtering-the-view">Filtering the View</h2>
+<p>When working with a large number of accounts, use the filter to narrow down the accounts displayed. This helps you focus on the accounts that matter most and examine their interrelationships.</p>
+<ol>
+<li>Select the heatmap (1), then click on <strong>Fields</strong> (2) in the top-right corner to adjust the accounts shown.</li>
+</ol></section></section></section></div><style>.print-site-enumerate-headings #section-1 > h1:before { content: '1 ' }
 .print-site-enumerate-headings #index > h1:before { content: '1.1 ' }
 
                 .print-site-enumerate-headings #index h2:before { content: '1.1.' counter(counter-index-2) ' ' }
@@ -4925,6 +5456,18 @@ These parameters define the reporting period for the KPIs being pushed.</li>
 .print-site-enumerate-headings #usecases-variance_analysis-variance_analysis > h1:before { content: '2.8.4 ' }
 
 .print-site-enumerate-headings #usecases-variance_analysis-balance_over_months > h1:before { content: '2.8.5 ' }
+
+.print-site-enumerate-headings #section-2-9 > h1:before { content: '2.9 ' }
+.print-site-enumerate-headings #usecases-group_variance_analysis > h1:before { content: '2.9.1 ' }
+
+.print-site-enumerate-headings #usecases-group_variance_analysis-group_variance_balance_sheet > h1:before { content: '2.9.2 ' }
+
+.print-site-enumerate-headings #usecases-group_variance_analysis-group_variance_profit_loss > h1:before { content: '2.9.3 ' }
+
+.print-site-enumerate-headings #usecases-group_variance_analysis-group_variance_source_accounts > h1:before { content: '2.9.4 ' }
+
+.print-site-enumerate-headings #section-2-10 > h1:before { content: '2.10 ' }
+.print-site-enumerate-headings #usecases-correlation_matrix > h1:before { content: '2.10.1 ' }
 </style>
 
 
@@ -4985,7 +5528,7 @@ These parameters define the reporting period for the KPIs being pushed.</li>
       <script id="__config" type="application/json">{"base": "/", "features": ["navigation.tabs", "content.tooltips", "navigation.tabs.sticky", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "toc.follow", "navigation.top", "search.suggest", "search.highlight", "search.share", "navigation.tracking", "navigation.footer", "content.action.edit", "content.code.copy", "content.code.annotation", "announce.dismiss", "header.autohide"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      <script src="../assets/javascripts/bundle.56ea9cef.min.js"></script>
       
         <script src="../js/print-site.js"></script>
       
