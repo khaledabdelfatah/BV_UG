@@ -59,7 +59,10 @@ nav:
       - Group Variance Source Accounts: usecases/group_variance_analysis/group_variance_source_accounts.md
     - Correlation Matrix:
       - Correlation Matrix: usecases/correlation_matrix/index.md
-      
+    - FAH - Variance Analysis:
+      - FAH - Variance Analysis: usecases/fah_variance_analysis/index.md
+      - Post Paid: usecases/fah_variance_analysis/post_paid.md
+      - Pre Paid: usecases/fah_variance_analysis/pre_paid.md
 theme:
   # Language of the documentation (en: English)
   language: en
