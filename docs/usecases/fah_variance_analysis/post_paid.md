@@ -58,19 +58,6 @@ Shows the percentage change in revenue by segment for each month.
 
 ---
 
-### **Adjusting Visualization**
-
-For any chart, you can adjust the data shown on each chart and decide whether to keep or hide. To do so right-click on the item you want to adjust.which is shown beside the chart in m then right click on the item you want to adjust and a new menu will appear with options 
-Options include:
-- **Keep**: remove other items from the chart abd keep only the selected item.
-- **Hide**: remove the selected item from the chart.
-- Unhide All: restore all items that were hidden from the chart.
-- Drill Up
-- Drill Down: 
-- Format Values:
-
-!!! example "Adjusting Visualization"
-    <iframe frameborder="0" style="width:100%;height:894px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=FAH%20Variance%20Analysis.drawio&page-id=5EV7BcGszwI81IQgpiXq&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1jTICB2P4qRS14aOCfZZjp2uEhzHNe8es%26export%3Ddownload"></iframe>
 
 ---
 

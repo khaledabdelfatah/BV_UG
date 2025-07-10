@@ -53,8 +53,6 @@ You can customize the visible columns using the "User Input Ratio HFM Selection"
 | **PL1 / PL2 / PL3**    | Business Line defined by the profitability team                                                                                                                                                                                  |
 | **BU**                 | Business Unit (e.g., **CBU**, **NMU**, etc.)                                                                                                                                                                                                     |
 
---- 
-???????????????????// BALANCE TYPE NEED OMAR TO SHARE THEM WITH ME.
 ---
 
 ## **How to Use the Tab**

@@ -7,62 +7,81 @@ This tab focuses on analyzing **prepaid revenue accounts**. It presents historic
 
 ---
 
+
 ## Key Visualizations
 
 ### 1. Amount by Period
 
-A line graph showing monthly trends in prepaid revenue, broken down by **Revenue Type**:
-- DATA_LOCAL
-- SMS_ONNET
-- VOICE_ROAMING
-- OTHER_REVENUE
-- ...and others
+This line chart presents monthly prepaid revenue (in billions SAR) by customer segment from January to June.
 
-> 📊 Use this to quickly identify rising or falling revenue categories.
+**Insights:**
+- Identify which segments contribute most to revenue.
+- Detect stagnant or declining segments.
+- Track revenue shifts across customer types.
+
+**Use Cases:**
+- Compare revenue contributions by segment.
+- Validate group-level revenue targets.
+- Detect early warning signs in high-value segments (e.g., RC, Royal Family).
 
 ---
 
 ### 2. Variance by Period
 
-This chart illustrates monthly differences in revenue vs. previous periods. Key values are:
-- Positive variance = growth or over-performance
-- Negative variance = under-performance or shortfall
+Displays the absolute difference in revenue (SAR) between current and previous periods for each segment.
 
-> 🔍 Focus on dips in March and April to identify structural changes or seasonal effects.
+**Insights:**
+- Highlights significant dips (e.g., -13.9B for RC in April) and recoveries.
+- Flags anomalies such as sudden drops or spikes.
+- Supports forecasting by revealing segments with unexpected deviations.
 
----
-
-### 3. % of Change by Period
-
-Percentage-based change in prepaid revenue per revenue type. Highlights include:
-- Sharp dips in April (e.g., -120%)
-- Recovery trends post-May
-
-> 🧭 Useful for identifying which revenue types are volatile and require intervention.
+**Use Cases:**
+- Investigate extreme events or pricing changes.
+- Explain gaps during financial close.
+- Prioritize reviews based on largest variances.
+- Justify budget adjustments or escalations.
 
 ---
 
-## Data Table: Account-Level Variance Breakdown
+### 3. Percentage Change by Period
 
-Each row includes:
-- **Account Name**
-- Amount 
+Shows the percentage change in revenue by segment for each month.
+
+**Insights:**
+- Detects dramatic swings, especially in smaller segments.
+- Assesses volatility and risk within customer groups.
+- Flags persistent negative trends for deeper review.
+
+**Use Cases:**
+- Identify volatile or high-risk segments.
+- Support segmentation strategies.
+- Improve forecast accuracy with variance controls.
+
+---
+
+
+---
+
+## Data Table: Account-Level Variance Detail
+
+Provides detailed account-level metrics:
+- **Account Code & Name**
+- **Amount**
 - **Amount PP (Current Period)**
+- **Variance PP (Previous Period)**
+- **% Change PP (Previous Period)**
 - **Amount PY (Previous Year/Period)**
-- **Variance (PP - PY)**
-- **% Change**
+- **Variance PY (Previous Year/Period)**
+- **% Change PY (Previous Year/Period)**
 
-Cells with high negative variance are colored **red** for visibility.
-
-> 📌 Use this to trace discrepancies to specific ledger accounts, such as:
-  - 6120 – Standing/Subscription
-  - 6103 – National Revenues
-  - 6164 – Advances on Prepaid Services
+> 📌 Accounts highlighted in red require immediate reconciliation or adjustment.
 
 ---
 
 ## Business Use Cases
 
-- Validate prepaid revenue growth across customer segments
-- Detect missed billing, revenue leakage, or account misclassifications
-- Support monthly close and board reporting packages
+- Assess impact of pricing changes on prepaid revenue.
+- Detect provisioning or billing errors.
+- Monitor high-value customer group behavior (e.g., Royal Family, RC).
+- Integrate insights into customer profitability and AR aging reports.
+
