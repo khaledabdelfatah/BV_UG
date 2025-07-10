@@ -1197,9 +1197,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#3-of-change-by-period" class="md-nav__link">
+  <a href="#3-percentage-change-by-period" class="md-nav__link">
     <span class="md-ellipsis">
-      3. % of Change by Period
+      3. Percentage Change by Period
     </span>
   </a>
   
@@ -1211,9 +1211,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#data-table-account-level-variance-breakdown" class="md-nav__link">
+  <a href="#data-table-account-level-variance-detail" class="md-nav__link">
     <span class="md-ellipsis">
-      Data Table: Account-Level Variance Breakdown
+      Data Table: Account-Level Variance Detail
     </span>
   </a>
   
@@ -1307,9 +1307,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#3-of-change-by-period" class="md-nav__link">
+  <a href="#3-percentage-change-by-period" class="md-nav__link">
     <span class="md-ellipsis">
-      3. % of Change by Period
+      3. Percentage Change by Period
     </span>
   </a>
   
@@ -1321,9 +1321,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#data-table-account-level-variance-breakdown" class="md-nav__link">
+  <a href="#data-table-account-level-variance-detail" class="md-nav__link">
     <span class="md-ellipsis">
-      Data Table: Account-Level Variance Breakdown
+      Data Table: Account-Level Variance Detail
     </span>
   </a>
   
@@ -1371,53 +1371,60 @@
 <hr />
 <h2 id="key-visualizations">Key Visualizations</h2>
 <h3 id="1-amount-by-period">1. Amount by Period</h3>
-<p>A line graph showing monthly trends in prepaid revenue, broken down by <strong>Revenue Type</strong>:
-- DATA_LOCAL
-- SMS_ONNET
-- VOICE_ROAMING
-- OTHER_REVENUE
-- ...and others</p>
-<blockquote>
-<p>📊 Use this to quickly identify rising or falling revenue categories.</p>
-</blockquote>
+<p>This line chart presents monthly prepaid revenue (in billions SAR) by customer segment from January to June.</p>
+<p><strong>Insights:</strong>
+- Identify which segments contribute most to revenue.
+- Detect stagnant or declining segments.
+- Track revenue shifts across customer types.</p>
+<p><strong>Use Cases:</strong>
+- Compare revenue contributions by segment.
+- Validate group-level revenue targets.
+- Detect early warning signs in high-value segments (e.g., RC, Royal Family).</p>
 <hr />
 <h3 id="2-variance-by-period">2. Variance by Period</h3>
-<p>This chart illustrates monthly differences in revenue vs. previous periods. Key values are:
-- Positive variance = growth or over-performance
-- Negative variance = under-performance or shortfall</p>
-<blockquote>
-<p>🔍 Focus on dips in March and April to identify structural changes or seasonal effects.</p>
-</blockquote>
+<p>Displays the absolute difference in revenue (SAR) between current and previous periods for each segment.</p>
+<p><strong>Insights:</strong>
+- Highlights significant dips (e.g., -13.9B for RC in April) and recoveries.
+- Flags anomalies such as sudden drops or spikes.
+- Supports forecasting by revealing segments with unexpected deviations.</p>
+<p><strong>Use Cases:</strong>
+- Investigate extreme events or pricing changes.
+- Explain gaps during financial close.
+- Prioritize reviews based on largest variances.
+- Justify budget adjustments or escalations.</p>
 <hr />
-<h3 id="3-of-change-by-period">3. % of Change by Period</h3>
-<p>Percentage-based change in prepaid revenue per revenue type. Highlights include:
-- Sharp dips in April (e.g., -120%)
-- Recovery trends post-May</p>
-<blockquote>
-<p>🧭 Useful for identifying which revenue types are volatile and require intervention.</p>
-</blockquote>
+<h3 id="3-percentage-change-by-period">3. Percentage Change by Period</h3>
+<p>Shows the percentage change in revenue by segment for each month.</p>
+<p><strong>Insights:</strong>
+- Detects dramatic swings, especially in smaller segments.
+- Assesses volatility and risk within customer groups.
+- Flags persistent negative trends for deeper review.</p>
+<p><strong>Use Cases:</strong>
+- Identify volatile or high-risk segments.
+- Support segmentation strategies.
+- Improve forecast accuracy with variance controls.</p>
 <hr />
-<h2 id="data-table-account-level-variance-breakdown">Data Table: Account-Level Variance Breakdown</h2>
-<p>Each row includes:
-- <strong>Account Name</strong>
-- Amount 
+<hr />
+<h2 id="data-table-account-level-variance-detail">Data Table: Account-Level Variance Detail</h2>
+<p>Provides detailed account-level metrics:
+- <strong>Account Code &amp; Name</strong>
+- <strong>Amount</strong>
 - <strong>Amount PP (Current Period)</strong>
+- <strong>Variance PP (Previous Period)</strong>
+- <strong>% Change PP (Previous Period)</strong>
 - <strong>Amount PY (Previous Year/Period)</strong>
-- <strong>Variance (PP - PY)</strong>
-- <strong>% Change</strong></p>
-<p>Cells with high negative variance are colored <strong>red</strong> for visibility.</p>
+- <strong>Variance PY (Previous Year/Period)</strong>
+- <strong>% Change PY (Previous Year/Period)</strong></p>
 <blockquote>
-<p>📌 Use this to trace discrepancies to specific ledger accounts, such as:
-  - 6120 – Standing/Subscription
-  - 6103 – National Revenues
-  - 6164 – Advances on Prepaid Services</p>
+<p>📌 Accounts highlighted in red require immediate reconciliation or adjustment.</p>
 </blockquote>
 <hr />
 <h2 id="business-use-cases">Business Use Cases</h2>
 <ul>
-<li>Validate prepaid revenue growth across customer segments</li>
-<li>Detect missed billing, revenue leakage, or account misclassifications</li>
-<li>Support monthly close and board reporting packages</li>
+<li>Assess impact of pricing changes on prepaid revenue.</li>
+<li>Detect provisioning or billing errors.</li>
+<li>Monitor high-value customer group behavior (e.g., Royal Family, RC).</li>
+<li>Integrate insights into customer profitability and AR aging reports.</li>
 </ul>
 
 
