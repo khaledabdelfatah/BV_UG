@@ -1,7 +1,3 @@
----
-description: A guide to navigating the IBM Planning Analytics dashboards, including tips and tricks for effective use.
----
-
 # **Navigating the Dashboard**
 
 ## **Exploring and Navigation**
@@ -12,7 +8,6 @@ After logging into IBM Planning Analytics, the main interface appears, organized
     <iframe src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide.drawio&page-id=1QXaKfpXK7afY8ZVsUp8&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1LP6U6tDhud-D4lCmfg9O36HgN874N636%26export%3Ddownload" width="100%" height="400" style="border: none;"></iframe>
 
 ### **Key Sections**
-
 
 !!! note inline end "Primary Focus"
      The **Reports and Analysis** section is where you will spend most of your time accessing dashboards and reports.
@@ -38,34 +33,31 @@ There are two main ways to access reports and analysis:
     This takes you directly to the reports and analysis section, where you can view available dashboards and reports.
 
 !!! tip "Save Time with Favorites"
-     Click the heart icon next to a report name to add it to your favorites for quick access later.
-
+    Click the heart icon (❤️) next to a report name to add it to your favorites for quick access later.
     <iframe src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide.drawio&page-id=Y9lWeC6Qkl7DUtC7sd8D&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1LP6U6tDhud-D4lCmfg9O36HgN874N636%26export%3Ddownload" width="100%" height="400" style="border: none;"></iframe>
 
 ### **Using the Left Navigation Bar**
 
-1. **Open the Navigation Menu**  
-    Click the three horizontal lines in the top-left corner of the screen.
+1. **Open the Navigation Menu**: Click the three horizontal lines in the top-left corner of the screen.
 
-2. **Select "Shared"**  
-    Navigate to the shared reports and analysis section.
+2. **Select "Shared"**: Navigate to the shared reports and analysis section.
 
-    <iframe src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide.drawio&page-id=xO_g8YvlXiTTXvpxl0iB&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1LP6U6tDhud-D4lCmfg9O36HgN874N636%26export%3Ddownload" width="100%" height="400" style="border: none;"></iframe>
+    !!! example "Shared Reports"
+        <iframe src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide.drawio&page-id=xO_g8YvlXiTTXvpxl0iB&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1LP6U6tDhud-D4lCmfg9O36HgN874N636%26export%3Ddownload" width="100%" height="400" style="border: none;"></iframe>
 
-3. **Access the Main Menu**  
-    Click on "PA Main Menu" to view teams and departments.
+3. **Access the Main Menu**: Click on "PA Main Menu" to view teams and departments.
 
-    <iframe src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide.drawio&page-id=82QtbYwMk9Is2q9n9MuQ&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1LP6U6tDhud-D4lCmfg9O36HgN874N636%26export%3Ddownload" width="100%" height="400" style="border: none;"></iframe>
+    !!! example "PA Main Menu"
+        <iframe src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide.drawio&page-id=82QtbYwMk9Is2q9n9MuQ&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1LP6U6tDhud-D4lCmfg9O36HgN874N636%26export%3Ddownload" width="100%" height="400" style="border: none;"></iframe>
 
-4. **Select a Team or Department**  
-    Choose the desired team or department to view its reports and analysis.
+4. **Select a Team or Department**: Choose the desired team or department to view its reports and analysis.
 
     <iframe src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide.drawio&page-id=oIpjdMBgX0oA50aBXIPP&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1LP6U6tDhud-D4lCmfg9O36HgN874N636%26export%3Ddownload" width="100%" height="400" style="border: none;"></iframe>
 
-5. **Select a Report or Analysis**  
-    Click on the desired report or analysis to view its details.
+5. **Select a Report or Analysis**: Click on the desired report or analysis to view its details.
 
-    <iframe src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide.drawio&page-id=-i-z2KAly-NTNCs_Dxm5&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1LP6U6tDhud-D4lCmfg9O36HgN874N636%26export%3Ddownload" width="100%" height="400" style="border: none;"></iframe>
+    !!! example "Accessing a Report"
+        <iframe src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide.drawio&page-id=-i-z2KAly-NTNCs_Dxm5&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1LP6U6tDhud-D4lCmfg9O36HgN874N636%26export%3Ddownload" width="100%" height="400" style="border: none;"></iframe>
 
 ## Accessing Recently Viewed Reports
 

@@ -1,5 +1,5 @@
-site_name: Business Vision User Guide
-site_description: Business Vision User Guide
+site_name: STC FRC User Guide
+site_description: A comprehensive guide for users of the STC FRC dashboard, covering features, use cases, and best practices.
 nav:
   - Home:
     - Home: index.md
@@ -176,7 +176,18 @@ plugins:
 
 - search
 - print-site:
-   print_page_title: 'Business Vision User Guide'
+    print_page_title: 'STC FRC User Guide'
+    add_to_navigation: true
+    add_cover_page: true
+    cover_page_template: "docs/assets/cover-page.html"
+    add_table_of_contents: true
+    toc_title: 'Table of Contents'
+    toc_depth: 3
+    enumerate_headings: true
+    enumerate_figures: true
+    add_full_urls: false
+    include_css: true
+    enabled: true
 
 
 
