@@ -1,6 +1,6 @@
 # **Dashboard Toolbar**
 
-The dashboard toolbar, located at the top of the screen, provides quick access to essential features and functions to enhance your dashboard experience. Below is an overview of its components.
+The dashboard toolbar, positioned at the top of the interface, offers streamlined access to key actions for managing and interacting with your dashboard. It includes controls for refreshing data, sharing or exporting the dashboard, undoing or redoing changes, rolling back recent data entries, and toggling full-screen mode. Each button is clearly labeled and designed to support efficient navigation and data management, ensuring you can quickly perform common tasks and maintain an organized workspace.
 
 ## **General Toolbar**
 
@@ -66,7 +66,7 @@ The **Rollback Data Entry** button (7) allows you to revert the most recent chan
 The Maximize button (8) allows you to expand the dashboard to full-screen mode for an immersive view. To return to the original view, click the button again.
 
 !!! example "Maximize and Minimize"
-    <iframe frameborder="0" style="width:100%;height:1095px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BDashboard%20Toolbar%5D.drawio&page-id=R57kLdBiRn93rMK2StgJ&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1IOT9SJvfq5OJkzDqxffZRdNrOn5Pj_TD%26export%3Ddownload" allowtransparency="true"></iframe>
+    <iframe frameborder="0" style="width:100%;height:590px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BDashboard%20Toolbar%5D.drawio&page-id=R57kLdBiRn93rMK2StgJ&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1IOT9SJvfq5OJkzDqxffZRdNrOn5Pj_TD%26export%3Ddownload" allowtransparency="true"></iframe>
 
 ---
 
@@ -314,3 +314,6 @@ The **View Table in Full Screen** feature enhances your ability to analyze data 
 This functionality is particularly useful for reviewing large datasets or presenting data in meetings, ensuring clarity and focus.
 
 
+## **Conclusion**
+
+The dashboard toolbar is an essential component of any dashboard, providing you with quick access to key functions for managing and interacting with your dashboards. By familiarizing yourself with the toolbar's features and capabilities, you can enhance your productivity and streamline your workflow within the platform.

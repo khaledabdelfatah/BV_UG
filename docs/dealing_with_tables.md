@@ -1,17 +1,22 @@
 # **Dealing with Tables**
 
-Learn how to efficiently work with tables in the dashboard, including key features, context menu actions, formatting, and advanced analysis options.
+Tables in the dashboard provide essential tools for data management and analysis. This section explains how to use table features to streamline your workflow and gain deeper insights.
 
----
+## **Overview of Table Features**
 
-## **Overview**
+Explore the following capabilities to maximize your use of tables:
 
-Tables in the dashboard offer powerful tools for managing and analyzing your data. This section covers:
+- **Context Menu Actions**: Access quick options by right-clicking on rows or columns. Perform actions such as keeping or hiding rows, restoring hidden data, and undoing recent changes.
 
-- Table context menu features
-- Sorting, filtering, and formatting options
-- Conditional formatting
-- Drill-down and drill-through capabilities
+- **Sorting and Filtering**: Organize your data by sorting columns in ascending or descending order. Apply filters to focus on top or bottom entries, making it easier to identify trends and outliers.
+
+- **Formatting Options**: Adjust how data appears by selecting from various formats, including general, currency, percentage, and custom formats. Consistent formatting improves readability and clarity.
+
+- **Conditional Formatting**: Highlight important values based on specific criteria. Use color and style changes to emphasize data that meets defined conditions.
+
+- **Drill-Down and Drill-Through**: Investigate details behind summary figures. Drill down to view granular data or drill through to related reports for comprehensive analysis.
+
+Use these features to efficiently manage, visualize, and analyze data within dashboard tables.
 
 !!! example "Table Features Overview"
     <iframe frameborder="0" style="width:100%;height:722px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Dealing%20with%20Tables.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D18gn9ckPKX6A9oGvO_Rr3ao0iJ0vJMWeD%26export%3Ddownload"></iframe>
@@ -95,4 +100,7 @@ Explore related data directly from the table:
 !!! tip "Root Cause Analysis via Drill Through"
     To identify the root cause for an account, select the desired account in the table, right-click on the "Variance Previous Period" column, and choose **Drill Through > Root Cause**.  
     For non-account fields, right-click on the "% of Change Previous Period" column and select **Drill Through > Root Cause** to analyze the underlying factors driving the change.
----
+
+## **Conclusion**
+
+Tables are powerful tools for data analysis and management within the dashboard. By utilizing the context menu, formatting options, conditional formatting, and drill features, you can effectively interact with your data, uncover insights, and make informed decisions. Familiarize yourself with these features to enhance your dashboard experience and streamline your workflow.
