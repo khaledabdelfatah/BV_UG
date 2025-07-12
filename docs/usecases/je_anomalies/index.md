@@ -14,7 +14,7 @@ This dashboard leverages AI to detect anomalies in journal entries, providing a 
 - Maintain the accuracy and reliability of financial reporting.
 
 !!! example "JE Anomalies Dashboard"
-    <iframe src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide.drawio&page-id=68-UrXZ6Sx61n0EBf8kO&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1LP6U6tDhud-D4lCmfg9O36HgN874N636%26export%3Ddownload" width="100%" height="600" style="border: none;"></iframe>
+    <iframe src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide.drawio&page-id=68-UrXZ6Sx61n0EBf8kO&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1LP6U6tDhud-D4lCmfg9O36HgN874N636%26export%3Ddownload" width="100%" height="500" style="border: none;"></iframe>
 
 ### **Key Features**
 
