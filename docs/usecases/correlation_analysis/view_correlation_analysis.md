@@ -39,7 +39,7 @@ Select the target year for analysis:
   When you select this option, the **Year** field will be enabled for you to enter the desired year.
 
     !!! example "Default Year Selection"
-        <iframe src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%205.drawio&page-id=x9KGjyqIpvk9JbnFlk2W&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1XU8TC-9GYGWZ_bXdaGy928SGd0uK35UO%26export%3Ddownload" width="100%" height="600" style="border: none;"></iframe>
+        <iframe src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%205.drawio&page-id=x9KGjyqIpvk9JbnFlk2W&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1XU8TC-9GYGWZ_bXdaGy928SGd0uK35UO%26export%3Ddownload" width="100%" height="400" style="border: none;"></iframe>
 
 - **Last Year**: Analyze data from the last 24 months.
 
@@ -81,6 +81,5 @@ Below the charts, a data table provides exact numerical values for each month an
 !!! example "Detailed Data Table"
     <iframe src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%206.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1hePnM4_D-P9sU-vTy77Q_inod1ZxyEh4%26export%3Ddownload" width="100%" height="600" style="border: none;"></iframe>
 
----
 
 By using the **Correlation Analysis** tab, you can gain actionable insights into your data, enabling better decision-making and trend analysis.
