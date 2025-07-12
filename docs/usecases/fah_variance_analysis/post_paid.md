@@ -1,86 +1,71 @@
 # FAH Variance Analysis – Postpaid Tab
 
-The **Postpaid Tab** provides a comprehensive overview of postpaid revenue trends, anomalies, and segment performance. It is designed to help finance teams monitor financial health, identify risks, and support decision-making across customer segments.
+The **Postpaid Tab** offers a structured view of postpaid revenue performance, highlighting trends, anomalies, and segment-level insights. This tab supports finance teams in monitoring financial health, identifying risks, and making informed decisions across customer segments.
 
 !!! example "Postpaid Variance Analysis"
-    <iframe frameborder="0" style="width:100%;height:605px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=FAH%20Variance%20Analysis.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1jTICB2P4qRS14aOCfZZjp2uEhzHNe8es%26export%3Ddownload"></iframe>
+    <iframe frameborder="0" style="width:100%;height:405px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=FAH%20Variance%20Analysis.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1jTICB2P4qRS14aOCfZZjp2uEhzHNe8es%26export%3Ddownload"></iframe>
 
 ---
 
-## Key Visualizations
+## Dashboard Tiles
 
-### 1. Amount by Period
+### Amount by Period
 
-This line chart presents monthly postpaid revenue (in billions SAR) by customer segment from January to June.
+- **Visualization:** Line chart displaying monthly postpaid revenue by customer segment.
+- **Purpose:** Reveals revenue distribution and trends across segments.
+- **Key Actions:**
+  - Identify top-contributing segments.
+  - Detect stagnant or declining performance.
+  - Monitor revenue shifts among customer types.
 
-**Insights:**
-- Identify which segments contribute most to revenue.
-- Detect stagnant or declining segments.
-- Track revenue shifts across customer types.
+### Variance by Period
 
-**Use Cases:**
-- Compare revenue contributions by segment.
-- Validate group-level revenue targets.
-- Detect early warning signs in high-value segments (e.g., RC, Royal Family).
+- **Visualization:** Bar or line chart showing the absolute revenue difference between consecutive periods for each segment.
+- **Purpose:** Highlights significant changes and anomalies in revenue.
+- **Key Actions:**
+  - Spot sudden drops or spikes.
+  - Investigate outliers and unexpected deviations.
+  - Support forecasting and variance analysis.
 
----
+### Percentage Change by Period
 
-### 2. Variance by Period
-
-Displays the absolute difference in revenue (SAR) between current and previous periods for each segment.
-
-**Insights:**
-- Highlights significant dips (e.g., -13.9B for RC in April) and recoveries.
-- Flags anomalies such as sudden drops or spikes.
-- Supports forecasting by revealing segments with unexpected deviations.
-
-**Use Cases:**
-- Investigate extreme events or pricing changes.
-- Explain gaps during financial close.
-- Prioritize reviews based on largest variances.
-- Justify budget adjustments or escalations.
-
----
-
-### 3. Percentage Change by Period
-
-Shows the percentage change in revenue by segment for each month.
-
-**Insights:**
-- Detects dramatic swings, especially in smaller segments.
-- Assesses volatility and risk within customer groups.
-- Flags persistent negative trends for deeper review.
-
-**Use Cases:**
-- Identify volatile or high-risk segments.
-- Support segmentation strategies.
-- Improve forecast accuracy with variance controls.
-
----
-
+- **Visualization:** Line or bar chart illustrating percentage change in revenue by segment for each month.
+- **Purpose:** Measures volatility and risk within customer groups.
+- **Key Actions:**
+  - Detect persistent negative or positive trends.
+  - Identify high-risk or volatile segments.
+  - Inform segmentation and forecasting strategies.
 
 ---
 
 ## Data Table: Account-Level Variance Detail
 
-Provides detailed account-level metrics:
-- **Account Code & Name**
-- **Amount**
-- **Amount PP (Current Period)**
-- **Variance PP (Previous Period)**
-- **% Change PP (Previous Period)**
-- **Amount PY (Previous Year/Period)**
-- **Variance PY (Previous Year/Period)**
-- **% Change PY (Previous Year/Period)**
+This table provides granular metrics for each account, including:
 
-> 📌 Accounts highlighted in red require immediate reconciliation or adjustment.
+- **Account Code and Name**
+- **Current Period Amount**
+- **Previous Period Amount**
+- **Variance (Current vs Previous Period)**
+- **Percentage Change (Current vs Previous Period)**
+- **Previous Year/Period Amount**
+- **Variance (Current vs Previous Year/Period)**
+- **Percentage Change (Current vs Previous Year/Period)**
+
+> **Note:** Accounts highlighted in red require immediate reconciliation or adjustment.
+
+---
+
+## Filters
+
+- **Period Selector:** Choose the reporting period (month, quarter, year) for analysis.
+- **Customer Segment:** Filter data by customer group (e.g., RC, Royal Family).
+- **Account:** Focus on specific accounts for detailed review.
 
 ---
 
 ## Business Use Cases
 
-- Assess impact of pricing changes on postpaid revenue.
-- Detect provisioning or billing errors.
-- Monitor high-value customer group behavior (e.g., Royal Family, RC).
-- Integrate insights into customer profitability and AR aging reports.
-
+- Evaluate the impact of pricing changes on postpaid revenue.
+- Detect and investigate provisioning or billing discrepancies.
+- Monitor behavior of high-value customer groups.
+- Integrate findings into profitability and accounts receivable aging reports.

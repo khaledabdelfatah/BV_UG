@@ -28,7 +28,7 @@ This table describes all available columns when configuring a ratio item in the 
 
 
 
-## Creating a New Ratio Item
+## **Creating a New Ratio Item**
 
 To create a new ratio item, follow these steps:
 

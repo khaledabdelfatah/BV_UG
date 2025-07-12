@@ -2,14 +2,14 @@
 
 The **Advanced Payments Dashboard** provides a centralized and insightful view of General Ledger (GL) accounts versus prepayment activity. Designed for finance teams and business analysts, this dashboard streamlines the monitoring, reconciliation, and investigation of supplier advances and outstanding balances.
 
-## Key Features
+## **Key Features**
 
 - Track the aging of supplier prepayments to identify long-standing or overdue balances.
 - Compare prepayment balances against General Ledger entries to ensure data consistency and accuracy.
 - Identify unapplied or partially applied prepayments requiring action or investigation.
 - Support strategic decisions related to cash flow and supplier payment reconciliation.
 
-## Summary Visualizations
+## **Summary Visualizations**
 
 The dashboard offers intuitive visual representations that help users interpret data quickly and effectively:
 

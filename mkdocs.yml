@@ -63,6 +63,7 @@ nav:
       - FAH - Variance Analysis: usecases/fah_variance_analysis/index.md
       - Post Paid: usecases/fah_variance_analysis/post_paid.md
       - Pre Paid: usecases/fah_variance_analysis/pre_paid.md
+    - Conclusion: usecases/conclusion.md
 theme:
   # Language of the documentation (en: English)
   language: en

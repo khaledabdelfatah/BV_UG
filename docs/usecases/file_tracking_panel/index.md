@@ -1,8 +1,6 @@
 
 # **File Tracking Panel**
 
-## **Overview**
-
 The File Tracking Panel is a centralized dashboard designed to monitor and validate the latest data uploads for financial reporting. It allows users and administrators to track the most recent activity related to three core file types:
 
 - General External Files

@@ -1,7 +1,5 @@
 # Balance Sheet 
 
-## **Overview**
-
 The **Balance Sheet** dashboard enables users to compare asset balances across three time periods, providing clear insights into month-over-month and year-over-year changes. This view is designed for:
 
 - **Finance teams** monitoring account trends
@@ -39,7 +37,7 @@ Each account row displays the following columns:
 
 ---
 
-### Filter Panel
+### **Filter Panel**
 
 Use the filter panel to refine your view by:
 
@@ -59,8 +57,7 @@ You can also set threshold limits:
 These filters help you focus on high-impact variances.
 
 ---
-
-## Using the Dashboard
+## **Using the Dashboard**
 
 1. **Select the Month and Year** to analyze.
 2. **Apply filters** to focus on specific teams, projects, or products.
@@ -71,17 +68,17 @@ These filters help you focus on high-impact variances.
 
 ---
 
-## Data Refresh
+## **Data Refresh**
 
 Data is refreshed regularly. Check the **timestamp** in the top right corner (e.g., *19-JUN-2025 06:43*) to ensure you are viewing the latest data.
 
 ---
 
-## Customizing Balance Highlight Thresholds
+## **Customizing Balance Highlight Thresholds**
 
 You can control which variances are highlighted by setting threshold values, allowing you to focus on the most significant changes.
 
-### Threshold Options
+### **Threshold Options**
 
 There are two main threshold types:
 
@@ -101,18 +98,15 @@ By default, **both** thresholds must be exceeded for a value to be highlighted:
 | 5,000 SAR            | 900 SAR       | 18%             | ❌           |
 | 5,000 SAR            | 1,200 SAR     | 8%              | ❌           |
 
-### Advanced: Second Variance Threshold
+### **Advanced: Second Variance Threshold**
 
 - **Sheet Value 2:** Optionally, set a second absolute threshold (e.g., `2,000 SAR`) for advanced filtering or alternative highlighting rules.
 
 !!! tip "Adjusting Thresholds"
      Use the dashboard controls to set or update thresholds at any time. This helps you quickly refine which values are highlighted, ensuring you see only the most relevant changes.
 
----
-
-## Benefits
+## **Benefits**
 
 - Highlights only the most important changes, saving time.
 - Automates period-to-period comparisons, reducing manual effort.
 - Supports financial consistency and accountability.
-

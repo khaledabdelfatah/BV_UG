@@ -2,24 +2,25 @@
 
 The **Publish** tab enables Admin users to make calculated ratios accessible to all users within the organization. Once published, these ratios appear in the **Shared Ratio Visualization** tab, supporting broader analysis and collaboration.
 
----
-
 ## **Steps to Publish a Ratio**
 
 ### **1. Navigate to the Publish Tab**
+
 - Click the **Publish** tab in the top navigation bar.
 
 ### **2. Select a Ratio**
+
 - In the left-hand panel, choose the ratio you wish to publish (e.g., *Return on Sales*, *Current Ratio*).
 
 ### **3. Assign Roles** 
+
 - Use the drop-down menus under each column (e.g., **GL_Admin**, **AR Users**, **HFM User**) to specify which user roles can access the ratio.
 - Select roles based on their responsibilities and required access.
 
 ### **4. Publish the Ratio**
 
-- Click the **Publish** button <sup>(1)</sup> (blue) at the top of the screen to confirm and publish the selected ratio.
-- Optionally, use the **Update Shared Ratios** button <sup>(2)</sup> to refresh and sync ratio visibility for all users.
+- Click the **Publish** button (1) (blue) at the top of the screen to confirm and publish the selected ratio.
+- Optionally, use the **Update Shared Ratios** button (2) to refresh and sync ratio visibility for all users.
 
 
 !!! example "Publishing the Ratio"

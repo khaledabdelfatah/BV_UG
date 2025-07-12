@@ -1,13 +1,10 @@
 # **Executive Summary**
 
-## **Overview**
-
 The **Executive Summary** tab provides a comprehensive dashboard view designed for senior management and executives. This interface presents financial performance data across multiple analysis perspectives including Year-over-Year (YoY) comparisons, budget variance analysis, and actual performance metrics in an easy-to-interpret format.
 
 !!! example "Executive Summary Tab"
-    <iframe frameborder="0" style="width:100%;height:642px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Group%20Ratio%20Analysis%20-%20Executive%20Summary.drawio&page-id=MKXgDpm6BVsOzMuffAAf&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1SiK-Kzx1vjFIqkBYK8SMeton-OCDQWfS%26export%3Ddownload"></iframe>
+    <iframe frameborder="0" style="width:100%;height:442px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Group%20Ratio%20Analysis%20-%20Executive%20Summary.drawio&page-id=MKXgDpm6BVsOzMuffAAf&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1SiK-Kzx1vjFIqkBYK8SMeton-OCDQWfS%26export%3Ddownload"></iframe>
 
----
 
 ## **Dashboard Filters**
 
@@ -31,7 +28,7 @@ The **Ratio Calculated HFM** filter allows users to select from predefined subse
 - **Flexible Selection**: Add or remove ratio items as needed
 
 !!! example "Edit Set Dialog"
-    <iframe frameborder="0" style="width:100%;height:624px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Group%20Ratio%20Analysis%20-%20Executive%20Summary.drawio&page-id=NBYGDverXZlt1wbGPCkp&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1SiK-Kzx1vjFIqkBYK8SMeton-OCDQWfS%26export%3Ddownload"></iframe>
+    <iframe frameborder="0" style="width:100%;height:424px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Group%20Ratio%20Analysis%20-%20Executive%20Summary.drawio&page-id=NBYGDverXZlt1wbGPCkp&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1SiK-Kzx1vjFIqkBYK8SMeton-OCDQWfS%26export%3Ddownload"></iframe>
 
 ### **Edit Set Dialog Components**
 
@@ -80,7 +77,7 @@ To move items between the Available Members and Current Set sections:
     - **Reset Arrow (2)**: Delete all items from the current set and move only the selected items from Available Members to Current Set.
 
     !!! example "Move Buttons"
-        <iframe frameborder="0" style="width:100%;height:624px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Group%20Ratio%20Analysis%20-%20Executive%20Summary.drawio&page-id=NBYGDverXZlt1wbGPCkp&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1SiK-Kzx1vjFIqkBYK8SMeton-OCDQWfS%26export%3Ddownload"></iframe>
+        <iframe frameborder="0" style="width:100%;height:424px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Group%20Ratio%20Analysis%20-%20Executive%20Summary.drawio&page-id=NBYGDverXZlt1wbGPCkp&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1SiK-Kzx1vjFIqkBYK8SMeton-OCDQWfS%26export%3Ddownload"></iframe>
 
 ### **Save Options**
 
@@ -92,12 +89,11 @@ To move items between the Available Members and Current Set sections:
 | **4**   | Close                | Closes the dialog without saving or applying any changes made during the current session.                                                                                                                 |
 
 !!! example "Save Options"
-    <iframe frameborder="0" style="width:100%;height:702px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Group%20Ratio%20Analysis%20-%20Executive%20Summary.drawio&page-id=r9VxPaqyafdtPJeqXlpc&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1SiK-Kzx1vjFIqkBYK8SMeton-OCDQWfS%26export%3Ddownload"></iframe>
+    <iframe frameborder="0" style="width:100%;height:402px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Group%20Ratio%20Analysis%20-%20Executive%20Summary.drawio&page-id=r9VxPaqyafdtPJeqXlpc&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1SiK-Kzx1vjFIqkBYK8SMeton-OCDQWfS%26export%3Ddownload"></iframe>
 
 !!! warning "Important Save Notice"
     Changes made with "Apply and close" are temporary and will be lost when the session ends. Always click "Save" to make permanent changes that will persist across sessions.
 
----
 
 ## **Dashboard Sections**
 
@@ -142,7 +138,3 @@ The Actual section displays absolute performance figures without comparison metr
 - **Revenue Figures**: Actual revenue amounts by entity
 - **EBITDA Values**: Operational profitability indicators
 - **Subsidiary Breakdown**: Individual entity contributions
-
----
-
- 

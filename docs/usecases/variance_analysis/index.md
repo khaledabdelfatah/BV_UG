@@ -2,7 +2,6 @@
 
 This dashboard provides a comprehensive view of variance analysis, allowing users to compare current and previous periods, analyze variances, and visualize trends over time. 
 
-
 ## **Navigation Tabs**
 
 The dashboard contains four main navigation tabs:

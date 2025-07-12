@@ -7,7 +7,7 @@ All accounts displayed here are **leaf-level accounts**—the most granular acco
 !!! example "Group Variance – Source Accounts"
     <iframe frameborder="0" style="width:100%;height:498px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=group_variance_analysis.drawio&page-id=soTpT0AmZtzUCZYpx9Oi&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1tykHKd6UvIqKrMuQW2qPkYfQKrK2jlD-%26export%3Ddownload"></iframe>
 
-## Balance Comparison Table
+## **Balance Comparison Table**
 
 Each row in the table represents a source account and includes the following columns:
 
@@ -22,7 +22,7 @@ Each row in the table represents a source account and includes the following col
 | **Variance py**     | Difference between current and previous year            |
 | **% of Change**     | Year-over-year percentage change                        |
 
-### Threshold Filters
+### **Threshold Filters**
 
 - Use **Variance Value** and **% of Change** together to filter results.
 - Alternatively, enter a **Variance Value 2** to apply a single, stricter filter.
@@ -31,7 +31,7 @@ The purpose of the Source Accounts tab is to link group accounts with their subs
 
 ---
 
-## Drill-Through Functionality
+## **Drill-Through Functionality**
 
 For any **KSA account**, right-click and select **Drill Through → DB KSA JE Transactions** to view the detailed journal entries that contributed to the variance. This feature allows you to trace financial data back to its source, helping to explain discrepancies or unusual movements.
 
@@ -42,7 +42,7 @@ To download the DB KSA JE Transactions data, click the **Download CSV** button. 
 
 ---
 
-### Account Root Cause Analysis
+### **Account Root Cause Analysis**
 
 To identify the root cause of a variance for a KSA account:
 
@@ -61,7 +61,7 @@ This displays:
 
 ---
 
-### Group Account Variance Root Cause
+### **Group Account Variance Root Cause**
 
 To analyze the variance root cause for a main group account:
 
@@ -78,7 +78,7 @@ You will see:
 
 ---
 
-### Additional Drill-Through Options
+### **Additional Drill-Through Options**
 
 - **Balance Column:** Right-click a balance value, select **Drill Through → DB KS JE Transactions** to view related journal entries.
 - **Current Balance Column:** Right-click a current balance value, select **Drill Through → KSA JE Transactions** to see the journal entries contributing to the current balance.
@@ -86,6 +86,5 @@ You will see:
 !!! example "Drill Through KSA JE Transactions"
     <iframe frameborder="0" style="width:100%;height:577px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Group%20Variance%20Analysis%20v2.drawio&page-id=IeAZHWzYyCo6KKTABH9c&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D11uIfu6aBCtmK_znVgfw3Np24ADaPW90e%26export%3Ddownload"></iframe>
 
----
 
 By leveraging these features, users can efficiently trace, analyze, and explain variances at both the group and account levels, ensuring transparency and accuracy in financial reporting.

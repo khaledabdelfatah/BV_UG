@@ -3,7 +3,7 @@
 In the top of the dashboard, you will find a set of filters (1) that allow you to customize the data displayed in the dashboard. The filters are as follows:
 
 !!! example "Available Filters"
-    <iframe frameborder="0" style="width:100%;height:625px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Advanced%20Payments.drawio&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1BCh7WuihrrMysr7j9V05zk8p6AI6JoJQ%26export%3Ddownload" allowtransparency="true"></iframe>
+    <iframe frameborder="0" style="width:100%;height:525px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Advanced%20Payments.drawio&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1BCh7WuihrrMysr7j9V05zk8p6AI6JoJQ%26export%3Ddownload" allowtransparency="true"></iframe>
 
 ## **Available filters**
 
@@ -31,7 +31,7 @@ Provides a filter for selecting one or more specific days, useful for analyzing 
 The **Days Since Invoice** and **Days Since Receipt** filters allow you to define thresholds for highlighting values in red, helping you quickly identify overdue transactions.
 
 !!! example "Changing Thresholds"
-     <iframe frameborder="0" style="width:100%;height:1256px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Advanced%20Payment.drawio&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1vrFzIeC_EkLPfqy77hd095CaFCyWvN5s%26export%3Ddownload" allowtransparency="true"></iframe>
+     <iframe frameborder="0" style="width:100%;height:456px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Advanced%20Payment.drawio&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1vrFzIeC_EkLPfqy77hd095CaFCyWvN5s%26export%3Ddownload" allowtransparency="true"></iframe>
 
 ### **Steps to Change Thresholds**
 

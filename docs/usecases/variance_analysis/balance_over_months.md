@@ -1,4 +1,4 @@
-# Balance Over Months Tab
+# **Balance Over Months Tab**
 
 The **Balance Over Months** tab offers a clear, month-by-month visualization of account balances. This enables users to monitor financial trends, detect anomalies, and analyze performance across multiple business dimensions such as company, function, product, and customer.
 
@@ -7,9 +7,9 @@ The **Balance Over Months** tab offers a clear, month-by-month visualization of 
 
 ---
 
-## 🧭 Key Features
+## **Key Features**
 
-### 1. Filters Panel (Top)
+### **1. Filters Panel (Top)**
 
 Customize your analysis using the filter bar:
 
@@ -24,7 +24,7 @@ Customize your analysis using the filter bar:
 
 ---
 
-### 2. Graphs Section (Middle)
+### **2. Graphs Section (Middle)**
 
 Three interactive charts provide insights into financial performance over time:
 
@@ -39,7 +39,7 @@ Three interactive charts provide insights into financial performance over time:
 
 ---
 
-### 3. Data Table (Bottom)
+### **3. Data Table (Bottom)**
 
 A detailed table presents account values by month:
 
@@ -47,15 +47,11 @@ A detailed table presents account values by month:
 - Supports drilling down into raw data
 - Allows exporting data for further analysis
 
-
----
-
-## 🔍 Use Case Scenarios
+## **Use Case Scenarios**
 
 - Monitor liability account trends throughout the year
 - Compare budget vs. actual trends (if variance basis is configured)
 - Investigate month-to-month shifts in payable balances for auditing or forecasting
 
----
 
-> **Tip:** Use the interactive filters and charts to quickly identify trends, outliers, or areas requiring further investigation.
+!!! info "Use the interactive filters and charts to quickly identify trends, outliers, or areas requiring further investigation."

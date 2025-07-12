@@ -19,7 +19,7 @@ Once someone shares a correlation chart with you, it becomes available in this s
 Select the target year for analysis:
 
 - **Default**: Specify a particular year for analysis.
-  When you select this option, the **Year** field will be enabled for you to enter the desired year.
+  When you select this option, the **Year** field (7) will be enabled for you to enter the desired year.
 
     !!! example "Default Year Selection"
         <iframe src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%205.drawio&page-id=x9KGjyqIpvk9JbnFlk2W&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1XU8TC-9GYGWZ_bXdaGy928SGd0uK35UO%26export%3Ddownload" width="100%" height="600" style="border: none;"></iframe>
@@ -32,18 +32,19 @@ Select the target year for analysis:
 
 You’ll see three panels just like in the main correlation view:
 
-### 1. **Balance Chart**  
+### 1. **Balance Chart**
+
 Shows actual monthly values for the selected items (e.g., total building cost, depreciation, etc.).
 
-### 2. **Variance Chart**  
+### 2. **Variance Chart**
+
 Displays how the value changed from the previous month—helpful for identifying spikes or dips.
 
-### 3. **% of Change Chart**  
+### 3. **% of Change Chart**
+
 Shows the percentage change from one month to the next—useful for evaluating relative growth or decline.
 
 These charts are visually synchronized, making it easier to spot patterns and draw conclusions.
-
-
 
 ## **Data Table**
 

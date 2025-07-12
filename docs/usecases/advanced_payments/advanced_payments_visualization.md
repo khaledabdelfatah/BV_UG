@@ -5,7 +5,7 @@
 The **Advanced Payments Dashboard** provides a set of visualizations to help users understand the relationship between General Ledger (GL) balances and prepayments.
 
 !!! example "Available Charts"
-    <iframe frameborder="0" style="width:100%;height:1086px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Advanced%20Payments.drawio&page-id=3Z0t8OnM874MAqX8Oe6p&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1BCh7WuihrrMysr7j9V05zk8p6AI6JoJQ%26export%3Ddownload" allowtransparency="true"></iframe>
+    <iframe frameborder="0" style="width:100%;height:486px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Advanced%20Payments.drawio&page-id=3Z0t8OnM874MAqX8Oe6p&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1BCh7WuihrrMysr7j9V05zk8p6AI6JoJQ%26export%3Ddownload" allowtransparency="true"></iframe>
 
 ### **18220 GL vs Prepayments**
 
@@ -24,7 +24,7 @@ The **Prepayment Balance By Year** line chart illustrates the annual trends in p
 The **Prepayment Details** section (1) of the Advanced Payments Dashboard provides a comprehensive overview of prepayment transactions. It includes detailed information about each prepayment, allowing users to analyze and manage their financial commitments effectively.
 
 !!! example "Prepayment Details Table"
-    <iframe frameborder="0" style="width:100%;height:1101px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Advanced%20Payments.drawio&page-id=wfZBhOQVN60zI07BCpfm&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1BCh7WuihrrMysr7j9V05zk8p6AI6JoJQ%26export%3Ddownload" allowtransparency="true"></iframe>
+    <iframe frameborder="0" style="width:100%;height:401px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Advanced%20Payments.drawio&page-id=wfZBhOQVN60zI07BCpfm&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1BCh7WuihrrMysr7j9V05zk8p6AI6JoJQ%26export%3Ddownload" allowtransparency="true"></iframe>
 
 | **Column Name**                         | **Description** |
 |-----------------------------------|-----------------|
@@ -66,7 +66,7 @@ To view the invoices applied to a specific prepayment:
 This allows users to track how prepayments have been allocated to supplier invoices and review corresponding financial records.
 
 !!! example "Applied Invoices"
-    <iframe frameborder="0" style="width:100%;height:1033px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Advanced%20Payment.drawio&page-id=SlNc7qvbLCX3ifQdFVGB&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1vrFzIeC_EkLPfqy77hd095CaFCyWvN5s%26export%3Ddownload" allowtransparency="true"></iframe>
+    <iframe frameborder="0" style="width:100%;height:433px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Advanced%20Payment.drawio&page-id=SlNc7qvbLCX3ifQdFVGB&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1vrFzIeC_EkLPfqy77hd095CaFCyWvN5s%26export%3Ddownload" allowtransparency="true"></iframe>
 
 #### **Prepayment PO → Applied Receipts**
 

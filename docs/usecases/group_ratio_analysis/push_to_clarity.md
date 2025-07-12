@@ -1,19 +1,16 @@
 # **Push to Clarity**
 
-## **Overview**
+The **Push to Clarity** tab enables users to transfer finalized ratio data and KPIs from the Group Ratio Analysis model to the Clarity reporting platform. This process ensures that validated performance metrics are consistently shared across business units for organizational reporting.
 
-The **Push to Clarity** tab provides a streamlined interface for transferring calculated ratio data to the Clarity reporting system. This feature enables teams to share key performance indicators across different business units and reporting platforms, ensuring consistent data distribution for organizational reporting needs.
+This interface allows you to:
+- Select specific subsidiaries and their associated KPIs for submission.
+- Review calculated ratios and KPIs before publishing.
+- Push results for a chosen scenario, quarter, and year to Clarity for reporting and dashboard visibility.
 
-!!! example "Push to Clarity Interface"
+Use this tab to ensure that only approved and accurate metrics are published, supporting transparent and consistent reporting across the organization.
+
+!!! example "Push to Clarity Tab"
     <iframe frameborder="0" style="width:100%;height:672px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=push%20to%20clarity.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1Bc5iK7JS9it5Dpf8F_qeU0Q5Msdq2yle%26export%3Ddownload"></iframe>
-
-This interface allows users to select specific subsidiaries and their associated KPIs for submission to Clarity, where the data becomes available for broader organizational reporting and analysis purposes.
- This tab is designed to review and publish calculated ratios and KPIs from the Group Ratio Analysis model into the Clarity reporting platform. It enables users to selectively push finalized metrics for each business unit or subsidiary.
-
-To allow finance teams to push validated ratio results (like EBITDA, revenue %, margins, etc.) for a selected scenario, quarter, and year to the Clarity system for stakeholder visibility, dashboards, and external reporting.
-
-
----
 
 ## **Interface Layout**
 
@@ -32,7 +29,7 @@ This panel allows you to choose which KPIs and subsidiaries to push to Clarity.
 | **Ratio Calculated HFM Clarity** | Allows filtering by calculated KPI source (HFM).                                         |
 | **Subsidiaries Hgroup Clarity Selection** | Allows filtering by specific subsidiaries or business groups.                  |
 
-> 💡 **Tip:** Use this panel to tailor exactly which KPIs from which subsidiaries are ready to be submitted to Clarity.
+!!! Tip "Use this panel to tailor exactly which KPIs from which subsidiaries are ready to be submitted to Clarity."
 
 ---
 
@@ -64,7 +61,7 @@ Follow these steps to publish KPIs to Clarity:
     After making your selections, click the **Push to Clarity** button at the top right.
 
     !!! example "Push to Clarity Button"
-        <iframe frameborder="0" style="width:100%;height:823px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=push%20to%20clarity.drawio&page-id=6mQ12O4sbs1ahPe49joX&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1Bc5iK7JS9it5Dpf8F_qeU0Q5Msdq2yle%26export%3Ddownload"></iframe>
+        <iframe frameborder="0" style="width:100%;height:423px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=push%20to%20clarity.drawio&page-id=6mQ12O4sbs1ahPe49joX&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1Bc5iK7JS9it5Dpf8F_qeU0Q5Msdq2yle%26export%3Ddownload"></iframe>
 
 3. **Review Push Parameters**  
     A dialog box will appear. Insert the following:
@@ -79,4 +76,4 @@ Follow these steps to publish KPIs to Clarity:
     After pushing, you can view the items also in the Clarity view to ensure everything is correctly submitted.
 
 !!! example "Push Confirmation Dialog"
-    <iframe frameborder="0" style="width:100%;height:548px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=push%20to%20clarity.drawio&page-id=fCpr4Jovp_hBXR8VWqIV&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1Bc5iK7JS9it5Dpf8F_qeU0Q5Msdq2yle%26export%3Ddownload"></iframe>
+    <iframe frameborder="0" style="width:100%;height:448px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=push%20to%20clarity.drawio&page-id=fCpr4Jovp_hBXR8VWqIV&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1Bc5iK7JS9it5Dpf8F_qeU0Q5Msdq2yle%26export%3Ddownload"></iframe>

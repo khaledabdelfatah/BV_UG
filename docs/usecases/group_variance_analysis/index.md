@@ -4,7 +4,7 @@ The **Group Variance Analysis Dashboard** provides a detailed view of financial 
 
 Designed for the STC Finance team, the dashboard allows comparison of financial data across different periods, accounts, and functions, helping uncover trends, anomalies, and potential root causes.
 
-## Dashboard Overview
+## **Dashboard Overview**
 
 The dashboard consists of three main tabs:
 
@@ -14,7 +14,7 @@ The dashboard consists of three main tabs:
 
 Each tab provides a different level of financial insight, from high-level summaries to granular account details.
 
-## Tab Breakdown
+## **Tab Breakdown**
 
 | Tab Name        | Purpose                                                                 | Level of Detail                         |
 |-----------------|-------------------------------------------------------------------------|------------------------------------------|
@@ -22,7 +22,7 @@ Each tab provides a different level of financial insight, from high-level summar
 | **Profit & Loss** | Analyze variances in income and expenses, including gross profit, operating income, and net income. | Medium-level (functional categories)     |
 | **Source Accounts** | Investigate the underlying leaf-level accounts contributing to significant changes. Supports deep dives and root-cause analysis. | Very detailed (line-item view)           |
 
-## Data Source
+## **Data Source**
 
 - **System:** Hyperion Financial Management (HFM)
 

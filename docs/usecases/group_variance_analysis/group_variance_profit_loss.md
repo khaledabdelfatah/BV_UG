@@ -13,9 +13,9 @@ This tab is essential for understanding shifts in key income statement metrics, 
 !!! example "Group Variance - Profit & Loss"
     <iframe frameborder="0" style="width:100%;height:492px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=group_variance_analysis.drawio&page-id=1pmbm4ulQHd663ALxY0E&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1tykHKd6UvIqKrMuQW2qPkYfQKrK2jlD-%26export%3Ddownload"></iframe>
 
-## Controlling Variance Thresholds
+## **Controlling Variance Thresholds**
 
-### Accessing the Controls Panel
+### **Accessing the Controls Panel**
 
 At the top-right corner of the dashboard, you will find three filter fields:
 
@@ -25,9 +25,8 @@ At the top-right corner of the dashboard, you will find three filter fields:
 
 These controls help you quickly identify significant or unusual financial movements.
 
----
 
-### How Filtering Works
+### **How Filtering Works**
 
 You can filter the data using two different approaches:
 
@@ -40,13 +39,12 @@ You can filter the data using two different approaches:
 
 **Example:**
 
-```
+
 Variance Value = 200,000,000
 % of Change Value = 10%
-```
+
 Only accounts with a **variance of at least 200M** _and_ a **change of at least 10%** will be shown.
 
----
 
 #### **Option 2: Use Variance Value 2 Only**
 
@@ -55,9 +53,8 @@ Only accounts with a **variance of at least 200M** _and_ a **change of at least 
 
 **Example:**
 
-```
 Variance Value 2 = 5,000,000,000
-```
+
 Only accounts with a **variance above 5B** will be displayed, regardless of percentage change.
 
 ---
@@ -95,4 +92,4 @@ Each row in the table represents a financial account and includes the following 
         - **Show Totals Leading:** Sub-accounts appear above the parent account; the parent is listed last.
 
 !!! example "Show Totals Trailing/Leading"
-    <iframe frameborder="0" style="width:100%;height:512px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=group_variance_analysis.drawio&page-id=tQzzZA9eqVGRa3rge-n7&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1tykHKd6UvIqKrMuQW2qPkYfQKrK2jlD-%26export%3Ddownload"></iframe>
+    <iframe frameborder="0" style="width:100%;height:412px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=group_variance_analysis.drawio&page-id=tQzzZA9eqVGRa3rge-n7&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1tykHKd6UvIqKrMuQW2qPkYfQKrK2jlD-%26export%3Ddownload"></iframe>

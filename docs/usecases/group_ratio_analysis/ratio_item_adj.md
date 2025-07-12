@@ -6,7 +6,6 @@ The **Ratio Item Adjustment** tab is the primary interface for entering and adju
     <iframe frameborder="0" style="width:100%;height:472px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Group%20Ratio%20Analysis%20-%20Ratio%20Item.drawio&page-id=cKHE-YoPmvJpchyAIUJD&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1ViQwJ7Ct2HkwjA43M8LpeCm888kdrd0S%26export%3Ddownload"></iframe>
 This tab supports manual input, validation, and override of financial data (e.g., revenue, net income, total assets) for a specific year, month, and scenario. The entered data is used in subsequent ratio calculations and analytics dashboards.
 
----
 
 ## **Changing the View**
 
@@ -50,7 +49,7 @@ To modify a value, ensure you are in the **Adjusted** view for the relevant year
 To provide context for your adjustment, you can add a comment:
 
 1. Right-click the value cell again after applying your changes.
-2. Select **Comments** and then **Add Comment**.
+2. Select **Comments** and then **Add Comment** (1).
 
     !!! example "Add Comment Dialog"
         <iframe frameborder="0" style="width:100%;height:482px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Group%20Ration%20Analysis%20-%20Ratio%20Item%20Adj.drawio&page-id=AQkz6OFUj-USg6ggjFVc&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1TB0Rk055t4SSqPtFIBLl60QPynY9a03k%26export%3Ddownload"></iframe>
@@ -72,7 +71,7 @@ To delete a ratio item:
 1. Click the **Delete Item** button at the top right of the table.
 
     !!! example "Delete Item Button"
-        <iframe frameborder="0" style="width:100%;height:613px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Group%20Ratio%20Item%20-%20Ratio%20Calculation.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1P2qWGyVw6flOV0dL2pWaF6VTQkrv2LLd%26export%3Ddownload"></iframe>
+        <iframe frameborder="0" style="width:100%;height:513px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Group%20Ratio%20Item%20-%20Ratio%20Calculation.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1P2qWGyVw6flOV0dL2pWaF6VTQkrv2LLd%26export%3Ddownload"></iframe>
 
 2. In the "Review Parameters for Ratio Item HFM Delete" popup, enter the exact name of the ratio item to delete.
 
@@ -114,4 +113,3 @@ To update the view:
     <iframe frameborder="0" style="width:100%;height:460px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Group%20Ratio%20Item%20-%20Ratio%20Calculation.drawio&page-id=3SHzlC_xs2Iz24hsb9zb&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1P2qWGyVw6flOV0dL2pWaF6VTQkrv2LLd%26export%3Ddownload"></iframe>
 
 !!! info "You must specify at least one parameter to update the data. You can also combine parameters to further narrow the update scope."
-

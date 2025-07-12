@@ -6,7 +6,6 @@ The Personal Correlation Analysis tab provides an interactive visualization of t
 
 ## **Filters**
 
-
 ### **Year**
 
 Select the target year for analysis:
@@ -60,6 +59,5 @@ Below the charts, a data table provides exact numerical values for each month an
 !!! example "Detailed Data Table"
     <iframe frameborder="0" style="width:100%;height:392px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BTrend%20and%20Correlation%20Analysis%5D.drawio&page-id=UuzJvTMpBMjO8pZtkOob&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1XAwCpOvDfJzAxYjEh6uuRbVFYETJhFhV%26export%3Ddownload" allowtransparency="true"></iframe>
 
----
 
 By using the **Correlation Analysis** tab, you can gain actionable insights into your data, enabling better decision-making and trend analysis.

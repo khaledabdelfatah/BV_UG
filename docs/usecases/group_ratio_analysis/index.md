@@ -1,7 +1,5 @@
 # **Group Ratio Analysis**
 
-## **Overview**
-
 The **Group Ratio Analysis Dashboard** enables users to analyze financial ratios across multiple groups within an organization. This dashboard delivers actionable insights into the financial health and performance of various entities, supporting informed decision-making through comparative analysis.
 
 ### **Data Sources**

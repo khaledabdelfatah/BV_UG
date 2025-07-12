@@ -3,9 +3,9 @@
 The Income Statement – Variance Analysis tab provides a detailed financial comparison across time periods to support performance monitoring and business analysis. This view is designed to help users quickly identify fluctuations in key metrics such as Net Profit, Operating Profit, Revenue, and Expenses using both Month-over-Month (MoM) and Year-over-Year (YoY) comparisons.
 
 !!! example "Income Statement Variance Analysis Tab"
-    <iframe frameborder="0" style="width:100%;height:502px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=variance%20analysis.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1boAfeICqUWMp7-mrhR322AkArNduqgbW%26export%3Ddownload"></iframe>
+    <iframe frameborder="0" style="width:100%;height:402px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=variance%20analysis.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1boAfeICqUWMp7-mrhR322AkArNduqgbW%26export%3Ddownload"></iframe>
 
-## **Filter Controls**
+## **Available Filters**
 
 The dashboard provides several filtering options for data refinement:
 
@@ -56,7 +56,6 @@ A variance must exceed **both** `1,000 SAR` and `500 SAR` to be highlighted.
 1. Configure the desired threshold values.
 2. Click the **Update** button (highlighted in pink).
 3. The dashboard will refresh, and variances meeting the criteria will be highlighted using conditional formatting (e.g., red fill for large negative swings).
-
 
 ## **Table Structure and Columns**
 

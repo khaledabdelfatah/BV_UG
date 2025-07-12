@@ -1,11 +1,9 @@
 # **Group Ratio Visualization**
 
-## **Overview**
-
 The **Ratio Visualization** tab displays financial ratio data through interactive dashboard tiles. This interface transforms calculated ratios into visual indicators that show performance trends, budget comparisons, and subsidiary analysis.
 
 !!! example "Ratio Visualization Dashboard"
-    <iframe frameborder="0" style="width:100%;height:298px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=group%20ratio%20analysis%20-%20ratio%20visualization.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1IsdFMMi1Nj0tMGcql-YG6O85UMHfNxL2%26export%3Ddownload"></iframe>
+    <iframe frameborder="0" style="width:100%;height:498px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=group%20ratio%20analysis%20-%20ratio%20visualization.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1IsdFMMi1Nj0tMGcql-YG6O85UMHfNxL2%26export%3Ddownload"></iframe>
 
 ---
 

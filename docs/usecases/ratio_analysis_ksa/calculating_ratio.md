@@ -21,20 +21,21 @@ To create a new ratio item:
 2. Click the **Insert New Ratio** button (2). This action adds a new row to the table below, allowing you to define the financial ratio equation for the new item.
 
 !!! example "Creating a New Ratio Item"
-    <iframe frameborder="0" style="width:100%;height:773px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=ratio_analysis_ksa.drawio&page-id=-m8zmtbr_6qzTahKUsii&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1hKgOcEDgKFqvXKH_T1YuvhA6f-4lwTjP%26export%3Ddownload"></iframe>
+    <iframe frameborder="0" style="width:100%;height:573px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=ratio_analysis_ksa.drawio&page-id=-m8zmtbr_6qzTahKUsii&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1hKgOcEDgKFqvXKH_T1YuvhA6f-4lwTjP%26export%3Ddownload"></iframe>
 
 ### **Defining the Ratio Equation**
 
-1. **Ratio Item**: Select the ratio item from the dropdown list to include in your equation. You can select up to five ratio items per equation.
-2. **Operation**: Choose the arithmetic operation from the dropdown list. Supported operations include:
-    - **Addition (+)**
-    - **Subtraction (-)**
-    - **Multiplication (*)**
-    - **Division (/)**
-    - **(**, **+(**, **-(**, ***(**, **/(** (for grouping and advanced expressions)
-   
-    !!! tip "You can combine multiple operations to construct complex equations."
+1. **Operation**: Select an arithmetic operator from the dropdown menu to define how ratio items are combined in your equation. The following operations are available:
 
+    - **Addition (+)**: Combines values by summing them.
+    - **Subtraction (-)**: Calculates the difference between values.
+    - **Multiplication (*)**: Multiplies values together.
+    - **Division (/)**: Divides one value by another.
+    - **Parentheses ( )**: Use parentheses to group items and control the order of operations in complex formulas.
+
+You can use these operators to build both simple and advanced ratio equations. Parentheses help clarify which operations are performed first, ensuring accurate calculations.
+
+!!! tip "You can combine multiple operations to construct complex equations."
 
 After defining the equation, click the **Calculate** button (3) to compute the ratio. The resulting equation will be displayed in the ratio equation field.
 
@@ -51,7 +52,7 @@ To delete a ratio item:
 The selected ratio item will be permanently removed from the list. Ensure you have selected the correct item, as this action cannot be undone.
 
 !!! example "Deleting a Ratio Item"
-    <iframe frameborder="0" style="width:100%;height:979px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=ratio_analysis_ksa.drawio&page-id=zHkImCiCzPTUo3z-WZo0&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1hKgOcEDgKFqvXKH_T1YuvhA6f-4lwTjP%26export%3Ddownload" allowtransparency="true"></iframe>
+    <iframe frameborder="0" style="width:100%;height:579px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=ratio_analysis_ksa.drawio&page-id=zHkImCiCzPTUo3z-WZo0&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1hKgOcEDgKFqvXKH_T1YuvhA6f-4lwTjP%26export%3Ddownload" allowtransparency="true"></iframe>
 
 ---
 
@@ -60,8 +61,7 @@ The selected ratio item will be permanently removed from the list. Ensure you ha
 Before and after calculating a ratio, it’s important to validate the underlying data to ensure accuracy and reliability.
 
 !!! example "Validating Numbers"
-    <iframe frameborder="0" style="width:100%;height:1071px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=ratio_analysis_ksa.drawio&page-id=x4FzhmaESt6CFqvuNsAR&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1hKgOcEDgKFqvXKH_T1YuvhA6f-4lwTjP%26export%3Ddownload" allowtransparency="true"></iframe>
-
+    <iframe frameborder="0" style="width:100%;height:571px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=ratio_analysis_ksa.drawio&page-id=x4FzhmaESt6CFqvuNsAR&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1hKgOcEDgKFqvXKH_T1YuvhA6f-4lwTjP%26export%3Ddownload" allowtransparency="true"></iframe>
 
 1. **Pre-Calculation Validation**
 
@@ -77,7 +77,6 @@ Before and after calculating a ratio, it’s important to validate the underlyin
 
 This two-step validation process helps maintain confidence in your ratio analysis and ensures the results are trustworthy for decision-making.
 
-
 ## **Sharing Ratio with Group**
 
 To share a ratio with other groups, follow these steps:
@@ -92,4 +91,4 @@ Once shared, the ratio will be available for use in the Group Ratio Analysis tab
 
 
 !!! example "Sharing Ratio with Group"
-    <iframe frameborder="0" style="width:100%;height:716px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Ratio%20Analysis%20KSA-%20Publish.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1-jIDd63Q2qnFbct2BaahJ3sVXySajAYK%26export%3Ddownload"></iframe>
+    <iframe frameborder="0" style="width:100%;height:616px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Ratio%20Analysis%20KSA-%20Publish.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1-jIDd63Q2qnFbct2BaahJ3sVXySajAYK%26export%3Ddownload"></iframe>

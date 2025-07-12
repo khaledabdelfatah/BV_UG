@@ -6,8 +6,6 @@ The Ratio External tab enables you to view financial ratios calculated from exte
 
 Data is loaded into the Ratio External dashboard through a structured process that ensures accuracy and consistency. The system pulls data from designated external excel files, which must adhere to specific templates for proper integration. The data is then processed and displayed in various tiles for easy analysis.
 
-
-
 ## **Dashboard Filters**
 
 | **Filter** | **Function** |
