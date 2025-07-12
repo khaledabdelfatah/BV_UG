@@ -1,8 +1,8 @@
-site_name: STC FRC User Guide
-site_description: A comprehensive guide for users of the STC FRC dashboard, covering features, use cases, and best practices.
+site_name: STC FRC AI & Data Analytics User Guide
+site_description: This documentation provides a comprehensive guide to the STC FRC AI & Data Analytics platform, covering its features, functionalities, and use cases. It is designed to help users navigate the platform effectively and leverage its capabilities for financial reporting and analysis.
 nav:
-  - Home:
-    - Home: index.md
+  - Introduction:
+    - Overview: index.md
     - Getting Started: ./getting_started.md
     - Navigating the Dashboard: ./navigating_dashboard.md
     - Dashboard Toolbar: ./dashboard_toolbar.md
@@ -68,8 +68,8 @@ theme:
   language: en
   # Name of the theme that we are using (material: https://github.com/squidfunk/mkdocs-material)
   name: material
-  logo: assets/logo.png
-  favicon: assets/logo.png
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
   # Name of the font that we use (Roboto: https://fonts.google.com/specimen/Roboto)   
   font:
     text: Poppins
@@ -176,16 +176,13 @@ plugins:
 
 - search
 - print-site:
-    print_page_title: 'STC FRC User Guide'
-    add_to_navigation: true
     add_cover_page: true
+    print_page_title: 'STC FRC AI & Data Analytics User Guide'
+    print_page_basename: "STC_FRC_AI_Data_Analytics_User_Guide"
     cover_page_template: "docs/assets/cover-page.html"
     add_table_of_contents: true
     toc_title: 'Table of Contents'
-    toc_depth: 3
-    enumerate_headings: true
-    enumerate_figures: true
-    add_full_urls: false
+    toc_depth: 2
     include_css: true
     enabled: true
 

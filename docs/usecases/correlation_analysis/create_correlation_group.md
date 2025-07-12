@@ -1,7 +1,5 @@
 # **Creating a Correlation Group**
 
-## **Overview**
-
 The **Create Correlation Group** tab is the first step in performing correlation analysis. This interface enables users to define a set of data points—referred to as *correlation items*—to analyze relationships among financial and operational metrics.
 
 These correlation items form a *Correlation Group*, which is later used in subsequent steps to generate correlation charts and conduct in-depth analysis.

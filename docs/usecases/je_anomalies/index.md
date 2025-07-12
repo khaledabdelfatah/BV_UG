@@ -43,7 +43,7 @@ When you open the JE Anomalies Dashboard, you will see the following sections:
     - **Date Fields**: Includes key dates like "Entity Date" and "Posting Date."
     - **Batch Name**: Groups related journal entries under a batch for easier tracking.
 
-## Refreshing the Dashboard
+## **Refreshing the Dashboard**
 
 To ensure the dashboard displays the latest data, click the **Refresh** button (play icon) at the top left corner. This updates the dashboard with the most recent information.
 

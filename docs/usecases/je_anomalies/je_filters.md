@@ -1,7 +1,3 @@
----
-title: Available Filters
----
-
 # **Available Filters**
 
 The following filters are available in the dashboards. You can use them to customize your view and focus on specific data points that matter most to you.
