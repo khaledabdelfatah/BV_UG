@@ -52,7 +52,8 @@ There are two main ways to access reports and analysis:
 
 4. **Select a Team or Department**: Choose the desired team or department to view its reports and analysis.
 
-    <iframe src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide.drawio&page-id=oIpjdMBgX0oA50aBXIPP&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1LP6U6tDhud-D4lCmfg9O36HgN874N636%26export%3Ddownload" width="100%" height="400" style="border: none;"></iframe>
+    !!! example "Team or Department Selection"
+        <iframe src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide.drawio&page-id=oIpjdMBgX0oA50aBXIPP&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1LP6U6tDhud-D4lCmfg9O36HgN874N636%26export%3Ddownload" width="100%" height="400" style="border: none;"></iframe>
 
 5. **Select a Report or Analysis**: Click on the desired report or analysis to view its details.
 
@@ -69,8 +70,7 @@ You can quickly access recently viewed reports from the top navigation bar. In t
 !!! example "Accessing Recently Viewed Reports"
     <iframe src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%204.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1_OfaDPzOM6kqujgmEcdTFvcsNgRN2-HO%26export%3Ddownload" width="100%" height="246px" style="border: none;"></iframe>
 
-This feature helps streamline navigation and improves productivity by providing quick access to frequently used reports. 
-
+This feature helps streamline navigation and improves productivity by providing quick access to frequently used reports.
 
 ## **Conclusion**
 

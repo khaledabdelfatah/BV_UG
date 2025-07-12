@@ -21,7 +21,7 @@ Keep your dashboard up-to-date by clicking the **Refresh** button (1). This ensu
 The **Share** button (2) allows you to share the dashboard or export it as a PDF. Clicking this button opens a sidebar with the following options:
 
 !!! example "Share Button"
-    <iframe frameborder="0" style="width:100%;height:910px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BDashboard%20Toolbar%5D.drawio&page-id=2qIpwAxrgqDPdVyK3Nxz&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1IOT9SJvfq5OJkzDqxffZRdNrOn5Pj_TD%26export%3Ddownload" allowtransparency="true"></iframe>
+    <iframe frameborder="0" style="width:100%;height:510px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BDashboard%20Toolbar%5D.drawio&page-id=2qIpwAxrgqDPdVyK3Nxz&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1IOT9SJvfq5OJkzDqxffZRdNrOn5Pj_TD%26export%3Ddownload" allowtransparency="true"></iframe>
 
 #### **Link Sharing Option**
 
@@ -31,7 +31,7 @@ Share the dashboard via a link or embed it in a website or application.
 - **Embed Code:** Copy the embed code to integrate the dashboard into a website or application. Adjust the iframe's width and height as needed.
 
 !!! example "Link Sharing"
-    <iframe frameborder="0" style="width:100%;height:798px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BDashboard%20Toolbar%5D.drawio&page-id=W42KWqr3MNADhDQLjADy&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1IOT9SJvfq5OJkzDqxffZRdNrOn5Pj_TD%26export%3Ddownload" allowtransparency="true"></iframe>
+    <iframe frameborder="0" style="width:100%;height:498px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BDashboard%20Toolbar%5D.drawio&page-id=W42KWqr3MNADhDQLjADy&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1IOT9SJvfq5OJkzDqxffZRdNrOn5Pj_TD%26export%3Ddownload" allowtransparency="true"></iframe>
 
 #### **PDF Export Option**
 
@@ -41,7 +41,7 @@ Export the dashboard as a PDF file.
 - **Download or Print:** Preview the PDF, then download it or print it directly.
 
 !!! example "PDF Export Option"
-    <iframe frameborder="0" style="width:100%;height:587px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BDashboard%20Toolbar%5D.drawio&page-id=lGgd0BbREfP6njmbsNsp&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1IOT9SJvfq5OJkzDqxffZRdNrOn5Pj_TD%26export%3Ddownload" allowtransparency="true"></iframe>
+    <iframe frameborder="0" style="width:100%;height:487px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BDashboard%20Toolbar%5D.drawio&page-id=lGgd0BbREfP6njmbsNsp&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1IOT9SJvfq5OJkzDqxffZRdNrOn5Pj_TD%26export%3Ddownload" allowtransparency="true"></iframe>
 
 ---
 
@@ -50,7 +50,7 @@ Export the dashboard as a PDF file.
 Use the **Undo** (5) button to reverse your last action or the **Redo** (6) button to reapply a reverted change. These tools help you efficiently manage modifications and maintain accuracy in your work.
 
 !!! example "Undo and Redo Buttons"
-    <iframe frameborder="0" style="width:100%;height:771px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BDashboard%20Toolbar%5D.drawio&page-id=RnRht1ARlE4bc76Ski9n&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1IOT9SJvfq5OJkzDqxffZRdNrOn5Pj_TD%26export%3Ddownload" allowtransparency="true"></iframe>
+    <iframe frameborder="0" style="width:100%;height:471px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BDashboard%20Toolbar%5D.drawio&page-id=RnRht1ARlE4bc76Ski9n&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1IOT9SJvfq5OJkzDqxffZRdNrOn5Pj_TD%26export%3Ddownload" allowtransparency="true"></iframe>
 
 ---
 
@@ -59,14 +59,14 @@ Use the **Undo** (5) button to reverse your last action or the **Redo** (6) butt
 The **Rollback Data Entry** button (7) allows you to revert the most recent changes made to table entries. This feature is particularly useful for correcting errors or restoring the table to its previous state.
 
 !!! example "Rollback Data Entry"
-    <iframe frameborder="0" style="width:100%;height:841px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BDashboard%20Toolbar%20-%202%5D.drawio&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1H0qmlOdnnRY0UQDQVtNxu3yZsvdgsTzr%26export%3Ddownload" allowtransparency="true"></iframe>
+    <iframe frameborder="0" style="width:100%;height:441px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BDashboard%20Toolbar%20-%202%5D.drawio&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1H0qmlOdnnRY0UQDQVtNxu3yZsvdgsTzr%26export%3Ddownload" allowtransparency="true"></iframe>
 
 ### **Maximize and Minimize**
 
 The Maximize button (8) allows you to expand the dashboard to full-screen mode for an immersive view. To return to the original view, click the button again.
 
 !!! example "Maximize and Minimize"
-    <iframe frameborder="0" style="width:100%;height:590px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BDashboard%20Toolbar%5D.drawio&page-id=R57kLdBiRn93rMK2StgJ&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1IOT9SJvfq5OJkzDqxffZRdNrOn5Pj_TD%26export%3Ddownload" allowtransparency="true"></iframe>
+    <iframe frameborder="0" style="width:100%;height:490px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BDashboard%20Toolbar%5D.drawio&page-id=R57kLdBiRn93rMK2StgJ&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1IOT9SJvfq5OJkzDqxffZRdNrOn5Pj_TD%26export%3Ddownload" allowtransparency="true"></iframe>
 
 ---
 
@@ -99,13 +99,13 @@ To export table data as an Excel file, follow these steps:
     In the toolbar, click the **Export** button (1).
 
     !!! example "Export Button"
-         <iframe frameborder="0" style="width:100%;height:695px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BToolbar%20-3%5D.drawio&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D10Eyxd-FfYAldUad-lfjK3TznTz6xIncM%26export%3Ddownload" allowtransparency="true"></iframe>
+         <iframe frameborder="0" style="width:100%;height:495px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BToolbar%20-3%5D.drawio&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D10Eyxd-FfYAldUad-lfjK3TznTz6xIncM%26export%3Ddownload" allowtransparency="true"></iframe>
 
 3. **Confirm Export**  
     A confirmation popup will appear. Click **Export** to proceed.
 
     !!! example "Export Confirmation"
-         <iframe frameborder="0" style="width:100%;height:682px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BToolbar%20-3%5D.drawio&page-id=o_zgBZxfkIXMUDMTURjf&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D10Eyxd-FfYAldUad-lfjK3TznTz6xIncM%26export%3Ddownload" allowtransparency="true"></iframe>
+         <iframe frameborder="0" style="width:100%;height:482px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BToolbar%20-3%5D.drawio&page-id=o_zgBZxfkIXMUDMTURjf&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D10Eyxd-FfYAldUad-lfjK3TznTz6xIncM%26export%3Ddownload" allowtransparency="true"></iframe>
 
 4. **Download the File**  
     The table data will be downloaded as an Excel file to your device.
@@ -119,7 +119,7 @@ To export table data as an Excel file, follow these steps:
 To save modifications made to a table directly to the database, click the **Save** button (1) in the toolbar. This ensures all updates are securely stored and reflected in the database.
 
 !!! example "Save Table Changes Button"
-    <iframe frameborder="0" style="width:100%;height:546px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BToolbar%20-3%5D.drawio&page-id=8u7oTcfGFOPL-_yAJtgI&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D10Eyxd-FfYAldUad-lfjK3TznTz6xIncM%26export%3Ddownload" allowtransparency="true"></iframe>
+    <iframe frameborder="0" style="width:100%;height:446px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BToolbar%20-3%5D.drawio&page-id=8u7oTcfGFOPL-_yAJtgI&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D10Eyxd-FfYAldUad-lfjK3TznTz6xIncM%26export%3Ddownload" allowtransparency="true"></iframe>
 
 ---
 
@@ -170,7 +170,7 @@ The **Suppress Zero Values** feature helps declutter tables by hiding zero value
     Click the **Suppress Zero Values** button (2) in the toolbar.
 
     !!! example "Suppress Zero Values Button"
-         <iframe frameborder="0" style="width:100%;height:687px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BToolbar%20-3%5D.drawio&page-id=_CQhRC50bOCk7GyaA_Hd&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D10Eyxd-FfYAldUad-lfjK3TznTz6xIncM%26export%3Ddownload" allowtransparency="true"></iframe>
+         <iframe frameborder="0" style="width:100%;height:487px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Installation%20Guide%20%5BToolbar%20-3%5D.drawio&page-id=_CQhRC50bOCk7GyaA_Hd&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D10Eyxd-FfYAldUad-lfjK3TznTz6xIncM%26export%3Ddownload" allowtransparency="true"></iframe>
 
 2. **Choose Suppression Scope**  
     Select whether to suppress zero values in rows, columns, or both by using the checkboxes provided.
@@ -278,8 +278,7 @@ In the **Advanced** tab, you can fine-tune the forecast with additional options:
 The **Show / Hide Overview** button (1) enables you to toggle the visibility of the overview header for table columns. The overview header typically displays the column name and provides options to filter the data within the column.
 
 !!! example "Show / Hide Overview Button: Hidden State"
-    <iframe frameborder="0" style="width:100%;height:1231px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Advanced%20Payments.drawio&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1BCh7WuihrrMysr7j9V05zk8p6AI6JoJQ%26export%3Ddownload" allowtransparency="true"></iframe>
-
+    <iframe frameborder="0" style="width:100%;height:431px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Advanced%20Payments.drawio&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1BCh7WuihrrMysr7j9V05zk8p6AI6JoJQ%26export%3Ddownload" allowtransparency="true"></iframe>
 
 **How to Use**
 
@@ -289,7 +288,7 @@ The **Show / Hide Overview** button (1) enables you to toggle the visibility of 
     - If the overview header is **visible** (3), clicking the button will hide it.
 
 !!! example "Show / Hide Overview Button: Visible State"
-    <iframe frameborder="0" style="width:100%;height:891px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Advanced%20Payments.drawio&page-id=zdHjKNJQwNgUo0kU2JWs&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1BCh7WuihrrMysr7j9V05zk8p6AI6JoJQ%26export%3Ddownload" allowtransparency="true"></iframe>
+    <iframe frameborder="0" style="width:100%;height:491px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Advanced%20Payments.drawio&page-id=zdHjKNJQwNgUo0kU2JWs&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1BCh7WuihrrMysr7j9V05zk8p6AI6JoJQ%26export%3Ddownload" allowtransparency="true"></iframe>
 
 This feature allows you to customize your workspace by showing or hiding column details as needed, improving focus and reducing clutter.
 
@@ -312,7 +311,6 @@ The **View Table in Full Screen** feature enhances your ability to analyze data 
     To return to the standard view, press the **ESC** key on your keyboard or click the **Exit Full Screen** button, which appears in the top-right corner of the screen during full-screen mode.
 
 This functionality is particularly useful for reviewing large datasets or presenting data in meetings, ensuring clarity and focus.
-
 
 ## **Conclusion**
 

@@ -16,17 +16,17 @@ Welcome to the STC FRC User Guide. This resource helps you understand and use IB
 2. Review the **Dashboard Toolbar** and **Navigating Dashboard** sections for navigation tips.
 3. Explore **Dealing with Tables** to learn how to interact with data tables.
 4. Dive into the **Use Cases** for advanced features and real-world scenarios:
-    1. JE (Journal Entry) Anomalies
-    2. Advanced Payments
-    3. Correlation Analysis
-    4. Variance Analysis
-    5. Ratio Analysis
-    6. File Tracking Panel
-    7. Group Ratio and Variance Analysis
-    8. Journal Entry Anomalies
-    9. Trend & Correlation Analysis
-    10. FAH - Variance Analysis
-    11. Group Variance Analysis
+    1. [JE (Journal Entry) Anomalies](./usecases/je_anomalies/index.md)
+    2. [Advanced Payments](./usecases/advanced_payments/index.md)
+    3. [Correlation Analysis](./usecases/correlation_analysis/index.md)
+    4. [Variance Analysis](./usecases/variance_analysis/index.md)
+    5. [Ratio Analysis KSA](./usecases/ratio_analysis_ksa/index.md)
+    6. [File Tracking Panel](./usecases/file_tracking_panel/index.md)
+    7. [Group Ratio Analysis](./usecases/group_ratio_analysis/index.md)
+    8. [Correlation Matrix](./usecases/correlation_matrix/index.md)
+    9. [Trend & Correlation Analysis](./usecases/trend_correlation_analysis/index.md)
+    10. [FAH - Variance Analysis](./usecases/fah_variance_analysis/index.md)
+    11. [Group Variance Analysis](./usecases/group_variance_analysis/index.md)
 
 ---
 
