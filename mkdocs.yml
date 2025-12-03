@@ -63,6 +63,10 @@ nav:
       - FAH - Variance Analysis: usecases/fah_variance_analysis/index.md
       - Post Paid: usecases/fah_variance_analysis/post_paid.md
       - Pre Paid: usecases/fah_variance_analysis/pre_paid.md
+    - Business Units Revenue Analysis (BURA):
+      - Business Units Revenue Analysis (BURA): usecases/bura/index.md
+    - Data Source Audit & Utilization Monitoring:
+      - Data Source Audit & Utilization Monitoring: usecases/data_source_audit_utilization_monitoring/index.md
     - Conclusion: usecases/conclusion.md
 theme:
   # Language of the documentation (en: English)
